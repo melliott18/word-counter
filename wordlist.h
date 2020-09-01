@@ -55,6 +55,6 @@ void deleteAll(WordList L);
 
 void printWordList(WordList L);
 
-void WordListSort(WordList L);
+void wordListSort(WordList L);
 
 #endif

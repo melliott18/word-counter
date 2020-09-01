@@ -207,7 +207,7 @@ void printWordList(WordList L) {
    }
 }
 
-Node SortedMerge(Node a, Node b) { 
+Node sortedMerge(Node a, Node b) { 
     Node result = NULL; 
   
     /* Base cases */
@@ -219,16 +219,16 @@ Node SortedMerge(Node a, Node b) {
     /* Pick either a or b, and recur */
     if (strcmp(a->word, b->word) <= 0) { 
         result = a; 
-        result->next = SortedMerge(a->next, b); 
+        result->next = sortedMerge(a->next, b); 
     } 
     else { 
         result = b; 
-        result->next = SortedMerge(a, b->next); 
+        result->next = sortedMerge(a, b->next); 
     } 
     return (result); 
 } 
 
-void FrontBackSplit(Node source, Node* frontRef, Node* backRef) { 
+void frontBackSplit(Node source, Node* frontRef, Node* backRef) { 
     Node fast; 
     Node slow; 
     slow = source; 
@@ -248,7 +248,7 @@ void FrontBackSplit(Node source, Node* frontRef, Node* backRef) {
     slow->next = NULL; 
 } 
 
-void MergeSort(Node* headRef) { 
+void mergeSort(Node* headRef) { 
     Node head = *headRef; 
     Node a; 
     Node b; 
@@ -258,17 +258,17 @@ void MergeSort(Node* headRef) {
     } 
   
     // Split the list into two sublists
-    FrontBackSplit(head, &a, &b); 
+    frontBackSplit(head, &a, &b); 
   
     // Recursively sort the sublists
-    MergeSort(&a); 
-    MergeSort(&b); 
+    mergeSort(&a); 
+    mergeSort(&b); 
   
     // Merge the two sorted lists together
-    *headRef = SortedMerge(a, b); 
+    *headRef = sortedMerge(a, b); 
 } 
 
-void WordListSort(WordList L) { 
-	MergeSort(&(L->head));
+void wordListSort(WordList L) { 
+	mergeSort(&(L->head));
 	return; 
 }

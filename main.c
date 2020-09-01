@@ -48,7 +48,7 @@ int main(int argc, char *argv[]) {
 			add(wl, copy, size);
 		}
 
-   		WordListSort(wl);
+   		wordListSort(wl);
    		printWordList(wl);
    		freeWordList(&wl);
 	} else {
@@ -70,11 +70,10 @@ int main(int argc, char *argv[]) {
 	            }
 
 	        }
-			
-			WordListSort(wl);
-	   		printWordList(wl);
 	   		fclose(fp);
 		}
+		wordListSort(wl);
+	   	printWordList(wl);
 		freeWordList(&wl);
 	}
 
