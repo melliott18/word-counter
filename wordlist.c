@@ -1,234 +1,235 @@
 //-----------------------------------------------------------------------------
 // wordlist.c
-// Linked List implementation of the WordList ADT.
+//
+// Implements a list sorted lexicographically with each element of the list
+// containing a word and a count.
 //-----------------------------------------------------------------------------
-#include<stdio.h>
-#include<stdlib.h>
-#include<string.h>
-#include"wordlist.h"
 
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include "wordlist.h"
 
 // Private Types and Functions ------------------------------------------------
 
-// NodeObj
-typedef struct NodeObj{
-   char* word;
-   int count;
-   struct NodeObj* next;
+// Node Object
+typedef struct NodeObj {
+    char *word;
+    int count;
+    struct NodeObj *next;
 } NodeObj;
 
 // Node
 typedef NodeObj* Node;
 
 // newNode()
-// Constructor for private Node type.
-Node newNode(char* s, int size) {
-   Node N = malloc(sizeof(NodeObj));
-   N->word = calloc(size+1, sizeof(char));
-   strncpy(N->word, s, size);
-   N->word[size] = '\0';
-   N->count = 1;
-   N->next = NULL;
-   return N;
+// Node constructor
+Node newNode(char *s, int size) {
+    Node node = malloc(sizeof(NodeObj));
+    node->word = calloc(size+1, sizeof(char));
+    strncpy(node->word, s, size);
+    node->word[size] = '\0';
+    node->count = 1;
+    node->next = NULL;
+    return node;
 }
 
 // freeNode()
-// Destructor for private Node type
-void freeNode(Node* pN){
-   if( pN!=NULL && *pN!=NULL ){
-      free(*pN);
-      *pN = NULL;
-   }
+// Node destructor
+void freeNode(Node *ptr) {
+    if (ptr != NULL && *ptr != NULL) {
+        free(*ptr);
+        *ptr = NULL;
+    }
 }
 
 // WordListObj
-typedef struct WordListObj{
-   Node head;
-   int numWords;
+typedef struct WordListObj {
+    Node head;
+    int numWords;
 } WordListObj;
 
 // find()
-// Returns a reference to the Node with string str in L.
-Node find(WordList L, char *str){
-	if (L == NULL) {
-		fprintf(stderr, "WordList Error: calling find() on NULL WordList reference\n");
-		exit(EXIT_FAILURE);
-	}
-	Node N = L->head;
-	while (N != NULL) {
-		if (strcmp(N->word, str) == 0) {
-			return N;
-		}
-		N = N->next;
-	}
-	return N;
+// Returns a reference to the Node with string str in list.
+Node find(WordList list, char *str) {
+    if (list == NULL) {
+        fprintf(stderr,
+            "WordList Error: calling find() on NULL WordList reference\n");
+        exit(EXIT_FAILURE);
+    }
+    Node node = list->head;
+    while (node != NULL) {
+        if (strcmp(node->word, str) == 0) {
+            return node;
+        }
+        node = node->next;
+    }
+    return node;
 }
 
 // countChars()
-// Returns the number of characters in a text representation of L. Used by
-// WordListToString() to allocate sufficient heap memory.  Does not count
+// Returns the number of characters in a text representation of list. Used by
+// WordListToString() to allocate sufficient heap memory. Does not count
 // the terminating null '\0' character.
-int countChars(WordList L){
-   int count = 0;
-   Node N = L->head;
-   while( N!=NULL ){
-      count += strlen(N->word) + 1; // all all the string lengths and the
-                                    // spaces in between
-      N = N->next;
-   }
-   if( (L->numWords)>0 ){
-      count -= 1;                   // no space after the last string
-   }
-   return count;   
+int countChars(WordList list) {
+    int count = 0;
+    Node node = list->head;
+    while (node != NULL) {
+        count += strlen(node->word) + 1;
+        node = node->next;
+    }
+    if (list->numWords > 0) {
+        count -= 1;
+    }
+    return count;   
 }
-
 
 // Constructors-Destructors ---------------------------------------------------
 
 // newWordList()
-// Constructor for the WordList type.
-WordList newWordList(){
-   WordList L = malloc(sizeof(WordListObj));
-   L->head = NULL;
-   L->numWords = 0;
-   return L;
+// Word list constructor
+WordList newWordList() {
+    WordList list = malloc(sizeof(WordListObj));
+    list->head = NULL;
+    list->numWords = 0;
+    return list;
 }
 
 // freeWordList()
-// Destructor for the WordList type.
-void freeWordList(WordList* pL){
-   if( pL!=NULL && *pL!=NULL ){
-      deleteAll(*pL);
-      free(*pL);
-      *pL = NULL;
-   }
+// Word list destructor
+void freeWordList(WordList *ptr) {
+    if (ptr != NULL && *ptr != NULL) {
+        deleteAll(*ptr);
+        free(*ptr);
+        *ptr = NULL;
+    }
 }
-
 
 // ADT operations -------------------------------------------------------------
 
 // isEmpty()
-// Returns 1 (true) if WordList L is empty, 0 (false) otherwise.
-int isEmpty(WordList L){
-   if( L==NULL ){
-      fprintf(stderr, 
-         "WordList Error: calling isEmpty() on NULL WordList reference\n");
-      exit(EXIT_FAILURE);
-   }
-   return (L->numWords==0) ;
+// Returns 1 (true) if WordList list is empty, 0 (false) otherwise.
+int isEmpty(WordList list) {
+    if (list == NULL) {
+        fprintf(stderr,
+            "WordList Error: calling isEmpty() on NULL WordList reference\n");
+        exit(EXIT_FAILURE);
+    }
+    return (list->numWords == 0);
 }
 
 // size()
-// Returns the number of elements in L.
-int size(WordList L){
-   if( L==NULL ){
-      fprintf(stderr, 
-         "WordList Error: calling size() on NULL WordList reference\n");
-      exit(EXIT_FAILURE);
-   }
-   return L->numWords;
+// Returns the number of elements in list.
+int size(WordList list) {
+    if (list == NULL) {
+        fprintf(stderr,
+            "WordList Error: calling size() on NULL WordList reference\n");
+        exit(EXIT_FAILURE);
+    }
+    return list->numWords;
 }
 
 // check()
-// Checks if string str is in L.
-Node check(WordList L, char *str){
-	Node N = find(L, str);
-	return N;
+// Checks if string str is in list.
+Node check(WordList list, char *str) {
+    Node node = find(list, str);
+    return node;
 }
 
 // duplicate()
-// Increments the count field in Node N.
-void duplicate(WordList L, Node N){
-	if (L == NULL) {
-   		fprintf(stderr, "WordList Error: calling get() on NULL WordList reference\n");
-		exit(EXIT_FAILURE);
-	}
-	N->count++;
-	return;
+// Increments the count field in Node node.
+void duplicate(WordList list, Node node) {
+    if (list == NULL) {
+        fprintf(stderr,
+            "WordList Error: calling get() on NULL WordList reference\n");
+        exit(EXIT_FAILURE);
+    }
+    node->count++;
+    return;
 }
 
 // add()
-// Inserts string s into L.
-void add(WordList L, char* str, int size){
-	Node N = NULL;
-	if (L == NULL) {
-		fprintf(stderr, "WordList Error: calling add() on NULL WordList reference\n");
-		exit(EXIT_FAILURE);
-	}
-	N = check(L, str);
+// Inserts string s into list.
+void add(WordList list, char *str, int size) {
+    Node node = NULL;
+    if (list == NULL) {
+        fprintf(stderr,
+            "WordList Error: calling add() on NULL WordList reference\n");
+        exit(EXIT_FAILURE);
+    }
+    node = check(list, str);
 
-	if (N != NULL) {
-		duplicate(L, N);
-		return;
-	}
-	N = newNode(str, size);
-	N->next = L->head;
-	L->head = N;
-	(L->numWords)++;
-	return;
+    if (node != NULL) {
+        duplicate(list, node);
+        return;
+    }
+    node = newNode(str, size);
+    node->next = list->head;
+    list->head = node;
+    (list->numWords)++;
+    return;
 }
 
 // deleteAll()
-// Reset L to the empty state.
-void deleteAll(WordList L){
-   Node N=NULL;
-   if( L==NULL ){
-      fprintf(stderr, 
-         "WordList Error: calling deleteAll() on NULL WordList reference\n");
-      exit(EXIT_FAILURE);
-   }
+// Reset list to the empty state.
+void deleteAll(WordList list) {
+    Node node = NULL;
+    if (list == NULL) {
+        fprintf(stderr,
+            "WordList Error: calling deleteAll() on NULL WordList reference\n");
+        exit(EXIT_FAILURE);
+    }
 
-   while( L->numWords > 0 ){
-      N = L->head;
-      L->head = L->head->next;
-      N->next = NULL;
-      freeNode(&N);
-      L->numWords--;
-   }
+    while (list->numWords > 0) {
+        node = list->head;
+        list->head = list->head->next;
+        node->next = NULL;
+        freeNode(&node);
+        list->numWords--;
+    }
 }
-
 
 // Other Operations -----------------------------------------------------------
 
-
-void printWordList(WordList L) {
-	Node N;
-	if (L == NULL) {
-		fprintf(stderr, "WordList Error: calling printWordList() on NULL WordList reference\n");
-		exit(EXIT_FAILURE);
-	}
-	N = L->head;
-	while (N != NULL) {
-      printf("%s", N->word);
-	  printf(" ");
-	  printf("%d", N->count);
-      printf("\n");
-      N = N->next;
-   }
+void printWordList(WordList list) {
+    Node node;
+    if (list == NULL) {
+        fprintf(stderr,
+            "WordList Error: calling printWordList() on NULL WordList reference\n");
+        exit(EXIT_FAILURE);
+    }
+    node = list->head;
+    while (node != NULL) {
+        printf("%s", node->word);
+        printf(" ");
+        printf("%d", node->count);
+        printf("\n");
+        node = node->next;
+    }
 }
 
 Node sortedMerge(Node a, Node b) { 
     Node result = NULL; 
   
     /* Base cases */
-    if (a == NULL) 
+    if (a == NULL) {
         return (b); 
-    else if (b == NULL) 
+    } else if (b == NULL) {
         return (a); 
+    }
   
     /* Pick either a or b, and recur */
     if (strcmp(a->word, b->word) <= 0) { 
         result = a; 
         result->next = sortedMerge(a->next, b); 
-    } 
-    else { 
+    } else { 
         result = b; 
         result->next = sortedMerge(a, b->next); 
     } 
     return (result); 
 } 
 
-void frontBackSplit(Node source, Node* frontRef, Node* backRef) { 
+void frontBackSplit(Node source, Node *front, Node *back) { 
     Node fast; 
     Node slow; 
     slow = source; 
@@ -243,13 +244,13 @@ void frontBackSplit(Node source, Node* frontRef, Node* backRef) {
         } 
     } 
   
-    *frontRef = source; 
-    *backRef = slow->next; 
+    *front = source; 
+    *back = slow->next; 
     slow->next = NULL; 
 } 
 
-void mergeSort(Node* headRef) { 
-    Node head = *headRef; 
+void mergeSort(Node *headPtr) { 
+    Node head = *headPtr; 
     Node a; 
     Node b; 
   
@@ -265,10 +266,10 @@ void mergeSort(Node* headRef) {
     mergeSort(&b); 
   
     // Merge the two sorted lists together
-    *headRef = sortedMerge(a, b); 
+    *headPtr = sortedMerge(a, b); 
 } 
 
-void wordListSort(WordList L) { 
-	mergeSort(&(L->head));
-	return; 
+void wordListSort(WordList list) { 
+    mergeSort(&(list->head));
+    return; 
 }

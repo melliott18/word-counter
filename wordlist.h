@@ -1,10 +1,13 @@
 //-----------------------------------------------------------------------------
 // wordlist.h
-// Header file for the WordList ADT.
+//
+// Implements a list sorted lexicographically with each element of the list
+// containing a word and a count.
 //-----------------------------------------------------------------------------
-#include<stdio.h>
-#include<stdlib.h>
-#include<string.h>
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
 
 #ifndef _wordlist_H_INCLUDE_
 #define _wordlist_H_INCLUDE_
