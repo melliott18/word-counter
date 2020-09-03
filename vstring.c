@@ -7,19 +7,23 @@
 
 #include "vstring.h"
 
-int vstring(char ch, char *buffer, int index, int *size) {
+int vstring(char ch, char **buffer, int index, int *size) {
+    //printf("%d\n", index);
     if (index == (*size)) {
-        buffer = realloc(buffer, (*size) * 2);
-        if (buffer == NULL) {
+        //printf("%d\n", *size);
+        (*size) = (*size) * 2;
+        //printf("%d\n", *size);
+        char *temp = realloc(*buffer, *size);
+        if (temp != NULL) {
+            *buffer = temp;
+        } else {
             fprintf(stderr, "Error: buffer memory couldn't be allocated\n");
             exit(EXIT_FAILURE);
         }
-
-        (*size) = (*size) * 2;
     }
 
-    if (ch != ' ') {
-        buffer[index] = ch;
+    if (ch != ' ' && index < (*size)) {
+        (*buffer)[index] = ch;
     }
 
     return 0;
