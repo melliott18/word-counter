@@ -8,11 +8,8 @@
 #include "vstring.h"
 
 int vstring(char ch, char **buffer, int index, int *size) {
-    //printf("%d\n", index);
     if (index == (*size)) {
-        //printf("%d\n", *size);
         (*size) = (*size) * 2;
-        //printf("%d\n", *size);
         char *temp = realloc(*buffer, *size);
         if (temp != NULL) {
             *buffer = temp;

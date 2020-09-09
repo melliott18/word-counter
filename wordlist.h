@@ -25,39 +25,39 @@ WordList newWordList();
 
 // freeWordList()
 // Destructor for the WordList type.
-void freeWordList(WordList* pL);
+void freeWordList(WordList* ptr);
 
 
 // ADT operations -------------------------------------------------------------
 
 
 // isEmpty()
-// Returns 1 (true) if WordList L is empty, 0 (false) otherwise.
-int isEmpty(WordList L);
+// Returns 1 (true) if WordList list is empty, 0 (false) otherwise.
+int isEmpty(WordList list);
 
-// size()
-// Returns the number of elements in L.
-int size(WordList L);
+// listSize()
+// Returns the number of elements in list.
+int listSize(WordList list);
 
 // add()
-// Inserts string s into L.
-void add(WordList L, char *str, int size);
+// Inserts string str into list.
+void add(WordList list, char *str, int size);
 
 // delete()
 // Deletes string from position index.
-// Pre: 1 <= index <= size(L)
-void delete(WordList L, int index);
+// Pre: 1 <= index <= size(list)
+void delete(WordList list, int index);
 
 // deleteAll()
-// Reset L to the empty state.
-void deleteAll(WordList L);
+// Reset list to the empty state.
+void deleteAll(WordList list);
 
 
 // Other Operations -----------------------------------------------------------
 
 
-void printWordList(WordList L);
+void printWordList(char *fileName, FILE **out, WordList list);
 
-void wordListSort(WordList L);
+void wordListSort(WordList list);
 
 #endif

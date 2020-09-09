@@ -118,9 +118,9 @@ int isEmpty(WordList list) {
     return (list->numWords == 0);
 }
 
-// size()
+// listSize()
 // Returns the number of elements in list.
-int size(WordList list) {
+int listSize(WordList list) {
     if (list == NULL) {
         fprintf(stderr,
             "WordList Error: calling size() on NULL WordList reference\n");
@@ -149,7 +149,7 @@ void duplicate(WordList list, Node node) {
 }
 
 // add()
-// Inserts string s into list.
+// Inserts string str into list.
 void add(WordList list, char *str, int size) {
     Node node = NULL;
     if (list == NULL) {
@@ -191,21 +191,29 @@ void deleteAll(WordList list) {
 
 // Other Operations -----------------------------------------------------------
 
-void printWordList(WordList list) {
-    Node node;
+void printWordList(char *fileName, FILE **out, WordList list) {
+    if (*out == NULL) {
+        fprintf(stderr, "Error: NULL reference to file %s\n", fileName);
+        exit(EXIT_FAILURE);
+    }
+
     if (list == NULL) {
         fprintf(stderr,
             "WordList Error: calling printWordList() on NULL WordList reference\n");
         exit(EXIT_FAILURE);
     }
-    node = list->head;
+
+    Node node = list->head;
+
     while (node != NULL) {
-        printf("%s", node->word);
-        printf(" ");
-        printf("%d", node->count);
-        printf("\n");
+        fprintf(*out, "%s", node->word);
+        fprintf(*out, " ");
+        fprintf(*out, "%d", node->count);
+        fprintf(*out, "\n");
         node = node->next;
     }
+
+    fclose(*out);
 }
 
 Node sortedMerge(Node a, Node b) { 
