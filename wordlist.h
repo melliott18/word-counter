@@ -9,8 +9,8 @@
 #include <stdlib.h>
 #include <string.h>
 
-#ifndef _wordlist_H_INCLUDE_
-#define _wordlist_H_INCLUDE_
+#ifndef _WORDLIST_H_
+#define _WORDLIST_H_
 
 // WordList 
 typedef struct WordListObj* WordList;
