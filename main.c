@@ -121,7 +121,7 @@ int main(int argc, char *argv[]) {
         }
     }
 
-    if (in == 0) {
+    if (in == stdin) {
         ch = getchar();
 
         while (ch != '\n' && ch != '\0') {
@@ -157,11 +157,38 @@ int main(int argc, char *argv[]) {
     if (sort) {
         wordListSort(list);
     }
-    if (verbose) {
-        int numWords = listSize(list);
-        printf("Total number of words: %d\n", numWords);
-    }
+
     printWordList(fileName, &out, list);
+
+    if (verbose) {
+        printf("\n");
+        int numTotalWords = getTotalWordCount(list);
+        printf("Total number of words: %d\n", numTotalWords);
+        int numUniqueWords = wordListSize(list);
+        printf("Number of unique words: %d\n", numUniqueWords);
+        int numChars = getCharCount(list);
+        printf("Total number of characters: %d\n", numChars);
+        char *shortestWord = getShortestWord(list);
+        printf("Shortest word: %s\n", shortestWord);
+        //printf("Shortest word length: %lu\n", strlen(shortestWord));
+        char *longestWord = getLongestWord(list);
+        printf("Longest word: %s\n", longestWord);
+        //printf("Longest word length: %lu\n", strlen(longestWord));
+        int averageWordLength = getAverageWordLength(list);
+        printf("Average word length: %d\n", averageWordLength);
+        char *leastFrequentWord = getLeastFrequentWord(list);
+        printf("Least frequent word: %s\n", leastFrequentWord);
+        char *mostFrequentWord = getMostFrequentWord(list);
+        printf("Most frequent word: %s\n", mostFrequentWord);
+        //printf("Least frequent word frequency: %lu\n", leastFrequentWord->count);
+        //char *longestWord = getLongestWord(list);
+        //printf("Longest word: %s\n", longestWord);
+        //printf("Longest word length: %lu\n", strlen(longestWord));
+        int averageWordFrequency = getAverageWordFrequency(list);
+        printf("Average word frequency: %d\n", averageWordFrequency);
+    }
+
     freeWordList(&list);
+    fclose(out);
     return 0;
 }
