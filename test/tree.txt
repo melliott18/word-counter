@@ -1,0 +1,3221 @@
+UCSC
+├── GitLab
+│   └── miclelli
+│       ├── README.md
+│       ├── asgn0
+│       │   ├── CHEATING.pdf
+│       │   ├── README.md
+│       │   └── hello.c
+│       ├── asgn1
+│       │   ├── DESIGN.pdf
+│       │   ├── Makefile
+│       │   ├── README.md
+│       │   └── convert.c
+│       ├── asgn2
+│       │   ├── DESIGN.pdf
+│       │   ├── Makefile
+│       │   ├── README.md
+│       │   └── lrc.c
+│       ├── asgn3
+│       │   ├── DESIGN.pdf
+│       │   ├── Makefile
+│       │   ├── README.md
+│       │   ├── WRITEUP.pdf
+│       │   └── math.c
+│       ├── asgn4
+│       │   ├── DESIGN.pdf
+│       │   ├── Makefile
+│       │   ├── README.md
+│       │   ├── WRITEUP.pdf
+│       │   ├── stack.c
+│       │   ├── stack.h
+│       │   └── tower.c
+│       ├── asgn5
+│       │   ├── DESIGN.pdf
+│       │   ├── Makefile
+│       │   ├── README.md
+│       │   ├── bv.c
+│       │   ├── bv.h
+│       │   ├── factor.c
+│       │   ├── sieve.c
+│       │   └── sieve.h
+│       ├── asgn6
+│       │   ├── DESIGN.pdf
+│       │   ├── Makefile
+│       │   ├── README.md
+│       │   ├── WRITEUP.pdf
+│       │   ├── data.h
+│       │   ├── sortA.c
+│       │   ├── sortA.h
+│       │   ├── sortB.c
+│       │   ├── sortB.h
+│       │   ├── sortC.c
+│       │   ├── sortC.h
+│       │   ├── sortD.c
+│       │   ├── sortD.h
+│       │   └── sorting.c
+│       ├── asgn7
+│       │   ├── DESIGN.pdf
+│       │   ├── Makefile
+│       │   ├── README.md
+│       │   ├── badspeak.txt
+│       │   ├── bf.c
+│       │   ├── bf.h
+│       │   ├── bv.c
+│       │   ├── bv.h
+│       │   ├── goodspeak.txt
+│       │   ├── gs.c
+│       │   ├── gs.h
+│       │   ├── hash.c
+│       │   ├── hash.h
+│       │   ├── ll.c
+│       │   ├── ll.h
+│       │   ├── newspeak.c
+│       │   ├── speck.c
+│       │   ├── speck.h
+│       │   └── words.l
+│       ├── asgn8
+│       │   ├── DESIGN.pdf
+│       │   ├── Makefile
+│       │   ├── README.md
+│       │   ├── cse13s__2_.clang-format
+│       │   ├── endian.h
+│       │   ├── io.c
+│       │   ├── io.h
+│       │   ├── main.c
+│       │   ├── trie.c
+│       │   ├── trie.h
+│       │   ├── word.c
+│       │   └── word.h
+│       ├── cheating.pdf
+│       ├── doc
+│       │   ├── CSP-Hoare-78.pdf
+│       │   ├── Goto-EDW-68.pdf
+│       │   ├── JvN-RandomDigits.pdf
+│       │   ├── M50.jpg
+│       │   ├── Simon\ and\ Speck.pdf
+│       │   └── Stephenson-CommandLine-1999.pdf
+│       └── src
+│           ├── hash.c
+│           ├── hash.h
+│           ├── hashWords.c
+│           └── words
+├── PDFs
+│   ├── CSE201
+│   │   ├── mid1solns.pdf
+│   │   ├── mid2solns.pdf
+│   │   ├── review1.pdf
+│   │   ├── review1solns.pdf
+│   │   ├── review2.pdf
+│   │   ├── review2solns.pdf
+│   │   ├── review3.pdf
+│   │   └── review3solns.pdf
+│   └── CS_BS_19-20.pdf
+├── Quarters
+│   ├── 1_Fall_2018
+│   │   ├── cmps12a
+│   │   │   ├── Beans
+│   │   │   │   ├── Test.class
+│   │   │   │   └── Test.java
+│   │   │   ├── Lecture1
+│   │   │   │   ├── bin
+│   │   │   │   └── src
+│   │   │   └── Test1
+│   │   │       ├── bin
+│   │   │       └── src
+│   │   ├── cowl1
+│   │   └── math19a
+│   │       ├── M19AMTSum16S2.pdf
+│   │       ├── M19ASprF15V1.pdf
+│   │       └── MATH19A-MidtermReview.pdf
+│   ├── 2_Winter_2019
+│   │   ├── cs12b
+│   │   │   ├── lab1
+│   │   │   │   ├── HelloUser
+│   │   │   │   ├── HelloUser.class
+│   │   │   │   ├── HelloUser.java
+│   │   │   │   └── Manifest.txt
+│   │   │   ├── lab2
+│   │   │   │   ├── CommandLineArguments.class
+│   │   │   │   ├── CommandLineArguments.java
+│   │   │   │   ├── FileCopy.class
+│   │   │   │   ├── FileCopy.java
+│   │   │   │   ├── FileReverse.class
+│   │   │   │   ├── FileReverse.java
+│   │   │   │   ├── FileTokens.class
+│   │   │   │   ├── FileTokens.java
+│   │   │   │   ├── Makefile
+│   │   │   │   ├── in
+│   │   │   │   ├── in.txt
+│   │   │   │   ├── in1.txt
+│   │   │   │   ├── out
+│   │   │   │   ├── out.txt
+│   │   │   │   └── out1.txt
+│   │   │   ├── lab3
+│   │   │   │   ├── FileReverse
+│   │   │   │   ├── FileReverse.c
+│   │   │   │   ├── in
+│   │   │   │   └── out
+│   │   │   ├── lab4
+│   │   │   │   ├── alpha
+│   │   │   │   ├── alpha.c
+│   │   │   │   ├── alphaNum
+│   │   │   │   ├── alphaNum.c
+│   │   │   │   ├── example
+│   │   │   │   ├── example.c
+│   │   │   │   ├── in
+│   │   │   │   ├── main
+│   │   │   │   └── out
+│   │   │   ├── lab5
+│   │   │   │   ├── Dictionary.c
+│   │   │   │   ├── Dictionary.h
+│   │   │   │   ├── Dictionary.o
+│   │   │   │   ├── DictionaryClient
+│   │   │   │   ├── DictionaryClient.c
+│   │   │   │   ├── DictionaryClient.o
+│   │   │   │   ├── DictionaryTest.c
+│   │   │   │   └── Makefile
+│   │   │   ├── pa1
+│   │   │   │   ├── Makefile
+│   │   │   │   ├── Search.java
+│   │   │   │   ├── Sub
+│   │   │   │   ├── Subset
+│   │   │   │   ├── Subset.c
+│   │   │   │   ├── Subset.o
+│   │   │   │   ├── pa1.sh
+│   │   │   │   └── pa1.sh-e
+│   │   │   └── pa3
+│   │   │       └── Dictionary.java
+│   │   ├── math19b
+│   │   │   ├── M19BFinV1W14(1).pdf
+│   │   │   └── M19BMTSum14.pdf
+│   │   └── writ2
+│   ├── 3_Spring_2019
+│   │   ├── ce12
+│   │   │   ├── Lab0
+│   │   │   │   └── README.txt
+│   │   │   ├── Lab1
+│   │   │   │   ├── Lab1.lgi
+│   │   │   │   └── README.txt
+│   │   │   ├── Lab2
+│   │   │   │   ├── Lab2.lgi
+│   │   │   │   └── README.txt
+│   │   │   ├── Lab3
+│   │   │   │   ├── Lab3.asm
+│   │   │   │   └── README.txt
+│   │   │   ├── Lab4
+│   │   │   │   ├── Diagram.pdf
+│   │   │   │   ├── Lab4.asm
+│   │   │   │   └── README.txt
+│   │   │   └── Lab5
+│   │   │       ├── Lab5.asm
+│   │   │       └── README.txt
+│   │   ├── ce16
+│   │   │   ├── BookOfProof2ndEdition.pdf
+│   │   │   └── BookOfProof3rdEdition.pdf
+│   │   └── math23a
+│   │       ├── Final\ Review\ 23A\ 06-02-2019\ 04-04-18(1)\ 2\ 2.pdf
+│   │       ├── Final\ Review\ 23A\ 06-02-2019\ 04-04-18(1)\ 2.pdf
+│   │       ├── Final\ Review\ 23A\ 06-02-2019\ 04-04-18(1).pdf
+│   │       ├── Final\ Review\ 23A\ 06-02-2019\ 04-04-18.pdf
+│   │       ├── Math\ 23A\ WHA#1.pdf
+│   │       └── Math\ 23A\ WHA#2.pdf
+│   ├── 4_Summer_2019
+│   │   └── envs65
+│   │       ├── 11Central_Coast_Groundwater_Seawater_Intrusion.pdf
+│   │       ├── Climate\ Change\ and\ Water.pdf
+│   │       ├── Final_Drought\ Report_08182015_Full_Report_WithAppendices.pdf
+│   │       ├── Midterm\ Quizlet.pdf
+│   │       ├── Model\ Drainage\ Basin.jpg
+│   │       ├── Securing_tomorrows_water_OCR.pdf
+│   │       ├── Terms\ and\ Concepts\ Related\ to\ Drainage\ Basins.pdf
+│   │       ├── Test-\ UCSC\ ENVS\ 65\ |\ Quizlet.pdf
+│   │       ├── Water\ Reliability.pdf
+│   │       ├── geology\ and\ hydrology.pdf
+│   │       └── wetlands.jpg
+│   ├── 5_Fall_2019
+│   │   ├── am10
+│   │   │   ├── Notes
+│   │   │   │   ├── Additional_problems_on_complex_numbers\ (1).pdf
+│   │   │   │   ├── Answer_to_Exercises.pdf
+│   │   │   │   ├── Applications_Week9.pdf
+│   │   │   │   ├── Arctan_Correction_to_Notes.pdf
+│   │   │   │   ├── Complex_numbers_by_Yonatan_Katznelson\ (1).pdf
+│   │   │   │   ├── EXAM_2_solution-2.pdf
+│   │   │   │   ├── Exam_1_Solution.pdf
+│   │   │   │   ├── Extra-Notes-on-Inverse.pdf
+│   │   │   │   ├── Homework_1.pdf
+│   │   │   │   ├── LECTURE_10_matrix_of_a_linear_transformation.pdf
+│   │   │   │   ├── LECTURE_11_examples_of_linear_transformations.pdf
+│   │   │   │   ├── LECTURE_12_bilinear_forms_and_scalar_products.pdf
+│   │   │   │   ├── LECTURE_13_orthogonality.pdf
+│   │   │   │   ├── LECTURE_14_determinants.pdf
+│   │   │   │   ├── LECTURE_15_eigenvalues_and_eigenvectors.pdf
+│   │   │   │   ├── LECTURE_16_diagonalization.pdf
+│   │   │   │   ├── LECTURE_1_real_numbers.pdf
+│   │   │   │   ├── LECTURE_2_complex_numbers_algebraic_form.pdf
+│   │   │   │   ├── LECTURE_2_complex_numbers_polar_form.pdf
+│   │   │   │   ├── LECTURE_3_complex_exponentials_and_nth_roots_of_complex_numbers.pdf
+│   │   │   │   ├── LECTURE_4_quadratic_equations_in_the_complex_plane\ (2).pdf
+│   │   │   │   ├── LECTURE_5_matrix_algebra.pdf
+│   │   │   │   ├── LECTURE_6_systems_of_linear_equations.pdf
+│   │   │   │   ├── LECTURE_7_Gauss_elimination_and_row_echelon_forms.pdf
+│   │   │   │   ├── LECTURE_8_vector_spaces.pdf
+│   │   │   │   ├── LECTURE_9_linear_transformations.pdf
+│   │   │   │   ├── Links_for_Matlab.pdf
+│   │   │   │   ├── Thursday-10-17.pdf
+│   │   │   │   ├── Thursday-10-24.pdf
+│   │   │   │   ├── Thursday-10-3.pdf
+│   │   │   │   ├── Thursday-10-31.pdf
+│   │   │   │   ├── Thursday-11-14.pdf
+│   │   │   │   ├── Thursday-11-21.pdf
+│   │   │   │   ├── Thursday-11-7.pdf
+│   │   │   │   ├── Thursday-12-5.pdf
+│   │   │   │   ├── Tuesday-10-1.pdf
+│   │   │   │   ├── Tuesday-10-15.pdf
+│   │   │   │   ├── Tuesday-10-22.pdf
+│   │   │   │   ├── Tuesday-10-29.pdf
+│   │   │   │   ├── Tuesday-10-8.pdf
+│   │   │   │   ├── Tuesday-11-19.pdf
+│   │   │   │   ├── Tuesday-11-26.pdf
+│   │   │   │   ├── Tuesday-12-3.pdf
+│   │   │   │   └── matlab_demo.m
+│   │   │   └── Textbooks
+│   │   │       ├── 1986_Book_IntroductionToLinearAlgebra.pdf
+│   │   │       └── 1987_Book_LinearAlgebra.pdf
+│   │   ├── cse13s
+│   │   │   ├── Code
+│   │   │   │   ├── Examples
+│   │   │   │   │   ├── Permute
+│   │   │   │   │   ├── Permute.c
+│   │   │   │   │   └── sorting2.c
+│   │   │   │   ├── asgn4
+│   │   │   │   │   ├── README_asgn4.md
+│   │   │   │   │   ├── stack.c
+│   │   │   │   │   ├── stack.h
+│   │   │   │   │   ├── tower
+│   │   │   │   │   └── tower.c
+│   │   │   │   ├── asgn5
+│   │   │   │   │   ├── BitVector
+│   │   │   │   │   ├── BitVector.c
+│   │   │   │   │   ├── Makefile_asgn5
+│   │   │   │   │   ├── README_asgn5.md
+│   │   │   │   │   ├── bv.c
+│   │   │   │   │   ├── bv.h
+│   │   │   │   │   ├── factor
+│   │   │   │   │   ├── factor.c
+│   │   │   │   │   ├── sieve.c
+│   │   │   │   │   └── sieve.h
+│   │   │   │   ├── asgn6
+│   │   │   │   │   ├── README.md
+│   │   │   │   │   ├── data.h
+│   │   │   │   │   ├── sortA.c
+│   │   │   │   │   ├── sortA.h
+│   │   │   │   │   ├── sortB.c
+│   │   │   │   │   ├── sortB.h
+│   │   │   │   │   ├── sortC.c
+│   │   │   │   │   ├── sortC.h
+│   │   │   │   │   ├── sortD.c
+│   │   │   │   │   ├── sortD.h
+│   │   │   │   │   ├── sorting
+│   │   │   │   │   └── sorting.c
+│   │   │   │   ├── asgn7
+│   │   │   │   │   ├── Makefile
+│   │   │   │   │   ├── README.md
+│   │   │   │   │   ├── badspeak.txt
+│   │   │   │   │   ├── bf.c
+│   │   │   │   │   ├── bf.h
+│   │   │   │   │   ├── bf.o
+│   │   │   │   │   ├── bv.c
+│   │   │   │   │   ├── bv.h
+│   │   │   │   │   ├── bv.o
+│   │   │   │   │   ├── goodspeak.txt
+│   │   │   │   │   ├── gs.c
+│   │   │   │   │   ├── gs.h
+│   │   │   │   │   ├── gs.o
+│   │   │   │   │   ├── hash.c
+│   │   │   │   │   ├── hash.h
+│   │   │   │   │   ├── hash.o
+│   │   │   │   │   ├── lex.yy.c
+│   │   │   │   │   ├── lex.yy.o
+│   │   │   │   │   ├── ll.c
+│   │   │   │   │   ├── ll.h
+│   │   │   │   │   ├── ll.o
+│   │   │   │   │   ├── newspeak.c
+│   │   │   │   │   ├── newspeak.o
+│   │   │   │   │   ├── read
+│   │   │   │   │   ├── read.c
+│   │   │   │   │   ├── read.h
+│   │   │   │   │   ├── speck.c
+│   │   │   │   │   ├── speck.h
+│   │   │   │   │   ├── speck.o
+│   │   │   │   │   ├── test
+│   │   │   │   │   ├── test.c
+│   │   │   │   │   ├── text.txt
+│   │   │   │   │   └── words.l
+│   │   │   │   └── asgn8
+│   │   │   │       ├── Makefile
+│   │   │   │       ├── README.md
+│   │   │   │       ├── endian.h
+│   │   │   │       ├── in.txt
+│   │   │   │       ├── io.c
+│   │   │   │       ├── io.h
+│   │   │   │       ├── io.o
+│   │   │   │       ├── main
+│   │   │   │       ├── main.c
+│   │   │   │       ├── main.o
+│   │   │   │       ├── out.txt
+│   │   │   │       ├── results.txt
+│   │   │   │       ├── trie.c
+│   │   │   │       ├── trie.h
+│   │   │   │       ├── trie.o
+│   │   │   │       ├── trieTest.c
+│   │   │   │       ├── word.c
+│   │   │   │       ├── word.h
+│   │   │   │       └── word.o
+│   │   │   ├── Images
+│   │   │   │   ├── Bubble-sort-0_1.png
+│   │   │   │   ├── Insertion-sort-3_2.png
+│   │   │   │   ├── Selection-sort-0.png
+│   │   │   │   ├── bubblepass.png
+│   │   │   │   └── new\ sieve.gif
+│   │   │   ├── Notes
+│   │   │   │   ├── CE13_PointersDynamicMemoryNotes.pdf
+│   │   │   │   ├── CSE13S_Coding_Standards
+│   │   │   │   ├── CSE13S_Notes_20190927.txt
+│   │   │   │   ├── CSE13S_Notes_20190930.txt
+│   │   │   │   ├── CSE13S_Notes_20191002.txt
+│   │   │   │   ├── NVidia.txt
+│   │   │   │   └── Notes_002.pdf
+│   │   │   ├── PDFs
+│   │   │   │   ├── Assignments
+│   │   │   │   │   ├── asgn0-git.pdf
+│   │   │   │   │   ├── asgn1-conv.pdf
+│   │   │   │   │   ├── asgn2-lrc.pdf
+│   │   │   │   │   ├── asgn3-math.pdf
+│   │   │   │   │   ├── asgn4-factoring.pdf
+│   │   │   │   │   ├── asgn5-lucas.pdf
+│   │   │   │   │   ├── asgn6-sorting.pdf
+│   │   │   │   │   ├── asgn7-firewall.pdf
+│   │   │   │   │   └── asgn8-lzw.pdf
+│   │   │   │   ├── Lectures
+│   │   │   │   │   ├── 10302019.pdf
+│   │   │   │   │   ├── 11132019.pdf
+│   │   │   │   │   ├── Lecture10NumericalComputation.pdf
+│   │   │   │   │   ├── Lecture11Stacks.pdf
+│   │   │   │   │   ├── Lecture12Recursion.pdf
+│   │   │   │   │   ├── Lecture14BitVectors.pdf
+│   │   │   │   │   ├── Lecture16Complexity.pdf
+│   │   │   │   │   ├── Lecture17Sorting.pdf
+│   │   │   │   │   ├── Lecture18Files.pdf
+│   │   │   │   │   ├── Lecture19LinkedLists.pdf
+│   │   │   │   │   ├── Lecture1Intro.pdf
+│   │   │   │   │   ├── Lecture21BloomFilters.pdf
+│   │   │   │   │   ├── Lecture28Processes.pdf
+│   │   │   │   │   ├── Lecture2GettingStarted.pdf
+│   │   │   │   │   ├── Lecture3Git.pdf
+│   │   │   │   │   ├── Lecture4ProgramminginC.pdf
+│   │   │   │   │   ├── Lecture5Numbers.pdf
+│   │   │   │   │   ├── Lecture6ControlStructures.pdf
+│   │   │   │   │   ├── Lecture7Loops.pdf
+│   │   │   │   │   ├── Lecture8Functions.pdf
+│   │   │   │   │   ├── Lecture9Arrays.pdf
+│   │   │   │   │   ├── lzw.pdf
+│   │   │   │   │   └── pointers.pdf
+│   │   │   │   └── Other
+│   │   │   │       ├── n1570.pdf
+│   │   │   │       ├── welch_1984_technique_for.pdf
+│   │   │   │       └── ziv_lempel_1978_variable-rate.pdf
+│   │   │   └── Textbooks
+│   │   │       ├── Introduction\ to\ the\ theory\ of\ computation_third\ edition\ -\ Michael\ Sipser.pdf
+│   │   │       ├── Learn\ C\ on\ the\ Mac\ (2nd\ ed.)\ [Mark\ &\ Bucanek\ 2012-12-19].pdf
+│   │   │       ├── The\ C\ Programming\ Language\ -\ 2nd\ Edition\ -\ Ritchie\ Kernighan.pdf
+│   │   │       ├── book.pdf
+│   │   │       └── c-in-a-nutshell-o-reilly-peter-prinz-tony-crawford.pdf
+│   │   └── cse15
+│   │       ├── Code
+│   │       │   ├── Examples
+│   │       │   │   ├── BinarySearch
+│   │       │   │   ├── BinarySearch.c
+│   │       │   │   ├── BinomialCoefficients
+│   │       │   │   ├── BinomialCoefficients.c
+│   │       │   │   ├── Hanoi
+│   │       │   │   ├── Hanoi.c
+│   │       │   │   ├── Hanoi2
+│   │       │   │   ├── Hanoi2.c
+│   │       │   │   ├── Hanoi_Iterative
+│   │       │   │   ├── Hanoi_Iterative.c
+│   │       │   │   ├── IterativeFactorial
+│   │       │   │   ├── IterativeFactorial.c
+│   │       │   │   ├── Lucas
+│   │       │   │   ├── Lucas.c
+│   │       │   │   ├── Makefile_asgn5
+│   │       │   │   ├── NQueens
+│   │       │   │   ├── NQueens.c
+│   │       │   │   ├── Pointers
+│   │       │   │   ├── Pointers.c
+│   │       │   │   ├── Review_8.c
+│   │       │   │   ├── Sort
+│   │       │   │   ├── Sort.c
+│   │       │   │   ├── SumArray
+│   │       │   │   ├── SumArray.c
+│   │       │   │   ├── SumArray.s
+│   │       │   │   ├── Swap
+│   │       │   │   ├── Swap.c
+│   │       │   │   ├── difference
+│   │       │   │   ├── difference.c
+│   │       │   │   ├── example1
+│   │       │   │   ├── example1.c
+│   │       │   │   ├── example2
+│   │       │   │   ├── example2.c
+│   │       │   │   ├── getValue
+│   │       │   │   ├── getValue.c
+│   │       │   │   ├── mix
+│   │       │   │   ├── mix.c
+│   │       │   │   ├── reverse
+│   │       │   │   ├── reverse.c
+│   │       │   │   ├── review1_8
+│   │       │   │   ├── review1_8.c
+│   │       │   │   ├── search
+│   │       │   │   └── search.c
+│   │       │   ├── lab4
+│   │       │   │   ├── ArithmeticOperations
+│   │       │   │   ├── ArithmeticOperations.c
+│   │       │   │   ├── ArithmeticOperations.o
+│   │       │   │   ├── ArithmeticTest.c
+│   │       │   │   ├── FunctionPointerExamples
+│   │       │   │   ├── FunctionPointerExamples.c
+│   │       │   │   ├── Makefile
+│   │       │   │   ├── in1
+│   │       │   │   ├── in2
+│   │       │   │   └── in3
+│   │       │   ├── lab5
+│   │       │   │   ├── Makefile
+│   │       │   │   ├── ParseFileIO
+│   │       │   │   ├── ParseFileIO.c
+│   │       │   │   ├── SortStrings
+│   │       │   │   ├── SortStrings.c
+│   │       │   │   ├── SortStrings.o
+│   │       │   │   ├── in
+│   │       │   │   └── out
+│   │       │   ├── pa1
+│   │       │   │   ├── Makefile
+│   │       │   │   ├── Subset
+│   │       │   │   ├── Subset.c
+│   │       │   │   └── Subset.o
+│   │       │   ├── pa2
+│   │       │   │   ├── Makefile
+│   │       │   │   ├── Queens
+│   │       │   │   ├── Queens.c
+│   │       │   │   └── Queens.o
+│   │       │   ├── pa3
+│   │       │   │   ├── Dictionary.c
+│   │       │   │   ├── Dictionary.h
+│   │       │   │   ├── Dictionary.o
+│   │       │   │   ├── DictionaryClient2
+│   │       │   │   ├── DictionaryClient3
+│   │       │   │   ├── DictionaryClient3-out
+│   │       │   │   ├── DictionaryClient3.c
+│   │       │   │   ├── DictionaryTest
+│   │       │   │   ├── DictionaryTest.c
+│   │       │   │   ├── DictionaryTest.o
+│   │       │   │   └── Makefile
+│   │       │   ├── pa4
+│   │       │   │   ├── ::------------------------------------------------
+│   │       │   │   ├── IntegerQueue.c
+│   │       │   │   ├── IntegerQueue.h
+│   │       │   │   ├── IntegerQueue.o
+│   │       │   │   ├── IntegerQueueClient
+│   │       │   │   ├── IntegerQueueClient.c
+│   │       │   │   ├── IntegerQueueClient.o
+│   │       │   │   ├── IntegerQueueTest
+│   │       │   │   ├── IntegerQueueTest.c
+│   │       │   │   ├── Job.c
+│   │       │   │   ├── Job.h
+│   │       │   │   ├── Job.o
+│   │       │   │   ├── Job2.c
+│   │       │   │   ├── Makefile
+│   │       │   │   ├── Simulation
+│   │       │   │   ├── Simulation.c
+│   │       │   │   ├── Simulation.o
+│   │       │   │   ├── SimulationStub.c
+│   │       │   │   ├── ex1
+│   │       │   │   ├── ex1.rpt
+│   │       │   │   ├── ex1.trc
+│   │       │   │   ├── ex2
+│   │       │   │   ├── ex3
+│   │       │   │   ├── ex4
+│   │       │   │   ├── ex5
+│   │       │   │   ├── rpt
+│   │       │   │   └── trc
+│   │       │   └── pa5
+│   │       │       ├── Dictionary.c
+│   │       │       ├── Dictionary.h
+│   │       │       ├── Dictionary.o
+│   │       │       ├── DictionaryClient1.c
+│   │       │       ├── DictionaryClient3-out
+│   │       │       ├── DictionaryClient3.c
+│   │       │       ├── DictionaryTest
+│   │       │       ├── DictionaryTest.c
+│   │       │       ├── DictionaryTest.o
+│   │       │       ├── HashDemo
+│   │       │       ├── HashDemo.c
+│   │       │       ├── HashTest.c
+│   │       │       ├── Makefile
+│   │       │       └── pa5.sh
+│   │       ├── PDFs
+│   │       │   ├── Lab_Assignments
+│   │       │   │   ├── lab1.pdf
+│   │       │   │   ├── lab2.pdf
+│   │       │   │   ├── lab3.pdf
+│   │       │   │   ├── lab4.pdf
+│   │       │   │   └── lab5.pdf
+│   │       │   ├── Programming_Assignments
+│   │       │   │   ├── pa1.pdf
+│   │       │   │   ├── pa2.pdf
+│   │       │   │   ├── pa3.pdf
+│   │       │   │   ├── pa4.pdf
+│   │       │   │   └── pa5.pdf
+│   │       │   └── Review
+│   │       │       ├── mid1solns.pdf
+│   │       │       ├── mid2solns.pdf
+│   │       │       ├── review1.pdf
+│   │       │       ├── review1solns.pdf
+│   │       │       ├── review2.pdf
+│   │       │       ├── review2solns.pdf
+│   │       │       ├── review3.pdf
+│   │       │       └── review3solns.pdf
+│   │       ├── Review
+│   │       │   ├── mid1solns\ (1).pdf
+│   │       │   ├── mid1solns.pdf
+│   │       │   ├── mid2solns\ (1).pdf
+│   │       │   ├── mid2solns.pdf
+│   │       │   ├── review1\ (1).pdf
+│   │       │   ├── review1.pdf
+│   │       │   ├── review1solns\ (1).pdf
+│   │       │   ├── review1solns.pdf
+│   │       │   ├── review2\ (1).pdf
+│   │       │   ├── review2.pdf
+│   │       │   ├── review2solns\ (1).pdf
+│   │       │   ├── review2solns.pdf
+│   │       │   ├── review3\ (1).pdf
+│   │       │   ├── review3.pdf
+│   │       │   └── review3solns.pdf
+│   │       └── Textbooks
+│   │           ├── data-abstraction-and-problem-soving-with-c.pdf
+│   │           └── ods-python.pdf
+│   ├── 6_Winter_2020
+│   │   ├── cmpm80k
+│   │   │   ├── Assignments
+│   │   │   │   └── Camping\ Adventure.html
+│   │   │   └── Notes
+│   │   │       ├── 80k-w20-w1-l1-introAndDE1.pdf
+│   │   │       ├── 80k-w20-w1-l2-DE2-Barrett.pdf
+│   │   │       └── 80k-w20-w1-l3-elementsAndDE3.pdf
+│   │   ├── cse101
+│   │   │   ├── Code
+│   │   │   │   ├── Codio
+│   │   │   │   │   ├── binary-heap
+│   │   │   │   │   │   ├── BinHeap
+│   │   │   │   │   │   │   ├── Makefile
+│   │   │   │   │   │   │   ├── binheap.cpp
+│   │   │   │   │   │   │   ├── binheap.h
+│   │   │   │   │   │   │   ├── binheap.o
+│   │   │   │   │   │   │   ├── heapwrapper
+│   │   │   │   │   │   │   ├── heapwrapper.cpp
+│   │   │   │   │   │   │   ├── heapwrapper.o
+│   │   │   │   │   │   │   ├── in.txt
+│   │   │   │   │   │   │   ├── out.txt
+│   │   │   │   │   │   │   ├── simple-input.txt
+│   │   │   │   │   │   │   └── simple-output.txt
+│   │   │   │   │   │   ├── README.md
+│   │   │   │   │   │   └── binheap_qns.pdf
+│   │   │   │   │   ├── bst-codes
+│   │   │   │   │   │   ├── BST
+│   │   │   │   │   │   │   ├── Makefile
+│   │   │   │   │   │   │   ├── bst.cpp
+│   │   │   │   │   │   │   ├── bst.h
+│   │   │   │   │   │   │   ├── bst.o
+│   │   │   │   │   │   │   ├── in.txt
+│   │   │   │   │   │   │   ├── out.txt
+│   │   │   │   │   │   │   ├── treewrapper
+│   │   │   │   │   │   │   ├── treewrapper.cpp
+│   │   │   │   │   │   │   └── treewrapper.o
+│   │   │   │   │   │   ├── README.md
+│   │   │   │   │   │   └── tree_qns.pdf
+│   │   │   │   │   ├── hello-world
+│   │   │   │   │   │   ├── Hello
+│   │   │   │   │   │   │   ├── Makefile
+│   │   │   │   │   │   │   ├── README
+│   │   │   │   │   │   │   ├── hello
+│   │   │   │   │   │   │   ├── hello.cpp
+│   │   │   │   │   │   │   ├── hello.o
+│   │   │   │   │   │   │   ├── ideal-output1.txt
+│   │   │   │   │   │   │   ├── ideal-output2.txt
+│   │   │   │   │   │   │   ├── out.txt
+│   │   │   │   │   │   │   ├── test-input1.txt
+│   │   │   │   │   │   │   ├── test-input2.txt
+│   │   │   │   │   │   │   ├── test-output1.txt
+│   │   │   │   │   │   │   ├── utils.cpp
+│   │   │   │   │   │   │   ├── utils.h
+│   │   │   │   │   │   │   └── utils.o
+│   │   │   │   │   │   ├── README.md
+│   │   │   │   │   │   ├── RoboGrader
+│   │   │   │   │   │   │   ├── README-robochecker
+│   │   │   │   │   │   │   ├── README-robograder
+│   │   │   │   │   │   │   ├── Spec
+│   │   │   │   │   │   │   │   └── Hello-spec.txt
+│   │   │   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   │   │   └── utilities.cpython-36.pyc
+│   │   │   │   │   │   │   ├── robochecker.py
+│   │   │   │   │   │   │   ├── robograder.py
+│   │   │   │   │   │   │   └── utilities.py
+│   │   │   │   │   │   ├── checkcode.sh
+│   │   │   │   │   │   └── hello.pdf
+│   │   │   │   │   ├── hw1--shakespeare--cleaned-
+│   │   │   │   │   │   ├── Bard
+│   │   │   │   │   │   │   ├── Bard.log
+│   │   │   │   │   │   │   ├── Makefile
+│   │   │   │   │   │   │   ├── README
+│   │   │   │   │   │   │   ├── Tests
+│   │   │   │   │   │   │   │   ├── more-input.txt
+│   │   │   │   │   │   │   │   ├── more-output.txt
+│   │   │   │   │   │   │   │   ├── shakespeare-cleaned5.txt
+│   │   │   │   │   │   │   │   ├── simple-input.txt
+│   │   │   │   │   │   │   │   └── simple-output.txt
+│   │   │   │   │   │   │   ├── bard
+│   │   │   │   │   │   │   ├── bard.cpp
+│   │   │   │   │   │   │   ├── bard.o
+│   │   │   │   │   │   │   ├── linkedlist.cpp
+│   │   │   │   │   │   │   ├── linkedlist.h
+│   │   │   │   │   │   │   ├── linkedlist.o
+│   │   │   │   │   │   │   ├── my_output.txt
+│   │   │   │   │   │   │   ├── shakespeare-cleaned5.txt
+│   │   │   │   │   │   │   ├── simple-input.txt
+│   │   │   │   │   │   │   ├── simple-output.txt
+│   │   │   │   │   │   │   └── temp_console_output.txt
+│   │   │   │   │   │   ├── BardStudent
+│   │   │   │   │   │   │   ├── Makefile
+│   │   │   │   │   │   │   ├── README
+│   │   │   │   │   │   │   ├── bard.cpp
+│   │   │   │   │   │   │   ├── linkedlist.cpp
+│   │   │   │   │   │   │   ├── linkedlist.h
+│   │   │   │   │   │   │   ├── shakespeare-cleaned5.txt
+│   │   │   │   │   │   │   ├── simple-input.txt
+│   │   │   │   │   │   │   └── simple-output.txt
+│   │   │   │   │   │   ├── README.md
+│   │   │   │   │   │   ├── RoboGrader
+│   │   │   │   │   │   │   ├── README-robochecker
+│   │   │   │   │   │   │   ├── Spec
+│   │   │   │   │   │   │   │   └── Bard-spec.txt
+│   │   │   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   │   │   └── utilities.cpython-36.pyc
+│   │   │   │   │   │   │   ├── robochecker.py
+│   │   │   │   │   │   │   └── utilities.py
+│   │   │   │   │   │   └── checkcode.sh
+│   │   │   │   │   ├── hw2--nqueens-without-recursion
+│   │   │   │   │   │   ├── NQueens
+│   │   │   │   │   │   │   ├── Helper
+│   │   │   │   │   │   │   │   ├── PrintSolutionHelper.class
+│   │   │   │   │   │   │   │   └── PrintSolutionHelper.java
+│   │   │   │   │   │   │   ├── Makefile
+│   │   │   │   │   │   │   ├── README
+│   │   │   │   │   │   │   ├── Tests
+│   │   │   │   │   │   │   │   ├── more-input.txt
+│   │   │   │   │   │   │   │   ├── more-output.txt
+│   │   │   │   │   │   │   │   ├── simple-input.txt
+│   │   │   │   │   │   │   │   ├── simple-output.txt
+│   │   │   │   │   │   │   │   ├── test-5-input.txt
+│   │   │   │   │   │   │   │   └── test-5-output.txt
+│   │   │   │   │   │   │   ├── in.txt
+│   │   │   │   │   │   │   ├── in2.txt
+│   │   │   │   │   │   │   ├── in3.txt
+│   │   │   │   │   │   │   ├── in4.txt
+│   │   │   │   │   │   │   ├── in5.txt
+│   │   │   │   │   │   │   ├── in6.txt
+│   │   │   │   │   │   │   ├── list.cpp
+│   │   │   │   │   │   │   ├── list.h
+│   │   │   │   │   │   │   ├── nqueens
+│   │   │   │   │   │   │   ├── nqueens.cpp
+│   │   │   │   │   │   │   ├── nqueens.o
+│   │   │   │   │   │   │   ├── out.txt
+│   │   │   │   │   │   │   ├── out2.txt
+│   │   │   │   │   │   │   ├── out3.txt
+│   │   │   │   │   │   │   ├── out4.txt
+│   │   │   │   │   │   │   ├── out5.txt
+│   │   │   │   │   │   │   ├── out6.txt
+│   │   │   │   │   │   │   ├── queen.cpp
+│   │   │   │   │   │   │   ├── queen.h
+│   │   │   │   │   │   │   ├── queen.o
+│   │   │   │   │   │   │   ├── simple-input.txt
+│   │   │   │   │   │   │   ├── simple-output.txt
+│   │   │   │   │   │   │   └── test-output.txt
+│   │   │   │   │   │   ├── NQueensStudent
+│   │   │   │   │   │   │   ├── Makefile
+│   │   │   │   │   │   │   ├── NQueensStudent.log
+│   │   │   │   │   │   │   ├── README
+│   │   │   │   │   │   │   ├── correct_output.txt
+│   │   │   │   │   │   │   ├── list.cpp
+│   │   │   │   │   │   │   ├── list.h
+│   │   │   │   │   │   │   ├── my_output.txt
+│   │   │   │   │   │   │   ├── nqueens
+│   │   │   │   │   │   │   ├── nqueens.cpp
+│   │   │   │   │   │   │   ├── nqueens.o
+│   │   │   │   │   │   │   ├── queen.cpp
+│   │   │   │   │   │   │   ├── queen.h
+│   │   │   │   │   │   │   ├── queen.o
+│   │   │   │   │   │   │   ├── simple-input.txt
+│   │   │   │   │   │   │   ├── simple-output.txt
+│   │   │   │   │   │   │   └── temp_console_output.txt
+│   │   │   │   │   │   ├── README.md
+│   │   │   │   │   │   ├── RoboGrader
+│   │   │   │   │   │   │   ├── README-robochecker
+│   │   │   │   │   │   │   ├── Spec
+│   │   │   │   │   │   │   │   └── NQueens-spec.txt
+│   │   │   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   │   │   └── utilities.cpython-36.pyc
+│   │   │   │   │   │   │   ├── robochecker.py
+│   │   │   │   │   │   │   └── utilities.py
+│   │   │   │   │   │   └── checkcode.sh
+│   │   │   │   │   ├── hw3--range-searching-with-avl-trees
+│   │   │   │   │   │   ├── README.md
+│   │   │   │   │   │   ├── RoboGrader
+│   │   │   │   │   │   │   ├── README-robochecker
+│   │   │   │   │   │   │   ├── Spec
+│   │   │   │   │   │   │   │   ├── Bard-spec.txt
+│   │   │   │   │   │   │   │   └── Wordrange-spec.txt
+│   │   │   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   │   │   └── utilities.cpython-36.pyc
+│   │   │   │   │   │   │   ├── robochecker.py
+│   │   │   │   │   │   │   └── utilities.py
+│   │   │   │   │   │   ├── Wordrange
+│   │   │   │   │   │   │   ├── Makefile
+│   │   │   │   │   │   │   ├── README
+│   │   │   │   │   │   │   ├── Tests
+│   │   │   │   │   │   │   │   ├── allwords-basic-output.txt
+│   │   │   │   │   │   │   │   ├── allwords-basic.txt
+│   │   │   │   │   │   │   │   ├── allwords-more-range-output.txt
+│   │   │   │   │   │   │   │   ├── allwords-more-range.txt
+│   │   │   │   │   │   │   │   ├── simple-input.txt
+│   │   │   │   │   │   │   │   └── simple-output.txt
+│   │   │   │   │   │   │   ├── avl.cpp
+│   │   │   │   │   │   │   ├── avl.h
+│   │   │   │   │   │   │   ├── avl.o
+│   │   │   │   │   │   │   ├── basic-output.txt
+│   │   │   │   │   │   │   ├── basic.txt
+│   │   │   │   │   │   │   ├── double.txt
+│   │   │   │   │   │   │   ├── in.txt
+│   │   │   │   │   │   │   ├── in2.txt
+│   │   │   │   │   │   │   ├── in3.txt
+│   │   │   │   │   │   │   ├── in4.txt
+│   │   │   │   │   │   │   ├── more.txt
+│   │   │   │   │   │   │   ├── out.txt
+│   │   │   │   │   │   │   ├── out2.txt
+│   │   │   │   │   │   │   ├── out3.txt
+│   │   │   │   │   │   │   ├── out4.txt
+│   │   │   │   │   │   │   ├── out5.txt
+│   │   │   │   │   │   │   ├── out6.txt
+│   │   │   │   │   │   │   ├── out7.txt
+│   │   │   │   │   │   │   ├── simple-input.txt
+│   │   │   │   │   │   │   ├── simple-output.txt
+│   │   │   │   │   │   │   ├── test-output.txt
+│   │   │   │   │   │   │   ├── wordrange
+│   │   │   │   │   │   │   ├── wordrange.cpp
+│   │   │   │   │   │   │   └── wordrange.o
+│   │   │   │   │   │   ├── WordrangeStudent
+│   │   │   │   │   │   │   ├── Makefile
+│   │   │   │   │   │   │   ├── README
+│   │   │   │   │   │   │   ├── WordrangeStudent.log
+│   │   │   │   │   │   │   ├── allwords-more-input.txt
+│   │   │   │   │   │   │   ├── avl.cpp
+│   │   │   │   │   │   │   ├── avl.h
+│   │   │   │   │   │   │   ├── avl.o
+│   │   │   │   │   │   │   ├── my_output.txt
+│   │   │   │   │   │   │   ├── wordrange
+│   │   │   │   │   │   │   ├── wordrange.cpp
+│   │   │   │   │   │   │   └── wordrange.o
+│   │   │   │   │   │   └── checkcode.sh
+│   │   │   │   │   ├── hw4--six-degrees-of-searching
+│   │   │   │   │   │   ├── README.md
+│   │   │   │   │   │   ├── RoboGrader
+│   │   │   │   │   │   │   ├── README-robochecker
+│   │   │   │   │   │   │   ├── Spec
+│   │   │   │   │   │   │   │   └── Sixdegrees-spec.txt
+│   │   │   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   │   │   └── utilities.cpython-36.pyc
+│   │   │   │   │   │   │   ├── robochecker.py
+│   │   │   │   │   │   │   └── utilities.py
+│   │   │   │   │   │   ├── Sixdegrees
+│   │   │   │   │   │   │   ├── Makefile
+│   │   │   │   │   │   │   ├── Makefile2.txt
+│   │   │   │   │   │   │   ├── Makefile3.txt
+│   │   │   │   │   │   │   ├── README
+│   │   │   │   │   │   │   ├── Tests
+│   │   │   │   │   │   │   │   ├── more-input.txt
+│   │   │   │   │   │   │   │   └── more-output.txt
+│   │   │   │   │   │   │   ├── cleaned_movielist.txt
+│   │   │   │   │   │   │   ├── graph.cpp
+│   │   │   │   │   │   │   ├── graph.h
+│   │   │   │   │   │   │   ├── in.txt
+│   │   │   │   │   │   │   ├── in2.txt
+│   │   │   │   │   │   │   ├── in3.txt
+│   │   │   │   │   │   │   ├── in4.txt
+│   │   │   │   │   │   │   ├── linkedlist.cpp
+│   │   │   │   │   │   │   ├── linkedlist.h
+│   │   │   │   │   │   │   ├── out.txt
+│   │   │   │   │   │   │   ├── out2.txt
+│   │   │   │   │   │   │   ├── out3.txt
+│   │   │   │   │   │   │   ├── out4.txt
+│   │   │   │   │   │   │   ├── simple-input.txt
+│   │   │   │   │   │   │   ├── simple-output.txt
+│   │   │   │   │   │   │   ├── sixdegrees
+│   │   │   │   │   │   │   ├── sixdegrees.cpp
+│   │   │   │   │   │   │   ├── sixdegrees.o
+│   │   │   │   │   │   │   ├── test-input.txt
+│   │   │   │   │   │   │   ├── test-input2.txt
+│   │   │   │   │   │   │   └── test-output.txt
+│   │   │   │   │   │   ├── SixdegreesStudent
+│   │   │   │   │   │   │   ├── Makefile
+│   │   │   │   │   │   │   ├── README
+│   │   │   │   │   │   │   ├── SixdegreesStudent.log
+│   │   │   │   │   │   │   ├── cleaned_movielist.txt
+│   │   │   │   │   │   │   ├── correct_output.txt
+│   │   │   │   │   │   │   ├── graph.cpp
+│   │   │   │   │   │   │   ├── graph.h
+│   │   │   │   │   │   │   ├── linkedlist.cpp
+│   │   │   │   │   │   │   ├── linkedlist.h
+│   │   │   │   │   │   │   ├── my_output.txt
+│   │   │   │   │   │   │   ├── sixdegrees
+│   │   │   │   │   │   │   ├── sixdegrees.cpp
+│   │   │   │   │   │   │   └── sixdegrees.o
+│   │   │   │   │   │   └── checkcode.sh
+│   │   │   │   │   ├── linked-list
+│   │   │   │   │   │   ├── LinkedList
+│   │   │   │   │   │   │   ├── Functional
+│   │   │   │   │   │   │   │   ├── Makefile
+│   │   │   │   │   │   │   │   ├── input.txt
+│   │   │   │   │   │   │   │   ├── linkedlistfunc.cpp
+│   │   │   │   │   │   │   │   ├── linkedlistfunc.h
+│   │   │   │   │   │   │   │   ├── listwrapper.cpp
+│   │   │   │   │   │   │   │   └── output.txt
+│   │   │   │   │   │   │   ├── Makefile
+│   │   │   │   │   │   │   ├── input.txt
+│   │   │   │   │   │   │   ├── input2.txt
+│   │   │   │   │   │   │   ├── input3.txt
+│   │   │   │   │   │   │   ├── input4.txt
+│   │   │   │   │   │   │   ├── linkedlist.cpp
+│   │   │   │   │   │   │   ├── linkedlist.cpp.save
+│   │   │   │   │   │   │   ├── linkedlist.h
+│   │   │   │   │   │   │   ├── linkedlist.o
+│   │   │   │   │   │   │   ├── listwrapper
+│   │   │   │   │   │   │   ├── listwrapper.cpp
+│   │   │   │   │   │   │   ├── listwrapper.o
+│   │   │   │   │   │   │   ├── output.txt
+│   │   │   │   │   │   │   ├── output2.txt
+│   │   │   │   │   │   │   ├── output3.txt
+│   │   │   │   │   │   │   └── output4.txt
+│   │   │   │   │   │   └── README.md
+│   │   │   │   │   ├── recursion-through-stacks
+│   │   │   │   │   │   ├── README.md
+│   │   │   │   │   │   └── StackRecursion
+│   │   │   │   │   │       ├── Makefile
+│   │   │   │   │   │       ├── README
+│   │   │   │   │   │       ├── in.txt
+│   │   │   │   │   │       ├── list.cpp
+│   │   │   │   │   │       ├── list.h
+│   │   │   │   │   │       ├── list.o
+│   │   │   │   │   │       ├── node.cpp
+│   │   │   │   │   │       ├── node.h
+│   │   │   │   │   │       ├── node.o
+│   │   │   │   │   │       ├── out.txt
+│   │   │   │   │   │       ├── out2.txt
+│   │   │   │   │   │       ├── stackrecursion
+│   │   │   │   │   │       ├── stackrecursion.cpp
+│   │   │   │   │   │       ├── stackrecursion.o
+│   │   │   │   │   │       └── stackrecursion_qns.pdf
+│   │   │   │   │   └── zip
+│   │   │   │   │       ├── binary-heap.zip
+│   │   │   │   │       ├── bst-codes.zip
+│   │   │   │   │       ├── hello-world.zip
+│   │   │   │   │       ├── hw1--shakespeare--cleaned-.zip
+│   │   │   │   │       ├── hw2--nqueens-without-recursion.zip
+│   │   │   │   │       ├── hw3--range-searching-with-avl-trees.zip
+│   │   │   │   │       ├── hw4--six-degrees-of-searching.zip
+│   │   │   │   │       ├── linked-list.zip
+│   │   │   │   │       └── recursion-through-stacks.zip
+│   │   │   │   ├── Homework
+│   │   │   │   │   ├── Graphs
+│   │   │   │   │   │   ├── Makefile
+│   │   │   │   │   │   ├── Makefile2.txt
+│   │   │   │   │   │   ├── Makefile3.txt
+│   │   │   │   │   │   ├── README
+│   │   │   │   │   │   ├── all_imdb_cleaned.txt
+│   │   │   │   │   │   ├── cleaned_movielist.txt
+│   │   │   │   │   │   ├── even-more-input.txt
+│   │   │   │   │   │   ├── graph.cpp
+│   │   │   │   │   │   ├── graph.h
+│   │   │   │   │   │   ├── graph2
+│   │   │   │   │   │   ├── graph2.cpp
+│   │   │   │   │   │   ├── graph2.dSYM
+│   │   │   │   │   │   │   └── Contents
+│   │   │   │   │   │   │       ├── Info.plist
+│   │   │   │   │   │   │       └── Resources
+│   │   │   │   │   │   │           └── DWARF
+│   │   │   │   │   │   │               └── graph2
+│   │   │   │   │   │   ├── graphTest.cpp
+│   │   │   │   │   │   ├── graphs
+│   │   │   │   │   │   ├── graphs.dSYM
+│   │   │   │   │   │   │   └── Contents
+│   │   │   │   │   │   │       ├── Info.plist
+│   │   │   │   │   │   │       └── Resources
+│   │   │   │   │   │   │           └── DWARF
+│   │   │   │   │   │   │               └── graphs
+│   │   │   │   │   │   ├── linkedlist.cpp
+│   │   │   │   │   │   ├── linkedlist.h
+│   │   │   │   │   │   ├── more-input.txt
+│   │   │   │   │   │   ├── more-output.txt
+│   │   │   │   │   │   ├── simple-input.txt
+│   │   │   │   │   │   ├── simple-output.txt
+│   │   │   │   │   │   ├── sixdegrees
+│   │   │   │   │   │   ├── sixdegrees.cpp
+│   │   │   │   │   │   ├── sixdegrees.o
+│   │   │   │   │   │   ├── sixdegreesCopy.cpp
+│   │   │   │   │   │   ├── sixdegreescopy2.cpp
+│   │   │   │   │   │   └── stdc++.h
+│   │   │   │   │   ├── LinkedLists
+│   │   │   │   │   │   ├── Makefile
+│   │   │   │   │   │   ├── bard
+│   │   │   │   │   │   ├── bard.cpp
+│   │   │   │   │   │   ├── bard.o
+│   │   │   │   │   │   ├── linkedlist.cpp
+│   │   │   │   │   │   ├── linkedlist.h
+│   │   │   │   │   │   ├── linkedlist.o
+│   │   │   │   │   │   ├── linkedlistsort.c
+│   │   │   │   │   │   ├── llsort
+│   │   │   │   │   │   ├── shakespeare-cleaned5.txt
+│   │   │   │   │   │   └── shakespeare.txt
+│   │   │   │   │   ├── StackRecursion
+│   │   │   │   │   │   ├── Makefile
+│   │   │   │   │   │   ├── NQueens.txt
+│   │   │   │   │   │   ├── NQueens2.txt
+│   │   │   │   │   │   ├── NQueens3.txt
+│   │   │   │   │   │   ├── NQueens4.txt
+│   │   │   │   │   │   ├── PrintSolutionHelper.class
+│   │   │   │   │   │   ├── PrintSolutionHelper.java
+│   │   │   │   │   │   ├── README
+│   │   │   │   │   │   ├── in.txt
+│   │   │   │   │   │   ├── in2.txt
+│   │   │   │   │   │   ├── list.cpp
+│   │   │   │   │   │   ├── list.h
+│   │   │   │   │   │   ├── nqueens
+│   │   │   │   │   │   ├── nqueens.cpp
+│   │   │   │   │   │   ├── nqueens.o
+│   │   │   │   │   │   ├── out.txt
+│   │   │   │   │   │   ├── out2.txt
+│   │   │   │   │   │   ├── queen.cpp
+│   │   │   │   │   │   ├── queen.h
+│   │   │   │   │   │   └── queen.o
+│   │   │   │   │   └── Trees
+│   │   │   │   │       ├── Makefile
+│   │   │   │   │       ├── allwords-more-range-output.txt
+│   │   │   │   │       ├── allwords-more-range.txt
+│   │   │   │   │       ├── avl.cpp
+│   │   │   │   │       ├── avl.h
+│   │   │   │   │       ├── avl.o
+│   │   │   │   │       ├── avl.txt
+│   │   │   │   │       ├── in.txt
+│   │   │   │   │       ├── out.txt
+│   │   │   │   │       ├── out2.txt
+│   │   │   │   │       ├── rangeSearch.txt
+│   │   │   │   │       ├── wordrange
+│   │   │   │   │       ├── wordrange.cpp
+│   │   │   │   │       └── wordrange.o
+│   │   │   │   ├── Other
+│   │   │   │   │   └── HelloWorld
+│   │   │   │   │       ├── Hello
+│   │   │   │   │       │   ├── Makefile
+│   │   │   │   │       │   ├── README
+│   │   │   │   │       │   ├── hello.cpp
+│   │   │   │   │       │   ├── utils.cpp
+│   │   │   │   │       │   └── utils.h
+│   │   │   │   │       └── hello.pdf
+│   │   │   │   ├── Tests
+│   │   │   │   │   ├── Arrays
+│   │   │   │   │   │   ├── arrayQuestions
+│   │   │   │   │   │   └── arrayQuestions.cpp
+│   │   │   │   │   ├── DataStructures
+│   │   │   │   │   ├── Graphs
+│   │   │   │   │   ├── Heaps
+│   │   │   │   │   │   └── binheap_qns.pdf
+│   │   │   │   │   ├── LinkedList
+│   │   │   │   │   │   ├── linkedlist.cpp
+│   │   │   │   │   │   ├── linkedlist.h
+│   │   │   │   │   │   └── listwrapper.cpp
+│   │   │   │   │   ├── StackRecursion
+│   │   │   │   │   │   ├── Makefile1
+│   │   │   │   │   │   ├── cse15_pa1_subset.c
+│   │   │   │   │   │   ├── stackrecursion.cpp
+│   │   │   │   │   │   ├── stackrecursioncopy.cpp
+│   │   │   │   │   │   ├── stackrecursioncopy2.cpp
+│   │   │   │   │   │   └── stackrecursiontestprep.cpp
+│   │   │   │   │   └── Trees
+│   │   │   │   │       ├── TreeHeap.txt
+│   │   │   │   │       └── TreeHeap2.txt
+│   │   │   │   ├── f19
+│   │   │   │   │   ├── Sorting
+│   │   │   │   │   ├── Sorting.c
+│   │   │   │   │   └── pa1
+│   │   │   │   │       ├── IntegerList.c
+│   │   │   │   │       ├── IntegerList.h
+│   │   │   │   │       ├── IntegerList.o
+│   │   │   │   │       ├── IntegerListTest
+│   │   │   │   │       ├── IntegerListTest.c
+│   │   │   │   │       ├── IntegerListTest.o
+│   │   │   │   │       └── Makefile
+│   │   │   │   └── s20
+│   │   │   │       └── Thomas
+│   │   │   │           ├── Arithmetic
+│   │   │   │           ├── Arithmetic.c
+│   │   │   │           ├── Arithmetic.o
+│   │   │   │           ├── BigInteger.c
+│   │   │   │           ├── BigInteger.h
+│   │   │   │           ├── BigInteger.o
+│   │   │   │           ├── BigIntegerTest.c
+│   │   │   │           ├── List.c
+│   │   │   │           ├── List.h
+│   │   │   │           ├── List.o
+│   │   │   │           ├── Makefile
+│   │   │   │           ├── ModelBigIntegerTest
+│   │   │   │           ├── ModelBigIntegerTest.c
+│   │   │   │           ├── ModelBigIntegerTest.o
+│   │   │   │           ├── output.txt
+│   │   │   │           └── pa2.sh
+│   │   │   ├── Documents
+│   │   │   │   ├── Assignments
+│   │   │   │   │   ├── bfs_six_degrees.pdf
+│   │   │   │   │   ├── hw_shakespeare.pdf
+│   │   │   │   │   ├── nqueens.pdf
+│   │   │   │   │   └── range_queries_avl.pdf
+│   │   │   │   ├── Notes
+│   │   │   │   │   ├── intro-lec1.pptx
+│   │   │   │   │   ├── lec1.pdf
+│   │   │   │   │   ├── lec10.pdf
+│   │   │   │   │   ├── lec11.pdf
+│   │   │   │   │   ├── lec12.pdf
+│   │   │   │   │   ├── lec13.pdf
+│   │   │   │   │   ├── lec15.pdf
+│   │   │   │   │   ├── lec16.pdf
+│   │   │   │   │   ├── lec17.pdf
+│   │   │   │   │   ├── lec19.pdf
+│   │   │   │   │   ├── lec2.pdf
+│   │   │   │   │   ├── lec3.pdf
+│   │   │   │   │   ├── lec4.pdf
+│   │   │   │   │   ├── lec5.pdf
+│   │   │   │   │   ├── lec6.pdf
+│   │   │   │   │   ├── lec7.pdf
+│   │   │   │   │   ├── lec8.pdf
+│   │   │   │   │   ├── lec9.pdf
+│   │   │   │   │   └── old-dfs.pdf
+│   │   │   │   ├── Other
+│   │   │   │   │   ├── PersonalResponsibility.docx
+│   │   │   │   │   ├── array-qns.pdf
+│   │   │   │   │   ├── data-struct-qns.pdf
+│   │   │   │   │   └── hello.pdf
+│   │   │   │   ├── Test\ Questions
+│   │   │   │   │   ├── binheap_qns.pdf
+│   │   │   │   │   ├── graph-qns.pdf
+│   │   │   │   │   ├── graphtest-instr.pdf
+│   │   │   │   │   ├── instructions.pdf
+│   │   │   │   │   ├── linkedlist_qns.pdf
+│   │   │   │   │   ├── stackrecursion_qns.pdf
+│   │   │   │   │   └── tree_qns.pdf
+│   │   │   │   ├── f19
+│   │   │   │   │   ├── Assignments
+│   │   │   │   │   │   ├── Homework
+│   │   │   │   │   │   │   ├── hw1.pdf
+│   │   │   │   │   │   │   ├── hw1solns.pdf
+│   │   │   │   │   │   │   ├── hw2.pdf
+│   │   │   │   │   │   │   ├── hw2solns.pdf
+│   │   │   │   │   │   │   ├── hw3.pdf
+│   │   │   │   │   │   │   ├── hw3solns.pdf
+│   │   │   │   │   │   │   ├── hw4.pdf
+│   │   │   │   │   │   │   ├── hw4solns.pdf
+│   │   │   │   │   │   │   ├── hw5.pdf
+│   │   │   │   │   │   │   ├── hw5solns.pdf
+│   │   │   │   │   │   │   ├── hw6.pdf
+│   │   │   │   │   │   │   ├── hw6solns.pdf
+│   │   │   │   │   │   │   ├── hw7.pdf
+│   │   │   │   │   │   │   └── hw7solns.pdf
+│   │   │   │   │   │   └── Programming_Assignments
+│   │   │   │   │   │       ├── pa1.pdf
+│   │   │   │   │   │       ├── pa2.pdf
+│   │   │   │   │   │       ├── pa3.pdf
+│   │   │   │   │   │       ├── pa4.pdf
+│   │   │   │   │   │       └── pa5.pdf
+│   │   │   │   │   └── Review
+│   │   │   │   │       ├── mid1solns.pdf
+│   │   │   │   │       ├── mid2solns.pdf
+│   │   │   │   │       ├── review1.pdf
+│   │   │   │   │       ├── review1solns.pdf
+│   │   │   │   │       ├── review2.pdf
+│   │   │   │   │       ├── review2solns.pdf
+│   │   │   │   │       ├── review3.pdf
+│   │   │   │   │       └── review3solns.pdf
+│   │   │   │   └── s20
+│   │   │   │       ├── pa1.pdf
+│   │   │   │       ├── pa2.pdf
+│   │   │   │       ├── pa3.pdf
+│   │   │   │       └── quiz1solns.pdf
+│   │   │   └── Textbooks
+│   │   │       └── Introduction_To_Algorithms.pdf
+│   │   └── cse107
+│   │       ├── Homework
+│   │       │   ├── Week1
+│   │       │   │   ├── CSE107HW#1.pdf
+│   │       │   │   ├── hw1-sol-2.pdf
+│   │       │   │   └── hw1.pdf
+│   │       │   ├── Week10
+│   │       │   ├── Week2
+│   │       │   │   ├── CSE107HW#2.pdf
+│   │       │   │   ├── homework\ 2.pdf
+│   │       │   │   └── hw2-sol-1.pdf
+│   │       │   ├── Week3
+│   │       │   │   ├── CSE107HW#3.pdf
+│   │       │   │   ├── hw3-2.pdf
+│   │       │   │   └── hw3-sol-3.pdf
+│   │       │   ├── Week4
+│   │       │   │   ├── CSE107HW#4.pdf
+│   │       │   │   ├── hw4-sol-2.pdf
+│   │       │   │   └── hw4.pdf
+│   │       │   ├── Week5
+│   │       │   │   ├── CSE107HW#5.pdf
+│   │       │   │   ├── hw5-1.pdf
+│   │       │   │   └── hw5-sol-1.pdf
+│   │       │   ├── Week6
+│   │       │   │   ├── CSE107HW#6.pdf
+│   │       │   │   ├── hw6-1.pdf
+│   │       │   │   └── hw6-sol-1.pdf
+│   │       │   ├── Week7
+│   │       │   │   ├── CSE107HW#7.pdf
+│   │       │   │   ├── hw7-1.pdf
+│   │       │   │   └── hw7-sol-1.pdf
+│   │       │   ├── Week8
+│   │       │   └── Week9
+│   │       ├── Notes
+│   │       │   ├── Summary\ of\ Set\ Identities.png
+│   │       │   ├── Week1
+│   │       │   │   ├── discussion-week1.pdf
+│   │       │   │   ├── set-01.pdf
+│   │       │   │   └── week\ 01-notes.pdf
+│   │       │   ├── Week10
+│   │       │   │   └── set-12.pdf
+│   │       │   ├── Week2
+│   │       │   │   ├── set-02.pdf
+│   │       │   │   └── set-03.pdf
+│   │       │   ├── Week3
+│   │       │   │   ├── set-04.pdf
+│   │       │   │   └── set-summary-results-1to4.pdf
+│   │       │   ├── Week4
+│   │       │   │   ├── Week\ 4\ Notes.pdf
+│   │       │   │   └── set-05.pdf
+│   │       │   ├── Week5
+│   │       │   │   └── set-06.pdf
+│   │       │   ├── Week6
+│   │       │   │   └── set-07.pdf
+│   │       │   ├── Week7
+│   │       │   │   └── set-08.pdf
+│   │       │   ├── Week8
+│   │       │   │   ├── set-09.pdf
+│   │       │   │   └── set-10.pdf
+│   │       │   ├── Week9
+│   │       │   │   └── set-11.pdf
+│   │       │   └── formulas.png
+│   │       └── Tests
+│   │           ├── Exam_1a_Sol.pdf
+│   │           ├── Exam_1b_Sol.pdf
+│   │           ├── exam1-sample-1.pdf
+│   │           ├── exam1-sample-sol-1.pdf
+│   │           ├── exam2-sample-1.pdf
+│   │           ├── exam2-sample-sol-1.pdf
+│   │           ├── exam2a-sol-1.pdf
+│   │           ├── exam3-sample-sol-1.pdf
+│   │           ├── exam3-sample.pdf
+│   │           └── exam3-sol-1.pdf
+│   ├── 7_Spring_2020
+│   │   ├── cse102
+│   │   │   ├── Documents
+│   │   │   │   ├── Handouts
+│   │   │   │   │   ├── InequalitiesAndSums.pdf
+│   │   │   │   │   ├── Least_Counterexample.pdf
+│   │   │   │   │   ├── bigo.pdf
+│   │   │   │   │   └── logarithms.pdf
+│   │   │   │   ├── Homework
+│   │   │   │   │   ├── HW1
+│   │   │   │   │   │   ├── CSE102_HW1.pdf
+│   │   │   │   │   │   ├── Latex.txt
+│   │   │   │   │   │   ├── hw_1.pdf
+│   │   │   │   │   │   ├── hw_1.tex
+│   │   │   │   │   │   └── hw_1sols.pdf
+│   │   │   │   │   ├── HW2
+│   │   │   │   │   │   ├── CSE102_HW2.pdf
+│   │   │   │   │   │   ├── hw_2.pdf
+│   │   │   │   │   │   ├── hw_2.tex
+│   │   │   │   │   │   ├── hw_2.txt
+│   │   │   │   │   │   └── hw_2draft.pdf
+│   │   │   │   │   └── hw_guide.pdf
+│   │   │   │   ├── Notes
+│   │   │   │   │   ├── LectureNotes
+│   │   │   │   │   │   ├── 1A01StableMatching.pdf
+│   │   │   │   │   │   ├── 1B-01DemoGaleShapley.pdf
+│   │   │   │   │   │   ├── 2-01RepresentProbs.pdf
+│   │   │   │   │   │   ├── 3A-05divide-and-conquer.pdf
+│   │   │   │   │   │   ├── 3A1Merge-and-count\ Demo.pdf
+│   │   │   │   │   │   ├── 3B05DivAndConq_poly_FFT.pdf
+│   │   │   │   │   │   ├── 4A04GreedyAlgorithmsI.pdf
+│   │   │   │   │   │   ├── 4A104DemoEarliestStartTimeFirst.pdf
+│   │   │   │   │   │   ├── Induction.pdf
+│   │   │   │   │   │   └── PlannedTopics_102_Apr14.pdf
+│   │   │   │   │   └── SectionNotes
+│   │   │   │   │       ├── SW
+│   │   │   │   │       │   ├── Section(SW)\ Week\ 1
+│   │   │   │   │       │   │   ├── Review
+│   │   │   │   │       │   │   │   ├── Compare\ BFS\ VS\ DFS
+│   │   │   │   │       │   │   │   │   ├── Connected\ component.html
+│   │   │   │   │       │   │   │   │   ├── Efficiency.html
+│   │   │   │   │       │   │   │   │   └── data\ structure.html
+│   │   │   │   │       │   │   │   ├── Compare\ BFS\ VS\ DFS.html
+│   │   │   │   │       │   │   │   ├── Untitled\ 1.png
+│   │   │   │   │       │   │   │   ├── Untitled\ 10.png
+│   │   │   │   │       │   │   │   ├── Untitled\ 11.png
+│   │   │   │   │       │   │   │   ├── Untitled\ 12.png
+│   │   │   │   │       │   │   │   ├── Untitled\ 13.png
+│   │   │   │   │       │   │   │   ├── Untitled\ 14.png
+│   │   │   │   │       │   │   │   ├── Untitled\ 15.png
+│   │   │   │   │       │   │   │   ├── Untitled\ 16.png
+│   │   │   │   │       │   │   │   ├── Untitled\ 17.png
+│   │   │   │   │       │   │   │   ├── Untitled\ 18.png
+│   │   │   │   │       │   │   │   ├── Untitled\ 19.png
+│   │   │   │   │       │   │   │   ├── Untitled\ 2.png
+│   │   │   │   │       │   │   │   ├── Untitled\ 20.png
+│   │   │   │   │       │   │   │   ├── Untitled\ 21.png
+│   │   │   │   │       │   │   │   ├── Untitled\ 3.png
+│   │   │   │   │       │   │   │   ├── Untitled\ 4.png
+│   │   │   │   │       │   │   │   ├── Untitled\ 5.png
+│   │   │   │   │       │   │   │   ├── Untitled\ 6.png
+│   │   │   │   │       │   │   │   ├── Untitled\ 7.png
+│   │   │   │   │       │   │   │   ├── Untitled\ 8.png
+│   │   │   │   │       │   │   │   ├── Untitled\ 9.png
+│   │   │   │   │       │   │   │   └── Untitled.png
+│   │   │   │   │       │   │   └── Review.html
+│   │   │   │   │       │   ├── Section(SW)\ Week\ 2
+│   │   │   │   │       │   │   ├── Review
+│   │   │   │   │       │   │   │   ├── Efficient\ stable\ matching\ implementation
+│   │   │   │   │       │   │   │   │   ├── Untitled\ 1.png
+│   │   │   │   │       │   │   │   │   ├── Untitled\ 2.png
+│   │   │   │   │       │   │   │   │   └── Untitled.png
+│   │   │   │   │       │   │   │   ├── Efficient\ stable\ matching\ implementation.html
+│   │   │   │   │       │   │   │   ├── Screen_Shot_2020-04-05_at_10.13.18_PM.png
+│   │   │   │   │       │   │   │   ├── Screen_Shot_2020-04-08_at_1.16.44_PM.png
+│   │   │   │   │       │   │   │   ├── Screen_Shot_2020-04-10_at_12.48.23_PM.png
+│   │   │   │   │       │   │   │   ├── Untitled\ 1.png
+│   │   │   │   │       │   │   │   ├── Untitled\ 2.png
+│   │   │   │   │       │   │   │   ├── Untitled\ 3.png
+│   │   │   │   │       │   │   │   └── Untitled.png
+│   │   │   │   │       │   │   └── Review.html
+│   │   │   │   │       │   ├── Section(SW)\ Week\ 3
+│   │   │   │   │       │   │   ├── Divide\ and\ Conquer
+│   │   │   │   │       │   │   │   ├── Screen_Shot_2020-04-15_at_10.46.22_AM.png
+│   │   │   │   │       │   │   │   ├── Screen_Shot_2020-04-17_at_1.03.38_AM.png
+│   │   │   │   │       │   │   │   ├── Screen_Shot_2020-04-17_at_1.19.47_AM.png
+│   │   │   │   │       │   │   │   ├── Screen_Shot_2020-04-17_at_1.43.12_AM.png
+│   │   │   │   │       │   │   │   ├── Screen_Shot_2020-04-17_at_12.35.19_AM.png
+│   │   │   │   │       │   │   │   ├── Screen_Shot_2020-04-17_at_2.06.15_AM.png
+│   │   │   │   │       │   │   │   ├── Screen_Shot_2020-04-17_at_2.10.58_AM.png
+│   │   │   │   │       │   │   │   └── Screen_Shot_2020-04-17_at_2.16.56_AM.png
+│   │   │   │   │       │   │   ├── Divide\ and\ Conquer.html
+│   │   │   │   │       │   │   └── HW1Quiz1
+│   │   │   │   │       │   │       ├── HW1\ QUIZ\ 1
+│   │   │   │   │       │   │       │   ├── Screen_Shot_2020-04-08_at_1.16.44_PM.png
+│   │   │   │   │       │   │       │   ├── Screen_Shot_2020-04-14_at_11.08.16_PM.png
+│   │   │   │   │       │   │       │   ├── Screen_Shot_2020-04-14_at_11.12.57_PM.png
+│   │   │   │   │       │   │       │   ├── Screen_Shot_2020-04-14_at_11.31.58_PM.png
+│   │   │   │   │       │   │       │   ├── Screen_Shot_2020-04-14_at_11.33.45_PM.png
+│   │   │   │   │       │   │       │   ├── Screen_Shot_2020-04-14_at_11.38.32_PM.png
+│   │   │   │   │       │   │       │   ├── Screen_Shot_2020-04-15_at_10.39.47_AM.png
+│   │   │   │   │       │   │       │   ├── Screen_Shot_2020-04-15_at_10.46.22_AM.png
+│   │   │   │   │       │   │       │   ├── Screen_Shot_2020-04-15_at_10.51.39_AM.png
+│   │   │   │   │       │   │       │   ├── Screen_Shot_2020-04-15_at_10.52.30_AM.png
+│   │   │   │   │       │   │       │   └── Untitled.png
+│   │   │   │   │       │   │       └── HW1\ QUIZ\ 1.html
+│   │   │   │   │       │   └── Section(SW)\ Week\ 4
+│   │   │   │   │       │       ├── Divide\ and\ Conquer\ II
+│   │   │   │   │       │       │   ├── Screen_Shot_2020-04-20_at_10.14.39_PM.png
+│   │   │   │   │       │       │   ├── Screen_Shot_2020-04-20_at_10.23.31_PM.png
+│   │   │   │   │       │       │   ├── Screen_Shot_2020-04-20_at_10.24.31_PM.png
+│   │   │   │   │       │       │   ├── Screen_Shot_2020-04-20_at_10.24.46_PM.png
+│   │   │   │   │       │       │   ├── Screen_Shot_2020-04-20_at_10.27.59_PM.png
+│   │   │   │   │       │       │   ├── Screen_Shot_2020-04-20_at_10.46.30_PM.png
+│   │   │   │   │       │       │   ├── Screen_Shot_2020-04-20_at_10.48.59_PM.png
+│   │   │   │   │       │       │   ├── Screen_Shot_2020-04-20_at_8.54.16_PM.png
+│   │   │   │   │       │       │   ├── Screen_Shot_2020-04-22_at_11.34.41_AM.png
+│   │   │   │   │       │       │   ├── Screen_Shot_2020-04-22_at_9.50.40_AM.png
+│   │   │   │   │       │       │   ├── Screen_Shot_2020-04-22_at_9.51.24_AM.png
+│   │   │   │   │       │       │   ├── Screen_Shot_2020-04-22_at_9.51.55_AM.png
+│   │   │   │   │       │       │   ├── Screen_Shot_2020-04-24_at_1.01.06_PM.png
+│   │   │   │   │       │       │   ├── Screen_Shot_2020-04-24_at_10.08.20_AM.png
+│   │   │   │   │       │       │   ├── Screen_Shot_2020-04-24_at_10.26.04_AM.png
+│   │   │   │   │       │       │   ├── Screen_Shot_2020-04-24_at_10.28.55_AM.png
+│   │   │   │   │       │       │   ├── Screen_Shot_2020-04-24_at_10.29.17_AM.png
+│   │   │   │   │       │       │   ├── Screen_Shot_2020-04-24_at_10.43.51_AM.png
+│   │   │   │   │       │       │   ├── Screen_Shot_2020-04-24_at_10.46.40_AM.png
+│   │   │   │   │       │       │   ├── Screen_Shot_2020-04-24_at_10.49.43_AM.png
+│   │   │   │   │       │       │   ├── Screen_Shot_2020-04-24_at_11.08.34_AM.png
+│   │   │   │   │       │       │   ├── Screen_Shot_2020-04-24_at_11.08.52_AM.png
+│   │   │   │   │       │       │   ├── Screen_Shot_2020-04-24_at_11.12.57_AM.png
+│   │   │   │   │       │       │   ├── Screen_Shot_2020-04-24_at_11.27.51_AM.png
+│   │   │   │   │       │       │   ├── Screen_Shot_2020-04-24_at_11.48.56_AM.png
+│   │   │   │   │       │       │   ├── Screen_Shot_2020-04-24_at_11.56.57_AM.png
+│   │   │   │   │       │       │   ├── Screen_Shot_2020-04-24_at_11.58.14_AM.png
+│   │   │   │   │       │       │   ├── Screen_Shot_2020-04-24_at_12.07.47_PM.png
+│   │   │   │   │       │       │   ├── Screen_Shot_2020-04-24_at_12.09.30_PM.png
+│   │   │   │   │       │       │   ├── Screen_Shot_2020-04-24_at_12.13.40_AM.png
+│   │   │   │   │       │       │   ├── Screen_Shot_2020-04-24_at_12.15.14_PM.png
+│   │   │   │   │       │       │   ├── Screen_Shot_2020-04-24_at_12.18.17_PM.png
+│   │   │   │   │       │       │   ├── Screen_Shot_2020-04-24_at_12.18.34_AM.png
+│   │   │   │   │       │       │   ├── Screen_Shot_2020-04-24_at_12.33.06_PM.png
+│   │   │   │   │       │       │   ├── Untitled\ 1.png
+│   │   │   │   │       │       │   └── Untitled.png
+│   │   │   │   │       │       └── Divide\ and\ Conquer\ II.html
+│   │   │   │   │       └── VC
+│   │   │   │   │           ├── Asym.Review.11Apr.pdf
+│   │   │   │   │           ├── Quiz0.pdf
+│   │   │   │   │           ├── VC_5PM_0409.pdf
+│   │   │   │   │           ├── VC_5PM_0416.pdf
+│   │   │   │   │           ├── VC_5PM_0423.pdf
+│   │   │   │   │           ├── VC_FFT_Example.pdf
+│   │   │   │   │           ├── VC_R2\ (1).pdf
+│   │   │   │   │           └── VC_R2.pdf
+│   │   │   │   ├── Other
+│   │   │   │   │   ├── s20
+│   │   │   │   │   │   └── Handouts
+│   │   │   │   │   │       ├── ho01.pdf
+│   │   │   │   │   │       ├── ho03-hw01.pdf
+│   │   │   │   │   │       ├── ho04-hw02.pdf
+│   │   │   │   │   │       ├── ho05-practice-mid1.pdf
+│   │   │   │   │   │       ├── ho06-hw03.pdf
+│   │   │   │   │   │       ├── ho08-hw04.pdf
+│   │   │   │   │   │       ├── ho09-hw05.pdf
+│   │   │   │   │   │       ├── ho10-practice-mid2.pdf
+│   │   │   │   │   │       └── ho12-practice-quiz3.pdf
+│   │   │   │   │   └── w20
+│   │   │   │   │       ├── Homework
+│   │   │   │   │       │   ├── hw1.pdf
+│   │   │   │   │       │   ├── hw1solns.pdf
+│   │   │   │   │       │   ├── hw2.pdf
+│   │   │   │   │       │   ├── hw2solns.pdf
+│   │   │   │   │       │   ├── hw3.pdf
+│   │   │   │   │       │   ├── hw3solns.pdf
+│   │   │   │   │       │   ├── hw4.pdf
+│   │   │   │   │       │   ├── hw4solns.pdf
+│   │   │   │   │       │   ├── hw5.pdf
+│   │   │   │   │       │   ├── hw5solns.pdf
+│   │   │   │   │       │   ├── hw6.pdf
+│   │   │   │   │       │   ├── hw6solns.pdf
+│   │   │   │   │       │   ├── hw7.pdf
+│   │   │   │   │       │   └── hw7solns.pdf
+│   │   │   │   │       ├── Programming_Assignment
+│   │   │   │   │       │   └── project.pdf
+│   │   │   │   │       └── Tests
+│   │   │   │   │           ├── mid1solns.pdf
+│   │   │   │   │           ├── mid2solns.pdf
+│   │   │   │   │           ├── review1.pdf
+│   │   │   │   │           ├── review1solns.pdf
+│   │   │   │   │           ├── review2.pdf
+│   │   │   │   │           ├── review2solns.pdf
+│   │   │   │   │           ├── review3.pdf
+│   │   │   │   │           └── review3solns.pdf
+│   │   │   │   └── syllabus2020.pdf
+│   │   │   └── Textbooks
+│   │   │       └── Algorithm\ Design.pdf
+│   │   ├── cse183
+│   │   │   ├── Code
+│   │   │   │   ├── HW1
+│   │   │   │   │   └── Homework_1_Python.ipynb
+│   │   │   │   ├── HW2
+│   │   │   │   │   ├── Screen\ Shot\ 2020-04-07\ at\ 4.04.56\ PM.png
+│   │   │   │   │   ├── alltext.txt
+│   │   │   │   │   ├── hw_html_assigned.htm
+│   │   │   │   │   ├── hw_html_assigned.zip
+│   │   │   │   │   ├── hw_html_assigned_files
+│   │   │   │   │   │   ├── all.js
+│   │   │   │   │   │   ├── bulma.css
+│   │   │   │   │   │   ├── lion-layers-2.svg
+│   │   │   │   │   │   └── logo.png
+│   │   │   │   │   ├── images.zip
+│   │   │   │   │   ├── index2.html
+│   │   │   │   │   ├── index3.html
+│   │   │   │   │   ├── py4web.app.hw_html_assigned
+│   │   │   │   │   │   ├── __init__.py
+│   │   │   │   │   │   ├── controllers.py
+│   │   │   │   │   │   ├── static
+│   │   │   │   │   │   │   ├── README.md
+│   │   │   │   │   │   │   ├── css
+│   │   │   │   │   │   │   │   └── bulma.css
+│   │   │   │   │   │   │   ├── favicon.ico
+│   │   │   │   │   │   │   ├── font-awesome-4.7.0
+│   │   │   │   │   │   │   │   ├── css
+│   │   │   │   │   │   │   │   │   ├── font-awesome.css
+│   │   │   │   │   │   │   │   │   └── font-awesome.min.css
+│   │   │   │   │   │   │   │   ├── fonts
+│   │   │   │   │   │   │   │   │   ├── FontAwesome.otf
+│   │   │   │   │   │   │   │   │   ├── fontawesome-webfont.eot
+│   │   │   │   │   │   │   │   │   ├── fontawesome-webfont.svg
+│   │   │   │   │   │   │   │   │   ├── fontawesome-webfont.ttf
+│   │   │   │   │   │   │   │   │   ├── fontawesome-webfont.woff
+│   │   │   │   │   │   │   │   │   └── fontawesome-webfont.woff2
+│   │   │   │   │   │   │   │   ├── less
+│   │   │   │   │   │   │   │   │   ├── animated.less
+│   │   │   │   │   │   │   │   │   ├── bordered-pulled.less
+│   │   │   │   │   │   │   │   │   ├── core.less
+│   │   │   │   │   │   │   │   │   ├── fixed-width.less
+│   │   │   │   │   │   │   │   │   ├── font-awesome.less
+│   │   │   │   │   │   │   │   │   ├── icons.less
+│   │   │   │   │   │   │   │   │   ├── larger.less
+│   │   │   │   │   │   │   │   │   ├── list.less
+│   │   │   │   │   │   │   │   │   ├── mixins.less
+│   │   │   │   │   │   │   │   │   ├── path.less
+│   │   │   │   │   │   │   │   │   ├── rotated-flipped.less
+│   │   │   │   │   │   │   │   │   ├── screen-reader.less
+│   │   │   │   │   │   │   │   │   ├── stacked.less
+│   │   │   │   │   │   │   │   │   └── variables.less
+│   │   │   │   │   │   │   │   └── scss
+│   │   │   │   │   │   │   │       ├── _animated.scss
+│   │   │   │   │   │   │   │       ├── _bordered-pulled.scss
+│   │   │   │   │   │   │   │       ├── _core.scss
+│   │   │   │   │   │   │   │       ├── _fixed-width.scss
+│   │   │   │   │   │   │   │       ├── _icons.scss
+│   │   │   │   │   │   │   │       ├── _larger.scss
+│   │   │   │   │   │   │   │       ├── _list.scss
+│   │   │   │   │   │   │   │       ├── _mixins.scss
+│   │   │   │   │   │   │   │       ├── _path.scss
+│   │   │   │   │   │   │   │       ├── _rotated-flipped.scss
+│   │   │   │   │   │   │   │       ├── _screen-reader.scss
+│   │   │   │   │   │   │   │       ├── _stacked.scss
+│   │   │   │   │   │   │   │       ├── _variables.scss
+│   │   │   │   │   │   │   │       └── font-awesome.scss
+│   │   │   │   │   │   │   └── images
+│   │   │   │   │   │   │       ├── kresge.jpg
+│   │   │   │   │   │   │       ├── lick-domes.jpg
+│   │   │   │   │   │   │       ├── lion-layers-2.svg
+│   │   │   │   │   │   │       └── logo.png
+│   │   │   │   │   │   └── templates
+│   │   │   │   │   │       ├── index.html
+│   │   │   │   │   │       └── layout.html
+│   │   │   │   │   └── py4web.app.hw_html_assigned.zip
+│   │   │   │   ├── HW3
+│   │   │   │   │   ├── controllers_copy.py
+│   │   │   │   │   └── index_copy.html
+│   │   │   │   └── py4web_env_full.yaml
+│   │   │   ├── Documents
+│   │   │   ├── Textbooks
+│   │   │   └── py4web
+│   │   │       ├── Makefile
+│   │   │       ├── README.md
+│   │   │       ├── apps
+│   │   │       │   ├── CSE_183_Spring_2020_Assignment_2_Submission_1
+│   │   │       │   │   ├── __init__.py
+│   │   │       │   │   ├── __pycache__
+│   │   │       │   │   │   ├── __init__.cpython-37.pyc
+│   │   │       │   │   │   └── controllers.cpython-37.pyc
+│   │   │       │   │   ├── controllers.py
+│   │   │       │   │   ├── static
+│   │   │       │   │   │   ├── README.md
+│   │   │       │   │   │   ├── css
+│   │   │       │   │   │   │   └── bulma.css
+│   │   │       │   │   │   ├── favicon.ico
+│   │   │       │   │   │   ├── font-awesome-4.7.0
+│   │   │       │   │   │   │   ├── css
+│   │   │       │   │   │   │   │   ├── font-awesome.css
+│   │   │       │   │   │   │   │   └── font-awesome.min.css
+│   │   │       │   │   │   │   ├── fonts
+│   │   │       │   │   │   │   │   ├── FontAwesome.otf
+│   │   │       │   │   │   │   │   ├── fontawesome-webfont.eot
+│   │   │       │   │   │   │   │   ├── fontawesome-webfont.svg
+│   │   │       │   │   │   │   │   ├── fontawesome-webfont.ttf
+│   │   │       │   │   │   │   │   ├── fontawesome-webfont.woff
+│   │   │       │   │   │   │   │   └── fontawesome-webfont.woff2
+│   │   │       │   │   │   │   ├── less
+│   │   │       │   │   │   │   │   ├── animated.less
+│   │   │       │   │   │   │   │   ├── bordered-pulled.less
+│   │   │       │   │   │   │   │   ├── core.less
+│   │   │       │   │   │   │   │   ├── fixed-width.less
+│   │   │       │   │   │   │   │   ├── font-awesome.less
+│   │   │       │   │   │   │   │   ├── icons.less
+│   │   │       │   │   │   │   │   ├── larger.less
+│   │   │       │   │   │   │   │   ├── list.less
+│   │   │       │   │   │   │   │   ├── mixins.less
+│   │   │       │   │   │   │   │   ├── path.less
+│   │   │       │   │   │   │   │   ├── rotated-flipped.less
+│   │   │       │   │   │   │   │   ├── screen-reader.less
+│   │   │       │   │   │   │   │   ├── stacked.less
+│   │   │       │   │   │   │   │   └── variables.less
+│   │   │       │   │   │   │   └── scss
+│   │   │       │   │   │   │       ├── _animated.scss
+│   │   │       │   │   │   │       ├── _bordered-pulled.scss
+│   │   │       │   │   │   │       ├── _core.scss
+│   │   │       │   │   │   │       ├── _fixed-width.scss
+│   │   │       │   │   │   │       ├── _icons.scss
+│   │   │       │   │   │   │       ├── _larger.scss
+│   │   │       │   │   │   │       ├── _list.scss
+│   │   │       │   │   │   │       ├── _mixins.scss
+│   │   │       │   │   │   │       ├── _path.scss
+│   │   │       │   │   │   │       ├── _rotated-flipped.scss
+│   │   │       │   │   │   │       ├── _screen-reader.scss
+│   │   │       │   │   │   │       ├── _stacked.scss
+│   │   │       │   │   │   │       ├── _variables.scss
+│   │   │       │   │   │   │       └── font-awesome.scss
+│   │   │       │   │   │   └── images
+│   │   │       │   │   │       ├── kresge.jpg
+│   │   │       │   │   │       ├── lick-domes.jpg
+│   │   │       │   │   │       ├── lion-layers-2.svg
+│   │   │       │   │   │       └── logo.png
+│   │   │       │   │   └── templates
+│   │   │       │   │       ├── index.html
+│   │   │       │   │       └── layout.html
+│   │   │       │   ├── CSE_183_Spring_2020_Assignment_2_Submission_2
+│   │   │       │   │   ├── __init__.py
+│   │   │       │   │   ├── __pycache__
+│   │   │       │   │   │   ├── __init__.cpython-37.pyc
+│   │   │       │   │   │   └── controllers.cpython-37.pyc
+│   │   │       │   │   ├── controllers.py
+│   │   │       │   │   ├── static
+│   │   │       │   │   │   ├── README.md
+│   │   │       │   │   │   ├── css
+│   │   │       │   │   │   │   └── bulma.css
+│   │   │       │   │   │   ├── favicon.ico
+│   │   │       │   │   │   ├── font-awesome-4.7.0
+│   │   │       │   │   │   │   ├── css
+│   │   │       │   │   │   │   │   ├── font-awesome.css
+│   │   │       │   │   │   │   │   └── font-awesome.min.css
+│   │   │       │   │   │   │   ├── fonts
+│   │   │       │   │   │   │   │   ├── FontAwesome.otf
+│   │   │       │   │   │   │   │   ├── fontawesome-webfont.eot
+│   │   │       │   │   │   │   │   ├── fontawesome-webfont.svg
+│   │   │       │   │   │   │   │   ├── fontawesome-webfont.ttf
+│   │   │       │   │   │   │   │   ├── fontawesome-webfont.woff
+│   │   │       │   │   │   │   │   └── fontawesome-webfont.woff2
+│   │   │       │   │   │   │   ├── less
+│   │   │       │   │   │   │   │   ├── animated.less
+│   │   │       │   │   │   │   │   ├── bordered-pulled.less
+│   │   │       │   │   │   │   │   ├── core.less
+│   │   │       │   │   │   │   │   ├── fixed-width.less
+│   │   │       │   │   │   │   │   ├── font-awesome.less
+│   │   │       │   │   │   │   │   ├── icons.less
+│   │   │       │   │   │   │   │   ├── larger.less
+│   │   │       │   │   │   │   │   ├── list.less
+│   │   │       │   │   │   │   │   ├── mixins.less
+│   │   │       │   │   │   │   │   ├── path.less
+│   │   │       │   │   │   │   │   ├── rotated-flipped.less
+│   │   │       │   │   │   │   │   ├── screen-reader.less
+│   │   │       │   │   │   │   │   ├── stacked.less
+│   │   │       │   │   │   │   │   └── variables.less
+│   │   │       │   │   │   │   └── scss
+│   │   │       │   │   │   │       ├── _animated.scss
+│   │   │       │   │   │   │       ├── _bordered-pulled.scss
+│   │   │       │   │   │   │       ├── _core.scss
+│   │   │       │   │   │   │       ├── _fixed-width.scss
+│   │   │       │   │   │   │       ├── _icons.scss
+│   │   │       │   │   │   │       ├── _larger.scss
+│   │   │       │   │   │   │       ├── _list.scss
+│   │   │       │   │   │   │       ├── _mixins.scss
+│   │   │       │   │   │   │       ├── _path.scss
+│   │   │       │   │   │   │       ├── _rotated-flipped.scss
+│   │   │       │   │   │   │       ├── _screen-reader.scss
+│   │   │       │   │   │   │       ├── _stacked.scss
+│   │   │       │   │   │   │       ├── _variables.scss
+│   │   │       │   │   │   │       └── font-awesome.scss
+│   │   │       │   │   │   └── images
+│   │   │       │   │   │       ├── kresge.jpg
+│   │   │       │   │   │       ├── lick-domes.jpg
+│   │   │       │   │   │       ├── lion-layers-2.svg
+│   │   │       │   │   │       └── logo.png
+│   │   │       │   │   └── templates
+│   │   │       │   │       ├── index.html
+│   │   │       │   │       └── layout.html
+│   │   │       │   ├── CSE_183_Spring_2020_Assignment_2_Submission_3
+│   │   │       │   │   ├── __init__.py
+│   │   │       │   │   ├── __pycache__
+│   │   │       │   │   │   ├── __init__.cpython-37.pyc
+│   │   │       │   │   │   └── controllers.cpython-37.pyc
+│   │   │       │   │   ├── controllers.py
+│   │   │       │   │   ├── static
+│   │   │       │   │   │   ├── README.md
+│   │   │       │   │   │   ├── alltext.txt
+│   │   │       │   │   │   ├── css
+│   │   │       │   │   │   │   └── bulma.css
+│   │   │       │   │   │   ├── favicon.ico
+│   │   │       │   │   │   ├── font-awesome-4.7.0
+│   │   │       │   │   │   │   ├── css
+│   │   │       │   │   │   │   │   ├── font-awesome.css
+│   │   │       │   │   │   │   │   └── font-awesome.min.css
+│   │   │       │   │   │   │   ├── fonts
+│   │   │       │   │   │   │   │   ├── FontAwesome.otf
+│   │   │       │   │   │   │   │   ├── fontawesome-webfont.eot
+│   │   │       │   │   │   │   │   ├── fontawesome-webfont.svg
+│   │   │       │   │   │   │   │   ├── fontawesome-webfont.ttf
+│   │   │       │   │   │   │   │   ├── fontawesome-webfont.woff
+│   │   │       │   │   │   │   │   └── fontawesome-webfont.woff2
+│   │   │       │   │   │   │   ├── less
+│   │   │       │   │   │   │   │   ├── animated.less
+│   │   │       │   │   │   │   │   ├── bordered-pulled.less
+│   │   │       │   │   │   │   │   ├── core.less
+│   │   │       │   │   │   │   │   ├── fixed-width.less
+│   │   │       │   │   │   │   │   ├── font-awesome.less
+│   │   │       │   │   │   │   │   ├── icons.less
+│   │   │       │   │   │   │   │   ├── larger.less
+│   │   │       │   │   │   │   │   ├── list.less
+│   │   │       │   │   │   │   │   ├── mixins.less
+│   │   │       │   │   │   │   │   ├── path.less
+│   │   │       │   │   │   │   │   ├── rotated-flipped.less
+│   │   │       │   │   │   │   │   ├── screen-reader.less
+│   │   │       │   │   │   │   │   ├── stacked.less
+│   │   │       │   │   │   │   │   └── variables.less
+│   │   │       │   │   │   │   └── scss
+│   │   │       │   │   │   │       ├── _animated.scss
+│   │   │       │   │   │   │       ├── _bordered-pulled.scss
+│   │   │       │   │   │   │       ├── _core.scss
+│   │   │       │   │   │   │       ├── _fixed-width.scss
+│   │   │       │   │   │   │       ├── _icons.scss
+│   │   │       │   │   │   │       ├── _larger.scss
+│   │   │       │   │   │   │       ├── _list.scss
+│   │   │       │   │   │   │       ├── _mixins.scss
+│   │   │       │   │   │   │       ├── _path.scss
+│   │   │       │   │   │   │       ├── _rotated-flipped.scss
+│   │   │       │   │   │   │       ├── _screen-reader.scss
+│   │   │       │   │   │   │       ├── _stacked.scss
+│   │   │       │   │   │   │       ├── _variables.scss
+│   │   │       │   │   │   │       └── font-awesome.scss
+│   │   │       │   │   │   └── images
+│   │   │       │   │   │       ├── kresge.jpg
+│   │   │       │   │   │       ├── lick-domes.jpg
+│   │   │       │   │   │       ├── lion-layers-2.svg
+│   │   │       │   │   │       └── logo.png
+│   │   │       │   │   └── templates
+│   │   │       │   │       ├── index.html
+│   │   │       │   │       └── layout.html
+│   │   │       │   ├── CSE_183_Spring_2020_Assignment_2_Submission_4
+│   │   │       │   │   ├── __init__.py
+│   │   │       │   │   ├── __pycache__
+│   │   │       │   │   │   ├── __init__.cpython-37.pyc
+│   │   │       │   │   │   └── controllers.cpython-37.pyc
+│   │   │       │   │   ├── controllers.py
+│   │   │       │   │   ├── static
+│   │   │       │   │   │   ├── README.md
+│   │   │       │   │   │   ├── css
+│   │   │       │   │   │   │   └── bulma.css
+│   │   │       │   │   │   ├── favicon.ico
+│   │   │       │   │   │   ├── font-awesome-4.7.0
+│   │   │       │   │   │   │   ├── css
+│   │   │       │   │   │   │   │   ├── font-awesome.css
+│   │   │       │   │   │   │   │   └── font-awesome.min.css
+│   │   │       │   │   │   │   ├── fonts
+│   │   │       │   │   │   │   │   ├── FontAwesome.otf
+│   │   │       │   │   │   │   │   ├── fontawesome-webfont.eot
+│   │   │       │   │   │   │   │   ├── fontawesome-webfont.svg
+│   │   │       │   │   │   │   │   ├── fontawesome-webfont.ttf
+│   │   │       │   │   │   │   │   ├── fontawesome-webfont.woff
+│   │   │       │   │   │   │   │   └── fontawesome-webfont.woff2
+│   │   │       │   │   │   │   ├── less
+│   │   │       │   │   │   │   │   ├── animated.less
+│   │   │       │   │   │   │   │   ├── bordered-pulled.less
+│   │   │       │   │   │   │   │   ├── core.less
+│   │   │       │   │   │   │   │   ├── fixed-width.less
+│   │   │       │   │   │   │   │   ├── font-awesome.less
+│   │   │       │   │   │   │   │   ├── icons.less
+│   │   │       │   │   │   │   │   ├── larger.less
+│   │   │       │   │   │   │   │   ├── list.less
+│   │   │       │   │   │   │   │   ├── mixins.less
+│   │   │       │   │   │   │   │   ├── path.less
+│   │   │       │   │   │   │   │   ├── rotated-flipped.less
+│   │   │       │   │   │   │   │   ├── screen-reader.less
+│   │   │       │   │   │   │   │   ├── stacked.less
+│   │   │       │   │   │   │   │   └── variables.less
+│   │   │       │   │   │   │   └── scss
+│   │   │       │   │   │   │       ├── _animated.scss
+│   │   │       │   │   │   │       ├── _bordered-pulled.scss
+│   │   │       │   │   │   │       ├── _core.scss
+│   │   │       │   │   │   │       ├── _fixed-width.scss
+│   │   │       │   │   │   │       ├── _icons.scss
+│   │   │       │   │   │   │       ├── _larger.scss
+│   │   │       │   │   │   │       ├── _list.scss
+│   │   │       │   │   │   │       ├── _mixins.scss
+│   │   │       │   │   │   │       ├── _path.scss
+│   │   │       │   │   │   │       ├── _rotated-flipped.scss
+│   │   │       │   │   │   │       ├── _screen-reader.scss
+│   │   │       │   │   │   │       ├── _stacked.scss
+│   │   │       │   │   │   │       ├── _variables.scss
+│   │   │       │   │   │   │       └── font-awesome.scss
+│   │   │       │   │   │   └── images
+│   │   │       │   │   │       ├── kresge.jpg
+│   │   │       │   │   │       ├── lick-domes.jpg
+│   │   │       │   │   │       ├── lion-layers-2.svg
+│   │   │       │   │   │       └── logo.png
+│   │   │       │   │   └── templates
+│   │   │       │   │       ├── index.html
+│   │   │       │   │       └── layout.html
+│   │   │       │   ├── CSE_183_Spring_2020_Assignment_2_Submission_5
+│   │   │       │   │   ├── __init__.py
+│   │   │       │   │   ├── __pycache__
+│   │   │       │   │   │   ├── __init__.cpython-37.pyc
+│   │   │       │   │   │   └── controllers.cpython-37.pyc
+│   │   │       │   │   ├── controllers.py
+│   │   │       │   │   ├── index
+│   │   │       │   │   │   └── __init__.py
+│   │   │       │   │   ├── static
+│   │   │       │   │   │   ├── README.md
+│   │   │       │   │   │   ├── css
+│   │   │       │   │   │   │   └── bulma.css
+│   │   │       │   │   │   ├── favicon.ico
+│   │   │       │   │   │   ├── font-awesome-4.7.0
+│   │   │       │   │   │   │   ├── css
+│   │   │       │   │   │   │   │   ├── font-awesome.css
+│   │   │       │   │   │   │   │   └── font-awesome.min.css
+│   │   │       │   │   │   │   ├── fonts
+│   │   │       │   │   │   │   │   ├── FontAwesome.otf
+│   │   │       │   │   │   │   │   ├── fontawesome-webfont.eot
+│   │   │       │   │   │   │   │   ├── fontawesome-webfont.svg
+│   │   │       │   │   │   │   │   ├── fontawesome-webfont.ttf
+│   │   │       │   │   │   │   │   ├── fontawesome-webfont.woff
+│   │   │       │   │   │   │   │   └── fontawesome-webfont.woff2
+│   │   │       │   │   │   │   ├── less
+│   │   │       │   │   │   │   │   ├── animated.less
+│   │   │       │   │   │   │   │   ├── bordered-pulled.less
+│   │   │       │   │   │   │   │   ├── core.less
+│   │   │       │   │   │   │   │   ├── fixed-width.less
+│   │   │       │   │   │   │   │   ├── font-awesome.less
+│   │   │       │   │   │   │   │   ├── icons.less
+│   │   │       │   │   │   │   │   ├── larger.less
+│   │   │       │   │   │   │   │   ├── list.less
+│   │   │       │   │   │   │   │   ├── mixins.less
+│   │   │       │   │   │   │   │   ├── path.less
+│   │   │       │   │   │   │   │   ├── rotated-flipped.less
+│   │   │       │   │   │   │   │   ├── screen-reader.less
+│   │   │       │   │   │   │   │   ├── stacked.less
+│   │   │       │   │   │   │   │   └── variables.less
+│   │   │       │   │   │   │   └── scss
+│   │   │       │   │   │   │       ├── _animated.scss
+│   │   │       │   │   │   │       ├── _bordered-pulled.scss
+│   │   │       │   │   │   │       ├── _core.scss
+│   │   │       │   │   │   │       ├── _fixed-width.scss
+│   │   │       │   │   │   │       ├── _icons.scss
+│   │   │       │   │   │   │       ├── _larger.scss
+│   │   │       │   │   │   │       ├── _list.scss
+│   │   │       │   │   │   │       ├── _mixins.scss
+│   │   │       │   │   │   │       ├── _path.scss
+│   │   │       │   │   │   │       ├── _rotated-flipped.scss
+│   │   │       │   │   │   │       ├── _screen-reader.scss
+│   │   │       │   │   │   │       ├── _stacked.scss
+│   │   │       │   │   │   │       ├── _variables.scss
+│   │   │       │   │   │   │       └── font-awesome.scss
+│   │   │       │   │   │   └── images
+│   │   │       │   │   │       ├── kresge.jpg
+│   │   │       │   │   │       ├── lick-domes.jpg
+│   │   │       │   │   │       ├── lion-layers-2.svg
+│   │   │       │   │   │       └── logo.png
+│   │   │       │   │   └── templates
+│   │   │       │   │       ├── index
+│   │   │       │   │       │   └── __init__.py
+│   │   │       │   │       ├── index.html
+│   │   │       │   │       └── layout.html
+│   │   │       │   ├── CSE_183_Spring_2020_Assignment_2_Submission_6
+│   │   │       │   │   ├── __init__.py
+│   │   │       │   │   ├── __pycache__
+│   │   │       │   │   │   ├── __init__.cpython-37.pyc
+│   │   │       │   │   │   └── controllers.cpython-37.pyc
+│   │   │       │   │   ├── controllers.py
+│   │   │       │   │   ├── static
+│   │   │       │   │   │   ├── README.md
+│   │   │       │   │   │   ├── css
+│   │   │       │   │   │   │   └── bulma.css
+│   │   │       │   │   │   ├── favicon.ico
+│   │   │       │   │   │   ├── font-awesome-4.7.0
+│   │   │       │   │   │   │   ├── css
+│   │   │       │   │   │   │   │   ├── font-awesome.css
+│   │   │       │   │   │   │   │   └── font-awesome.min.css
+│   │   │       │   │   │   │   ├── fonts
+│   │   │       │   │   │   │   │   ├── FontAwesome.otf
+│   │   │       │   │   │   │   │   ├── fontawesome-webfont.eot
+│   │   │       │   │   │   │   │   ├── fontawesome-webfont.svg
+│   │   │       │   │   │   │   │   ├── fontawesome-webfont.ttf
+│   │   │       │   │   │   │   │   ├── fontawesome-webfont.woff
+│   │   │       │   │   │   │   │   └── fontawesome-webfont.woff2
+│   │   │       │   │   │   │   ├── less
+│   │   │       │   │   │   │   │   ├── animated.less
+│   │   │       │   │   │   │   │   ├── bordered-pulled.less
+│   │   │       │   │   │   │   │   ├── core.less
+│   │   │       │   │   │   │   │   ├── fixed-width.less
+│   │   │       │   │   │   │   │   ├── font-awesome.less
+│   │   │       │   │   │   │   │   ├── icons.less
+│   │   │       │   │   │   │   │   ├── larger.less
+│   │   │       │   │   │   │   │   ├── list.less
+│   │   │       │   │   │   │   │   ├── mixins.less
+│   │   │       │   │   │   │   │   ├── path.less
+│   │   │       │   │   │   │   │   ├── rotated-flipped.less
+│   │   │       │   │   │   │   │   ├── screen-reader.less
+│   │   │       │   │   │   │   │   ├── stacked.less
+│   │   │       │   │   │   │   │   └── variables.less
+│   │   │       │   │   │   │   └── scss
+│   │   │       │   │   │   │       ├── _animated.scss
+│   │   │       │   │   │   │       ├── _bordered-pulled.scss
+│   │   │       │   │   │   │       ├── _core.scss
+│   │   │       │   │   │   │       ├── _fixed-width.scss
+│   │   │       │   │   │   │       ├── _icons.scss
+│   │   │       │   │   │   │       ├── _larger.scss
+│   │   │       │   │   │   │       ├── _list.scss
+│   │   │       │   │   │   │       ├── _mixins.scss
+│   │   │       │   │   │   │       ├── _path.scss
+│   │   │       │   │   │   │       ├── _rotated-flipped.scss
+│   │   │       │   │   │   │       ├── _screen-reader.scss
+│   │   │       │   │   │   │       ├── _stacked.scss
+│   │   │       │   │   │   │       ├── _variables.scss
+│   │   │       │   │   │   │       └── font-awesome.scss
+│   │   │       │   │   │   └── images
+│   │   │       │   │   │       ├── kresge.jpg
+│   │   │       │   │   │       ├── lick-domes.jpg
+│   │   │       │   │   │       ├── lion-layers-2.svg
+│   │   │       │   │   │       └── logo.png
+│   │   │       │   │   └── templates
+│   │   │       │   │       ├── index.html
+│   │   │       │   │       └── layout.html
+│   │   │       │   ├── __init__.py
+│   │   │       │   ├── __pycache__
+│   │   │       │   │   └── __init__.cpython-37.pyc
+│   │   │       │   ├── _dashboard
+│   │   │       │   │   ├── __init__.py
+│   │   │       │   │   ├── __pycache__
+│   │   │       │   │   │   ├── __init__.cpython-37.pyc
+│   │   │       │   │   │   ├── diff2kryten.cpython-37.pyc
+│   │   │       │   │   │   └── utils.cpython-37.pyc
+│   │   │       │   │   ├── diff2kryten.py
+│   │   │       │   │   ├── static
+│   │   │       │   │   │   ├── components
+│   │   │       │   │   │   │   ├── mtable.html
+│   │   │       │   │   │   │   └── mtable.js
+│   │   │       │   │   │   ├── css
+│   │   │       │   │   │   │   └── future.css
+│   │   │       │   │   │   ├── favicon.ico
+│   │   │       │   │   │   ├── images
+│   │   │       │   │   │   │   ├── alert-blue.gif
+│   │   │       │   │   │   │   ├── alert-green.gif
+│   │   │       │   │   │   │   ├── alert-orange.gif
+│   │   │       │   │   │   │   ├── alert-red.gif
+│   │   │       │   │   │   │   ├── alert-yellow.gif
+│   │   │       │   │   │   │   ├── forkme.png
+│   │   │       │   │   │   │   └── widget.gif
+│   │   │       │   │   │   └── js
+│   │   │       │   │   │       ├── ace
+│   │   │       │   │   │       │   ├── ace.js
+│   │   │       │   │   │       │   ├── ext-beautify.js
+│   │   │       │   │   │       │   ├── ext-chromevox.js
+│   │   │       │   │   │       │   ├── ext-elastic_tabstops_lite.js
+│   │   │       │   │   │       │   ├── ext-emmet.js
+│   │   │       │   │   │       │   ├── ext-error_marker.js
+│   │   │       │   │   │       │   ├── ext-keybinding_menu.js
+│   │   │       │   │   │       │   ├── ext-language_tools.js
+│   │   │       │   │   │       │   ├── ext-linking.js
+│   │   │       │   │   │       │   ├── ext-modelist.js
+│   │   │       │   │   │       │   ├── ext-old_ie.js
+│   │   │       │   │   │       │   ├── ext-searchbox.js
+│   │   │       │   │   │       │   ├── ext-settings_menu.js
+│   │   │       │   │   │       │   ├── ext-spellcheck.js
+│   │   │       │   │   │       │   ├── ext-split.js
+│   │   │       │   │   │       │   ├── ext-static_highlight.js
+│   │   │       │   │   │       │   ├── ext-statusbar.js
+│   │   │       │   │   │       │   ├── ext-textarea.js
+│   │   │       │   │   │       │   ├── ext-themelist.js
+│   │   │       │   │   │       │   ├── ext-whitespace.js
+│   │   │       │   │   │       │   ├── keybinding-emacs.js
+│   │   │       │   │   │       │   ├── keybinding-vim.js
+│   │   │       │   │   │       │   ├── mode-abap.js
+│   │   │       │   │   │       │   ├── mode-abc.js
+│   │   │       │   │   │       │   ├── mode-actionscript.js
+│   │   │       │   │   │       │   ├── mode-ada.js
+│   │   │       │   │   │       │   ├── mode-apache_conf.js
+│   │   │       │   │   │       │   ├── mode-applescript.js
+│   │   │       │   │   │       │   ├── mode-asciidoc.js
+│   │   │       │   │   │       │   ├── mode-assembly_x86.js
+│   │   │       │   │   │       │   ├── mode-autohotkey.js
+│   │   │       │   │   │       │   ├── mode-batchfile.js
+│   │   │       │   │   │       │   ├── mode-bro.js
+│   │   │       │   │   │       │   ├── mode-c9search.js
+│   │   │       │   │   │       │   ├── mode-c_cpp.js
+│   │   │       │   │   │       │   ├── mode-cirru.js
+│   │   │       │   │   │       │   ├── mode-clojure.js
+│   │   │       │   │   │       │   ├── mode-cobol.js
+│   │   │       │   │   │       │   ├── mode-coffee.js
+│   │   │       │   │   │       │   ├── mode-coldfusion.js
+│   │   │       │   │   │       │   ├── mode-csharp.js
+│   │   │       │   │   │       │   ├── mode-css.js
+│   │   │       │   │   │       │   ├── mode-curly.js
+│   │   │       │   │   │       │   ├── mode-d.js
+│   │   │       │   │   │       │   ├── mode-dart.js
+│   │   │       │   │   │       │   ├── mode-diff.js
+│   │   │       │   │   │       │   ├── mode-django.js
+│   │   │       │   │   │       │   ├── mode-dockerfile.js
+│   │   │       │   │   │       │   ├── mode-dot.js
+│   │   │       │   │   │       │   ├── mode-drools.js
+│   │   │       │   │   │       │   ├── mode-eiffel.js
+│   │   │       │   │   │       │   ├── mode-ejs.js
+│   │   │       │   │   │       │   ├── mode-elixir.js
+│   │   │       │   │   │       │   ├── mode-elm.js
+│   │   │       │   │   │       │   ├── mode-erlang.js
+│   │   │       │   │   │       │   ├── mode-forth.js
+│   │   │       │   │   │       │   ├── mode-fortran.js
+│   │   │       │   │   │       │   ├── mode-ftl.js
+│   │   │       │   │   │       │   ├── mode-gcode.js
+│   │   │       │   │   │       │   ├── mode-gherkin.js
+│   │   │       │   │   │       │   ├── mode-gitignore.js
+│   │   │       │   │   │       │   ├── mode-glsl.js
+│   │   │       │   │   │       │   ├── mode-gobstones.js
+│   │   │       │   │   │       │   ├── mode-golang.js
+│   │   │       │   │   │       │   ├── mode-groovy.js
+│   │   │       │   │   │       │   ├── mode-haml.js
+│   │   │       │   │   │       │   ├── mode-handlebars.js
+│   │   │       │   │   │       │   ├── mode-haskell.js
+│   │   │       │   │   │       │   ├── mode-haskell_cabal.js
+│   │   │       │   │   │       │   ├── mode-haxe.js
+│   │   │       │   │   │       │   ├── mode-hjson.js
+│   │   │       │   │   │       │   ├── mode-html.js
+│   │   │       │   │   │       │   ├── mode-html_elixir.js
+│   │   │       │   │   │       │   ├── mode-html_ruby.js
+│   │   │       │   │   │       │   ├── mode-ini.js
+│   │   │       │   │   │       │   ├── mode-io.js
+│   │   │       │   │   │       │   ├── mode-jack.js
+│   │   │       │   │   │       │   ├── mode-jade.js
+│   │   │       │   │   │       │   ├── mode-java.js
+│   │   │       │   │   │       │   ├── mode-javascript.js
+│   │   │       │   │   │       │   ├── mode-json.js
+│   │   │       │   │   │       │   ├── mode-jsoniq.js
+│   │   │       │   │   │       │   ├── mode-jsp.js
+│   │   │       │   │   │       │   ├── mode-jsx.js
+│   │   │       │   │   │       │   ├── mode-julia.js
+│   │   │       │   │   │       │   ├── mode-kotlin.js
+│   │   │       │   │   │       │   ├── mode-latex.js
+│   │   │       │   │   │       │   ├── mode-lean.js
+│   │   │       │   │   │       │   ├── mode-less.js
+│   │   │       │   │   │       │   ├── mode-liquid.js
+│   │   │       │   │   │       │   ├── mode-lisp.js
+│   │   │       │   │   │       │   ├── mode-live_script.js
+│   │   │       │   │   │       │   ├── mode-livescript.js
+│   │   │       │   │   │       │   ├── mode-logiql.js
+│   │   │       │   │   │       │   ├── mode-lsl.js
+│   │   │       │   │   │       │   ├── mode-lua.js
+│   │   │       │   │   │       │   ├── mode-luapage.js
+│   │   │       │   │   │       │   ├── mode-lucene.js
+│   │   │       │   │   │       │   ├── mode-makefile.js
+│   │   │       │   │   │       │   ├── mode-markdown.js
+│   │   │       │   │   │       │   ├── mode-mask.js
+│   │   │       │   │   │       │   ├── mode-matlab.js
+│   │   │       │   │   │       │   ├── mode-maze.js
+│   │   │       │   │   │       │   ├── mode-mel.js
+│   │   │       │   │   │       │   ├── mode-mips_assembler.js
+│   │   │       │   │   │       │   ├── mode-mipsassembler.js
+│   │   │       │   │   │       │   ├── mode-mushcode.js
+│   │   │       │   │   │       │   ├── mode-mysql.js
+│   │   │       │   │   │       │   ├── mode-nix.js
+│   │   │       │   │   │       │   ├── mode-nsis.js
+│   │   │       │   │   │       │   ├── mode-objectivec.js
+│   │   │       │   │   │       │   ├── mode-ocaml.js
+│   │   │       │   │   │       │   ├── mode-pascal.js
+│   │   │       │   │   │       │   ├── mode-perl.js
+│   │   │       │   │   │       │   ├── mode-pgsql.js
+│   │   │       │   │   │       │   ├── mode-php.js
+│   │   │       │   │   │       │   ├── mode-plain_text.js
+│   │   │       │   │   │       │   ├── mode-powershell.js
+│   │   │       │   │   │       │   ├── mode-praat.js
+│   │   │       │   │   │       │   ├── mode-prolog.js
+│   │   │       │   │   │       │   ├── mode-properties.js
+│   │   │       │   │   │       │   ├── mode-protobuf.js
+│   │   │       │   │   │       │   ├── mode-python.js
+│   │   │       │   │   │       │   ├── mode-r.js
+│   │   │       │   │   │       │   ├── mode-razor.js
+│   │   │       │   │   │       │   ├── mode-rdoc.js
+│   │   │       │   │   │       │   ├── mode-rhtml.js
+│   │   │       │   │   │       │   ├── mode-rst.js
+│   │   │       │   │   │       │   ├── mode-ruby.js
+│   │   │       │   │   │       │   ├── mode-rust.js
+│   │   │       │   │   │       │   ├── mode-sass.js
+│   │   │       │   │   │       │   ├── mode-scad.js
+│   │   │       │   │   │       │   ├── mode-scala.js
+│   │   │       │   │   │       │   ├── mode-scheme.js
+│   │   │       │   │   │       │   ├── mode-scss.js
+│   │   │       │   │   │       │   ├── mode-sh.js
+│   │   │       │   │   │       │   ├── mode-sjs.js
+│   │   │       │   │   │       │   ├── mode-smarty.js
+│   │   │       │   │   │       │   ├── mode-snippets.js
+│   │   │       │   │   │       │   ├── mode-soy_template.js
+│   │   │       │   │   │       │   ├── mode-space.js
+│   │   │       │   │   │       │   ├── mode-sql.js
+│   │   │       │   │   │       │   ├── mode-sqlserver.js
+│   │   │       │   │   │       │   ├── mode-stylus.js
+│   │   │       │   │   │       │   ├── mode-svg.js
+│   │   │       │   │   │       │   ├── mode-swift.js
+│   │   │       │   │   │       │   ├── mode-swig.js
+│   │   │       │   │   │       │   ├── mode-tcl.js
+│   │   │       │   │   │       │   ├── mode-tex.js
+│   │   │       │   │   │       │   ├── mode-text.js
+│   │   │       │   │   │       │   ├── mode-textile.js
+│   │   │       │   │   │       │   ├── mode-toml.js
+│   │   │       │   │   │       │   ├── mode-tsx.js
+│   │   │       │   │   │       │   ├── mode-twig.js
+│   │   │       │   │   │       │   ├── mode-typescript.js
+│   │   │       │   │   │       │   ├── mode-vala.js
+│   │   │       │   │   │       │   ├── mode-vbscript.js
+│   │   │       │   │   │       │   ├── mode-velocity.js
+│   │   │       │   │   │       │   ├── mode-verilog.js
+│   │   │       │   │   │       │   ├── mode-vhdl.js
+│   │   │       │   │   │       │   ├── mode-wollok.js
+│   │   │       │   │   │       │   ├── mode-xml.js
+│   │   │       │   │   │       │   ├── mode-xquery.js
+│   │   │       │   │   │       │   ├── mode-yaml.js
+│   │   │       │   │   │       │   ├── snippets
+│   │   │       │   │   │       │   │   ├── abap.js
+│   │   │       │   │   │       │   │   ├── abc.js
+│   │   │       │   │   │       │   │   ├── actionscript.js
+│   │   │       │   │   │       │   │   ├── ada.js
+│   │   │       │   │   │       │   │   ├── apache_conf.js
+│   │   │       │   │   │       │   │   ├── applescript.js
+│   │   │       │   │   │       │   │   ├── asciidoc.js
+│   │   │       │   │   │       │   │   ├── assembly_x86.js
+│   │   │       │   │   │       │   │   ├── autohotkey.js
+│   │   │       │   │   │       │   │   ├── batchfile.js
+│   │   │       │   │   │       │   │   ├── bro.js
+│   │   │       │   │   │       │   │   ├── c9search.js
+│   │   │       │   │   │       │   │   ├── c_cpp.js
+│   │   │       │   │   │       │   │   ├── cirru.js
+│   │   │       │   │   │       │   │   ├── clojure.js
+│   │   │       │   │   │       │   │   ├── cobol.js
+│   │   │       │   │   │       │   │   ├── coffee.js
+│   │   │       │   │   │       │   │   ├── coldfusion.js
+│   │   │       │   │   │       │   │   ├── csharp.js
+│   │   │       │   │   │       │   │   ├── css.js
+│   │   │       │   │   │       │   │   ├── curly.js
+│   │   │       │   │   │       │   │   ├── d.js
+│   │   │       │   │   │       │   │   ├── dart.js
+│   │   │       │   │   │       │   │   ├── diff.js
+│   │   │       │   │   │       │   │   ├── django.js
+│   │   │       │   │   │       │   │   ├── dockerfile.js
+│   │   │       │   │   │       │   │   ├── dot.js
+│   │   │       │   │   │       │   │   ├── drools.js
+│   │   │       │   │   │       │   │   ├── eiffel.js
+│   │   │       │   │   │       │   │   ├── ejs.js
+│   │   │       │   │   │       │   │   ├── elixir.js
+│   │   │       │   │   │       │   │   ├── elm.js
+│   │   │       │   │   │       │   │   ├── erlang.js
+│   │   │       │   │   │       │   │   ├── forth.js
+│   │   │       │   │   │       │   │   ├── fortran.js
+│   │   │       │   │   │       │   │   ├── ftl.js
+│   │   │       │   │   │       │   │   ├── gcode.js
+│   │   │       │   │   │       │   │   ├── gherkin.js
+│   │   │       │   │   │       │   │   ├── gitignore.js
+│   │   │       │   │   │       │   │   ├── glsl.js
+│   │   │       │   │   │       │   │   ├── gobstones.js
+│   │   │       │   │   │       │   │   ├── golang.js
+│   │   │       │   │   │       │   │   ├── groovy.js
+│   │   │       │   │   │       │   │   ├── haml.js
+│   │   │       │   │   │       │   │   ├── handlebars.js
+│   │   │       │   │   │       │   │   ├── haskell.js
+│   │   │       │   │   │       │   │   ├── haskell_cabal.js
+│   │   │       │   │   │       │   │   ├── haxe.js
+│   │   │       │   │   │       │   │   ├── hjson.js
+│   │   │       │   │   │       │   │   ├── html.js
+│   │   │       │   │   │       │   │   ├── html_elixir.js
+│   │   │       │   │   │       │   │   ├── html_ruby.js
+│   │   │       │   │   │       │   │   ├── ini.js
+│   │   │       │   │   │       │   │   ├── io.js
+│   │   │       │   │   │       │   │   ├── jack.js
+│   │   │       │   │   │       │   │   ├── jade.js
+│   │   │       │   │   │       │   │   ├── java.js
+│   │   │       │   │   │       │   │   ├── javascript.js
+│   │   │       │   │   │       │   │   ├── json.js
+│   │   │       │   │   │       │   │   ├── jsoniq.js
+│   │   │       │   │   │       │   │   ├── jsp.js
+│   │   │       │   │   │       │   │   ├── jsx.js
+│   │   │       │   │   │       │   │   ├── julia.js
+│   │   │       │   │   │       │   │   ├── kotlin.js
+│   │   │       │   │   │       │   │   ├── latex.js
+│   │   │       │   │   │       │   │   ├── lean.js
+│   │   │       │   │   │       │   │   ├── less.js
+│   │   │       │   │   │       │   │   ├── liquid.js
+│   │   │       │   │   │       │   │   ├── lisp.js
+│   │   │       │   │   │       │   │   ├── live_script.js
+│   │   │       │   │   │       │   │   ├── livescript.js
+│   │   │       │   │   │       │   │   ├── logiql.js
+│   │   │       │   │   │       │   │   ├── lsl.js
+│   │   │       │   │   │       │   │   ├── lua.js
+│   │   │       │   │   │       │   │   ├── luapage.js
+│   │   │       │   │   │       │   │   ├── lucene.js
+│   │   │       │   │   │       │   │   ├── makefile.js
+│   │   │       │   │   │       │   │   ├── markdown.js
+│   │   │       │   │   │       │   │   ├── mask.js
+│   │   │       │   │   │       │   │   ├── matlab.js
+│   │   │       │   │   │       │   │   ├── maze.js
+│   │   │       │   │   │       │   │   ├── mel.js
+│   │   │       │   │   │       │   │   ├── mips_assembler.js
+│   │   │       │   │   │       │   │   ├── mipsassembler.js
+│   │   │       │   │   │       │   │   ├── mushcode.js
+│   │   │       │   │   │       │   │   ├── mysql.js
+│   │   │       │   │   │       │   │   ├── nix.js
+│   │   │       │   │   │       │   │   ├── nsis.js
+│   │   │       │   │   │       │   │   ├── objectivec.js
+│   │   │       │   │   │       │   │   ├── ocaml.js
+│   │   │       │   │   │       │   │   ├── pascal.js
+│   │   │       │   │   │       │   │   ├── perl.js
+│   │   │       │   │   │       │   │   ├── pgsql.js
+│   │   │       │   │   │       │   │   ├── php.js
+│   │   │       │   │   │       │   │   ├── plain_text.js
+│   │   │       │   │   │       │   │   ├── powershell.js
+│   │   │       │   │   │       │   │   ├── praat.js
+│   │   │       │   │   │       │   │   ├── prolog.js
+│   │   │       │   │   │       │   │   ├── properties.js
+│   │   │       │   │   │       │   │   ├── protobuf.js
+│   │   │       │   │   │       │   │   ├── python.js
+│   │   │       │   │   │       │   │   ├── r.js
+│   │   │       │   │   │       │   │   ├── razor.js
+│   │   │       │   │   │       │   │   ├── rdoc.js
+│   │   │       │   │   │       │   │   ├── rhtml.js
+│   │   │       │   │   │       │   │   ├── rst.js
+│   │   │       │   │   │       │   │   ├── ruby.js
+│   │   │       │   │   │       │   │   ├── rust.js
+│   │   │       │   │   │       │   │   ├── sass.js
+│   │   │       │   │   │       │   │   ├── scad.js
+│   │   │       │   │   │       │   │   ├── scala.js
+│   │   │       │   │   │       │   │   ├── scheme.js
+│   │   │       │   │   │       │   │   ├── scss.js
+│   │   │       │   │   │       │   │   ├── sh.js
+│   │   │       │   │   │       │   │   ├── sjs.js
+│   │   │       │   │   │       │   │   ├── smarty.js
+│   │   │       │   │   │       │   │   ├── snippets.js
+│   │   │       │   │   │       │   │   ├── soy_template.js
+│   │   │       │   │   │       │   │   ├── space.js
+│   │   │       │   │   │       │   │   ├── sql.js
+│   │   │       │   │   │       │   │   ├── sqlserver.js
+│   │   │       │   │   │       │   │   ├── stylus.js
+│   │   │       │   │   │       │   │   ├── svg.js
+│   │   │       │   │   │       │   │   ├── swift.js
+│   │   │       │   │   │       │   │   ├── swig.js
+│   │   │       │   │   │       │   │   ├── tcl.js
+│   │   │       │   │   │       │   │   ├── tex.js
+│   │   │       │   │   │       │   │   ├── text.js
+│   │   │       │   │   │       │   │   ├── textile.js
+│   │   │       │   │   │       │   │   ├── toml.js
+│   │   │       │   │   │       │   │   ├── tsx.js
+│   │   │       │   │   │       │   │   ├── twig.js
+│   │   │       │   │   │       │   │   ├── typescript.js
+│   │   │       │   │   │       │   │   ├── vala.js
+│   │   │       │   │   │       │   │   ├── vbscript.js
+│   │   │       │   │   │       │   │   ├── velocity.js
+│   │   │       │   │   │       │   │   ├── verilog.js
+│   │   │       │   │   │       │   │   ├── vhdl.js
+│   │   │       │   │   │       │   │   ├── wollok.js
+│   │   │       │   │   │       │   │   ├── xml.js
+│   │   │       │   │   │       │   │   ├── xquery.js
+│   │   │       │   │   │       │   │   └── yaml.js
+│   │   │       │   │   │       │   ├── theme-ambiance.js
+│   │   │       │   │   │       │   ├── theme-chaos.js
+│   │   │       │   │   │       │   ├── theme-chrome.js
+│   │   │       │   │   │       │   ├── theme-clouds.js
+│   │   │       │   │   │       │   ├── theme-clouds_midnight.js
+│   │   │       │   │   │       │   ├── theme-cobalt.js
+│   │   │       │   │   │       │   ├── theme-crimson_editor.js
+│   │   │       │   │   │       │   ├── theme-dawn.js
+│   │   │       │   │   │       │   ├── theme-dreamweaver.js
+│   │   │       │   │   │       │   ├── theme-eclipse.js
+│   │   │       │   │   │       │   ├── theme-github.js
+│   │   │       │   │   │       │   ├── theme-idle_fingers.js
+│   │   │       │   │   │       │   ├── theme-iplastic.js
+│   │   │       │   │   │       │   ├── theme-katzenmilch.js
+│   │   │       │   │   │       │   ├── theme-kr_theme.js
+│   │   │       │   │   │       │   ├── theme-kuroir.js
+│   │   │       │   │   │       │   ├── theme-merbivore.js
+│   │   │       │   │   │       │   ├── theme-merbivore_soft.js
+│   │   │       │   │   │       │   ├── theme-mono_industrial.js
+│   │   │       │   │   │       │   ├── theme-monokai.js
+│   │   │       │   │   │       │   ├── theme-pastel_on_dark.js
+│   │   │       │   │   │       │   ├── theme-solarized_dark.js
+│   │   │       │   │   │       │   ├── theme-solarized_light.js
+│   │   │       │   │   │       │   ├── theme-sqlserver.js
+│   │   │       │   │   │       │   ├── theme-terminal.js
+│   │   │       │   │   │       │   ├── theme-textmate.js
+│   │   │       │   │   │       │   ├── theme-tomorrow.js
+│   │   │       │   │   │       │   ├── theme-tomorrow_night.js
+│   │   │       │   │   │       │   ├── theme-tomorrow_night_blue.js
+│   │   │       │   │   │       │   ├── theme-tomorrow_night_bright.js
+│   │   │       │   │   │       │   ├── theme-tomorrow_night_eighties.js
+│   │   │       │   │   │       │   ├── theme-twilight.js
+│   │   │       │   │   │       │   ├── theme-vibrant_ink.js
+│   │   │       │   │   │       │   ├── theme-xcode.js
+│   │   │       │   │   │       │   ├── worker-coffee.js
+│   │   │       │   │   │       │   ├── worker-css.js
+│   │   │       │   │   │       │   ├── worker-html.js
+│   │   │       │   │   │       │   ├── worker-javascript.js
+│   │   │       │   │   │       │   ├── worker-json.js
+│   │   │       │   │   │       │   ├── worker-lua.js
+│   │   │       │   │   │       │   ├── worker-php.js
+│   │   │       │   │   │       │   ├── worker-xml.js
+│   │   │       │   │   │       │   └── worker-xquery.js
+│   │   │       │   │   │       ├── axios.min.js
+│   │   │       │   │   │       ├── dbadmin.js
+│   │   │       │   │   │       ├── index.js
+│   │   │       │   │   │       ├── jquery.min.js
+│   │   │       │   │   │       ├── sugar.min.js
+│   │   │       │   │   │       ├── utils.js
+│   │   │       │   │   │       └── vue.min.js
+│   │   │       │   │   ├── templates
+│   │   │       │   │   │   ├── dbadmin.html
+│   │   │       │   │   │   ├── gitlog.html
+│   │   │       │   │   │   ├── index.html
+│   │   │       │   │   │   └── ticket.html
+│   │   │       │   │   ├── translations
+│   │   │       │   │   │   └── README.md
+│   │   │       │   │   └── utils.py
+│   │   │       │   ├── _default
+│   │   │       │   │   ├── __init__.py
+│   │   │       │   │   ├── __pycache__
+│   │   │       │   │   │   └── __init__.cpython-37.pyc
+│   │   │       │   │   ├── static
+│   │   │       │   │   │   └── favicon.ico
+│   │   │       │   │   └── templates
+│   │   │       │   │       └── index.html
+│   │   │       │   ├── _documentation
+│   │   │       │   │   ├── __init__.py
+│   │   │       │   │   ├── __pycache__
+│   │   │       │   │   │   └── __init__.cpython-37.pyc
+│   │   │       │   │   └── static
+│   │   │       │   │       ├── chapters
+│   │   │       │   │       │   ├── en
+│   │   │       │   │       │   │   ├── chapter-00.mm
+│   │   │       │   │       │   │   ├── chapter-01.mm
+│   │   │       │   │       │   │   ├── chapter-02.mm
+│   │   │       │   │       │   │   ├── chapter-03.mm
+│   │   │       │   │       │   │   ├── chapter-04.mm
+│   │   │       │   │       │   │   ├── chapter-05.mm
+│   │   │       │   │       │   │   ├── chapter-06.mm
+│   │   │       │   │       │   │   ├── chapter-07.mm
+│   │   │       │   │       │   │   ├── chapter-08.mm
+│   │   │       │   │       │   │   ├── chapter-09.mm
+│   │   │       │   │       │   │   ├── chapter-10.mm
+│   │   │       │   │       │   │   ├── chapter-11.mm
+│   │   │       │   │       │   │   └── toc.mm
+│   │   │       │   │       │   └── pt
+│   │   │       │   │       │       ├── chapter-00.mm
+│   │   │       │   │       │       ├── chapter-01.mm
+│   │   │       │   │       │       ├── chapter-02.mm
+│   │   │       │   │       │       ├── chapter-03.mm
+│   │   │       │   │       │       ├── chapter-04.mm
+│   │   │       │   │       │       ├── chapter-05.mm
+│   │   │       │   │       │       ├── chapter-06.mm
+│   │   │       │   │       │       ├── chapter-07.mm
+│   │   │       │   │       │       ├── chapter-08.mm
+│   │   │       │   │       │       ├── chapter-09.mm
+│   │   │       │   │       │       ├── chapter-10.mm
+│   │   │       │   │       │       ├── chapter-11.mm
+│   │   │       │   │       │       └── toc.mm
+│   │   │       │   │       ├── css
+│   │   │       │   │       │   ├── bulma.css
+│   │   │       │   │       │   ├── custom.css
+│   │   │       │   │       │   └── prism.css
+│   │   │       │   │       ├── favicon.ico
+│   │   │       │   │       ├── index.html
+│   │   │       │   │       ├── js
+│   │   │       │   │       │   ├── jquery.js
+│   │   │       │   │       │   ├── markmin.js
+│   │   │       │   │       │   └── prism.js
+│   │   │       │   │       └── screenshots
+│   │   │       │   │           ├── dashboard_edit.png
+│   │   │       │   │           ├── dashboard_error.png
+│   │   │       │   │           ├── dashboard_login.png
+│   │   │       │   │           ├── dashboard_main.png
+│   │   │       │   │           ├── dashboard_restapi.png
+│   │   │       │   │           └── dashboard_ticket.png
+│   │   │       │   ├── _minimal
+│   │   │       │   │   ├── __init__.py
+│   │   │       │   │   ├── __pycache__
+│   │   │       │   │   │   └── __init__.cpython-37.pyc
+│   │   │       │   │   └── static
+│   │   │       │   │       ├── README.md
+│   │   │       │   │       └── favicon.ico
+│   │   │       │   ├── _scaffold
+│   │   │       │   │   ├── README.md
+│   │   │       │   │   ├── __init__.py
+│   │   │       │   │   ├── __pycache__
+│   │   │       │   │   │   ├── __init__.cpython-37.pyc
+│   │   │       │   │   │   ├── common.cpython-37.pyc
+│   │   │       │   │   │   ├── controllers.cpython-37.pyc
+│   │   │       │   │   │   ├── models.cpython-37.pyc
+│   │   │       │   │   │   └── settings.cpython-37.pyc
+│   │   │       │   │   ├── common.py
+│   │   │       │   │   ├── controllers.py
+│   │   │       │   │   ├── databases
+│   │   │       │   │   │   ├── README.md
+│   │   │       │   │   │   ├── fb87181b96a99be45f5a23f4277867ce_auth_user.table
+│   │   │       │   │   │   ├── fb87181b96a99be45f5a23f4277867ce_auth_user_tag_groups.table
+│   │   │       │   │   │   ├── sql.log
+│   │   │       │   │   │   └── storage.db
+│   │   │       │   │   ├── models.py
+│   │   │       │   │   ├── settings.py
+│   │   │       │   │   ├── static
+│   │   │       │   │   │   ├── README.md
+│   │   │       │   │   │   ├── components
+│   │   │       │   │   │   │   ├── auth.html
+│   │   │       │   │   │   │   └── auth.js
+│   │   │       │   │   │   ├── css
+│   │   │       │   │   │   │   └── bulma.css
+│   │   │       │   │   │   ├── favicon.ico
+│   │   │       │   │   │   └── js
+│   │   │       │   │   │       ├── axios.min.js
+│   │   │       │   │   │       ├── sugar.min.js
+│   │   │       │   │   │       ├── utils.js
+│   │   │       │   │   │       └── vue.min.js
+│   │   │       │   │   ├── tasks.py
+│   │   │       │   │   ├── templates
+│   │   │       │   │   │   ├── README.md
+│   │   │       │   │   │   ├── auth.html
+│   │   │       │   │   │   ├── generic.html
+│   │   │       │   │   │   ├── index.html
+│   │   │       │   │   │   └── layout.html
+│   │   │       │   │   └── translations
+│   │   │       │   │       └── it.json
+│   │   │       │   ├── button_attacker
+│   │   │       │   │   ├── README.md
+│   │   │       │   │   ├── __init__.py
+│   │   │       │   │   ├── __pycache__
+│   │   │       │   │   │   ├── __init__.cpython-37.pyc
+│   │   │       │   │   │   ├── common.cpython-37.pyc
+│   │   │       │   │   │   ├── controllers.cpython-37.pyc
+│   │   │       │   │   │   ├── models.cpython-37.pyc
+│   │   │       │   │   │   └── settings.cpython-37.pyc
+│   │   │       │   │   ├── common.py
+│   │   │       │   │   ├── controllers.py
+│   │   │       │   │   ├── databases
+│   │   │       │   │   │   ├── README.md
+│   │   │       │   │   │   ├── fb87181b96a99be45f5a23f4277867ce_auth_user.table
+│   │   │       │   │   │   ├── fb87181b96a99be45f5a23f4277867ce_auth_user_tag_groups.table
+│   │   │       │   │   │   ├── fb87181b96a99be45f5a23f4277867ce_py4web_session.table
+│   │   │       │   │   │   ├── sql.log
+│   │   │       │   │   │   └── storage.db
+│   │   │       │   │   ├── models.py
+│   │   │       │   │   ├── settings.py
+│   │   │       │   │   ├── static
+│   │   │       │   │   │   ├── README.md
+│   │   │       │   │   │   ├── css
+│   │   │       │   │   │   │   ├── bulma.css
+│   │   │       │   │   │   │   └── elements.css
+│   │   │       │   │   │   ├── favicon.ico
+│   │   │       │   │   │   ├── font-awesome-4.7.0
+│   │   │       │   │   │   │   ├── css
+│   │   │       │   │   │   │   │   ├── font-awesome.css
+│   │   │       │   │   │   │   │   └── font-awesome.min.css
+│   │   │       │   │   │   │   ├── fonts
+│   │   │       │   │   │   │   │   ├── FontAwesome.otf
+│   │   │       │   │   │   │   │   ├── fontawesome-webfont.eot
+│   │   │       │   │   │   │   │   ├── fontawesome-webfont.svg
+│   │   │       │   │   │   │   │   ├── fontawesome-webfont.ttf
+│   │   │       │   │   │   │   │   ├── fontawesome-webfont.woff
+│   │   │       │   │   │   │   │   └── fontawesome-webfont.woff2
+│   │   │       │   │   │   │   ├── less
+│   │   │       │   │   │   │   │   ├── animated.less
+│   │   │       │   │   │   │   │   ├── bordered-pulled.less
+│   │   │       │   │   │   │   │   ├── core.less
+│   │   │       │   │   │   │   │   ├── fixed-width.less
+│   │   │       │   │   │   │   │   ├── font-awesome.less
+│   │   │       │   │   │   │   │   ├── icons.less
+│   │   │       │   │   │   │   │   ├── larger.less
+│   │   │       │   │   │   │   │   ├── list.less
+│   │   │       │   │   │   │   │   ├── mixins.less
+│   │   │       │   │   │   │   │   ├── path.less
+│   │   │       │   │   │   │   │   ├── rotated-flipped.less
+│   │   │       │   │   │   │   │   ├── screen-reader.less
+│   │   │       │   │   │   │   │   ├── stacked.less
+│   │   │       │   │   │   │   │   └── variables.less
+│   │   │       │   │   │   │   └── scss
+│   │   │       │   │   │   │       ├── _animated.scss
+│   │   │       │   │   │   │       ├── _bordered-pulled.scss
+│   │   │       │   │   │   │       ├── _core.scss
+│   │   │       │   │   │   │       ├── _fixed-width.scss
+│   │   │       │   │   │   │       ├── _icons.scss
+│   │   │       │   │   │   │       ├── _larger.scss
+│   │   │       │   │   │   │       ├── _list.scss
+│   │   │       │   │   │   │       ├── _mixins.scss
+│   │   │       │   │   │   │       ├── _path.scss
+│   │   │       │   │   │   │       ├── _rotated-flipped.scss
+│   │   │       │   │   │   │       ├── _screen-reader.scss
+│   │   │       │   │   │   │       ├── _stacked.scss
+│   │   │       │   │   │   │       ├── _variables.scss
+│   │   │       │   │   │   │       └── font-awesome.scss
+│   │   │       │   │   │   ├── images
+│   │   │       │   │   │   │   └── Sherit.png
+│   │   │       │   │   │   └── js
+│   │   │       │   │   │       ├── axios.js
+│   │   │       │   │   │       ├── axios.map
+│   │   │       │   │   │       ├── axios.min.js
+│   │   │       │   │   │       ├── axios.min.map
+│   │   │       │   │   │       ├── sugar.min.js
+│   │   │       │   │   │       ├── utils.js
+│   │   │       │   │   │       ├── vue.js
+│   │   │       │   │   │       └── vue.min.js
+│   │   │       │   │   ├── templates
+│   │   │       │   │   │   ├── index.html
+│   │   │       │   │   │   └── layout.html
+│   │   │       │   │   └── translations
+│   │   │       │   │       └── README.md
+│   │   │       │   ├── button_implementation
+│   │   │       │   │   ├── README.md
+│   │   │       │   │   ├── __init__.py
+│   │   │       │   │   ├── __pycache__
+│   │   │       │   │   │   ├── __init__.cpython-37.pyc
+│   │   │       │   │   │   ├── common.cpython-37.pyc
+│   │   │       │   │   │   ├── controllers.cpython-37.pyc
+│   │   │       │   │   │   ├── models.cpython-37.pyc
+│   │   │       │   │   │   └── settings.cpython-37.pyc
+│   │   │       │   │   ├── common.py
+│   │   │       │   │   ├── controllers.py
+│   │   │       │   │   ├── databases
+│   │   │       │   │   │   ├── README.md
+│   │   │       │   │   │   ├── fb87181b96a99be45f5a23f4277867ce_auth_user.table
+│   │   │       │   │   │   ├── fb87181b96a99be45f5a23f4277867ce_auth_user_tag_groups.table
+│   │   │       │   │   │   ├── fb87181b96a99be45f5a23f4277867ce_py4web_session.table
+│   │   │       │   │   │   ├── sql.log
+│   │   │       │   │   │   └── storage.db
+│   │   │       │   │   ├── models.py
+│   │   │       │   │   ├── settings.py
+│   │   │       │   │   ├── static
+│   │   │       │   │   │   ├── README.md
+│   │   │       │   │   │   ├── css
+│   │   │       │   │   │   │   ├── bulma.css
+│   │   │       │   │   │   │   └── elements.css
+│   │   │       │   │   │   ├── favicon.ico
+│   │   │       │   │   │   ├── font-awesome-4.7.0
+│   │   │       │   │   │   │   ├── css
+│   │   │       │   │   │   │   │   ├── font-awesome.css
+│   │   │       │   │   │   │   │   └── font-awesome.min.css
+│   │   │       │   │   │   │   ├── fonts
+│   │   │       │   │   │   │   │   ├── FontAwesome.otf
+│   │   │       │   │   │   │   │   ├── fontawesome-webfont.eot
+│   │   │       │   │   │   │   │   ├── fontawesome-webfont.svg
+│   │   │       │   │   │   │   │   ├── fontawesome-webfont.ttf
+│   │   │       │   │   │   │   │   ├── fontawesome-webfont.woff
+│   │   │       │   │   │   │   │   └── fontawesome-webfont.woff2
+│   │   │       │   │   │   │   ├── less
+│   │   │       │   │   │   │   │   ├── animated.less
+│   │   │       │   │   │   │   │   ├── bordered-pulled.less
+│   │   │       │   │   │   │   │   ├── core.less
+│   │   │       │   │   │   │   │   ├── fixed-width.less
+│   │   │       │   │   │   │   │   ├── font-awesome.less
+│   │   │       │   │   │   │   │   ├── icons.less
+│   │   │       │   │   │   │   │   ├── larger.less
+│   │   │       │   │   │   │   │   ├── list.less
+│   │   │       │   │   │   │   │   ├── mixins.less
+│   │   │       │   │   │   │   │   ├── path.less
+│   │   │       │   │   │   │   │   ├── rotated-flipped.less
+│   │   │       │   │   │   │   │   ├── screen-reader.less
+│   │   │       │   │   │   │   │   ├── stacked.less
+│   │   │       │   │   │   │   │   └── variables.less
+│   │   │       │   │   │   │   └── scss
+│   │   │       │   │   │   │       ├── _animated.scss
+│   │   │       │   │   │   │       ├── _bordered-pulled.scss
+│   │   │       │   │   │   │       ├── _core.scss
+│   │   │       │   │   │   │       ├── _fixed-width.scss
+│   │   │       │   │   │   │       ├── _icons.scss
+│   │   │       │   │   │   │       ├── _larger.scss
+│   │   │       │   │   │   │       ├── _list.scss
+│   │   │       │   │   │   │       ├── _mixins.scss
+│   │   │       │   │   │   │       ├── _path.scss
+│   │   │       │   │   │   │       ├── _rotated-flipped.scss
+│   │   │       │   │   │   │       ├── _screen-reader.scss
+│   │   │       │   │   │   │       ├── _stacked.scss
+│   │   │       │   │   │   │       ├── _variables.scss
+│   │   │       │   │   │   │       └── font-awesome.scss
+│   │   │       │   │   │   ├── images
+│   │   │       │   │   │   │   └── Sherit.png
+│   │   │       │   │   │   └── js
+│   │   │       │   │   │       ├── axios.js
+│   │   │       │   │   │       ├── axios.map
+│   │   │       │   │   │       ├── axios.min.js
+│   │   │       │   │   │       ├── axios.min.map
+│   │   │       │   │   │       ├── sugar.min.js
+│   │   │       │   │   │       ├── utils.js
+│   │   │       │   │   │       ├── vue.js
+│   │   │       │   │   │       └── vue.min.js
+│   │   │       │   │   ├── templates
+│   │   │       │   │   │   ├── index.html
+│   │   │       │   │   │   └── layout.html
+│   │   │       │   │   └── translations
+│   │   │       │   │       └── README.md
+│   │   │       │   ├── button_implementation.2020-04-21.zip.zip
+│   │   │       │   ├── examples
+│   │   │       │   │   ├── __init__.py
+│   │   │       │   │   ├── __pycache__
+│   │   │       │   │   │   ├── __init__.cpython-37.pyc
+│   │   │       │   │   │   ├── common.cpython-37.pyc
+│   │   │       │   │   │   ├── controllers.cpython-37.pyc
+│   │   │       │   │   │   ├── models.cpython-37.pyc
+│   │   │       │   │   │   └── settings.cpython-37.pyc
+│   │   │       │   │   ├── common.py
+│   │   │       │   │   ├── controllers.py
+│   │   │       │   │   ├── databases
+│   │   │       │   │   │   ├── README.md
+│   │   │       │   │   │   ├── fb87181b96a99be45f5a23f4277867ce_auth_user.table
+│   │   │       │   │   │   ├── fb87181b96a99be45f5a23f4277867ce_auth_user_tag_groups.table
+│   │   │       │   │   │   ├── fb87181b96a99be45f5a23f4277867ce_person.table
+│   │   │       │   │   │   ├── fb87181b96a99be45f5a23f4277867ce_superhero.table
+│   │   │       │   │   │   ├── fb87181b96a99be45f5a23f4277867ce_superpower.table
+│   │   │       │   │   │   ├── fb87181b96a99be45f5a23f4277867ce_tag.table
+│   │   │       │   │   │   ├── sql.log
+│   │   │       │   │   │   └── storage.db
+│   │   │       │   │   ├── models.py
+│   │   │       │   │   ├── settings.py
+│   │   │       │   │   ├── static
+│   │   │       │   │   │   ├── components
+│   │   │       │   │   │   │   ├── mtable.html
+│   │   │       │   │   │   │   └── mtable.js
+│   │   │       │   │   │   ├── css
+│   │   │       │   │   │   │   └── bulma.css
+│   │   │       │   │   │   ├── favicon.ico
+│   │   │       │   │   │   ├── hello.txt
+│   │   │       │   │   │   └── js
+│   │   │       │   │   │       ├── axios.min.js
+│   │   │       │   │   │       ├── sugar.min.js
+│   │   │       │   │   │       ├── utils.js
+│   │   │       │   │   │       └── vue.min.js
+│   │   │       │   │   ├── templates
+│   │   │       │   │   │   ├── form.html
+│   │   │       │   │   │   ├── forms.html
+│   │   │       │   │   │   ├── generic.html
+│   │   │       │   │   │   ├── grid.html
+│   │   │       │   │   │   ├── index.html
+│   │   │       │   │   │   └── layout.html
+│   │   │       │   │   └── translations
+│   │   │       │   │       ├── en.json
+│   │   │       │   │       └── it.json
+│   │   │       │   ├── hw3
+│   │   │       │   │   ├── README.md
+│   │   │       │   │   ├── __init__.py
+│   │   │       │   │   ├── __pycache__
+│   │   │       │   │   │   ├── __init__.cpython-37.pyc
+│   │   │       │   │   │   ├── common.cpython-37.pyc
+│   │   │       │   │   │   ├── controllers.cpython-37.pyc
+│   │   │       │   │   │   ├── models.cpython-37.pyc
+│   │   │       │   │   │   └── settings.cpython-37.pyc
+│   │   │       │   │   ├── common.py
+│   │   │       │   │   ├── controllers.py
+│   │   │       │   │   ├── controllers_copy2.py
+│   │   │       │   │   ├── databases
+│   │   │       │   │   │   ├── README.md
+│   │   │       │   │   │   ├── fb87181b96a99be45f5a23f4277867ce_auth_user.table
+│   │   │       │   │   │   ├── fb87181b96a99be45f5a23f4277867ce_auth_user_tag_groups.table
+│   │   │       │   │   │   ├── fb87181b96a99be45f5a23f4277867ce_product.table
+│   │   │       │   │   │   ├── fb87181b96a99be45f5a23f4277867ce_py4web_session.table
+│   │   │       │   │   │   ├── sql.log
+│   │   │       │   │   │   └── storage.db
+│   │   │       │   │   ├── layout.html
+│   │   │       │   │   ├── models.py
+│   │   │       │   │   ├── settings.py
+│   │   │       │   │   ├── static
+│   │   │       │   │   │   ├── README.md
+│   │   │       │   │   │   ├── components
+│   │   │       │   │   │   │   ├── auth.html
+│   │   │       │   │   │   │   ├── auth.js
+│   │   │       │   │   │   │   ├── fileupload
+│   │   │       │   │   │   │   │   ├── fileupload.css
+│   │   │       │   │   │   │   │   ├── fileupload.html
+│   │   │       │   │   │   │   │   └── fileupload.js
+│   │   │       │   │   │   │   ├── grid
+│   │   │       │   │   │   │   │   ├── grid.css
+│   │   │       │   │   │   │   │   ├── grid.html
+│   │   │       │   │   │   │   │   └── grid.js
+│   │   │       │   │   │   │   ├── starrater
+│   │   │       │   │   │   │   │   ├── starrater.css
+│   │   │       │   │   │   │   │   ├── starrater.html
+│   │   │       │   │   │   │   │   └── starrater.js
+│   │   │       │   │   │   │   └── vueform
+│   │   │       │   │   │   │       ├── vueform.css
+│   │   │       │   │   │   │       ├── vueform.html
+│   │   │       │   │   │   │       └── vueform.js
+│   │   │       │   │   │   ├── css
+│   │   │       │   │   │   │   ├── bulma.css
+│   │   │       │   │   │   │   └── elements.css
+│   │   │       │   │   │   ├── favicon.ico
+│   │   │       │   │   │   ├── font-awesome-4.7.0
+│   │   │       │   │   │   │   ├── css
+│   │   │       │   │   │   │   │   ├── font-awesome.css
+│   │   │       │   │   │   │   │   └── font-awesome.min.css
+│   │   │       │   │   │   │   ├── fonts
+│   │   │       │   │   │   │   │   ├── FontAwesome.otf
+│   │   │       │   │   │   │   │   ├── fontawesome-webfont.eot
+│   │   │       │   │   │   │   │   ├── fontawesome-webfont.svg
+│   │   │       │   │   │   │   │   ├── fontawesome-webfont.ttf
+│   │   │       │   │   │   │   │   ├── fontawesome-webfont.woff
+│   │   │       │   │   │   │   │   └── fontawesome-webfont.woff2
+│   │   │       │   │   │   │   ├── less
+│   │   │       │   │   │   │   │   ├── animated.less
+│   │   │       │   │   │   │   │   ├── bordered-pulled.less
+│   │   │       │   │   │   │   │   ├── core.less
+│   │   │       │   │   │   │   │   ├── fixed-width.less
+│   │   │       │   │   │   │   │   ├── font-awesome.less
+│   │   │       │   │   │   │   │   ├── icons.less
+│   │   │       │   │   │   │   │   ├── larger.less
+│   │   │       │   │   │   │   │   ├── list.less
+│   │   │       │   │   │   │   │   ├── mixins.less
+│   │   │       │   │   │   │   │   ├── path.less
+│   │   │       │   │   │   │   │   ├── rotated-flipped.less
+│   │   │       │   │   │   │   │   ├── screen-reader.less
+│   │   │       │   │   │   │   │   ├── stacked.less
+│   │   │       │   │   │   │   │   └── variables.less
+│   │   │       │   │   │   │   └── scss
+│   │   │       │   │   │   │       ├── _animated.scss
+│   │   │       │   │   │   │       ├── _bordered-pulled.scss
+│   │   │       │   │   │   │       ├── _core.scss
+│   │   │       │   │   │   │       ├── _fixed-width.scss
+│   │   │       │   │   │   │       ├── _icons.scss
+│   │   │       │   │   │   │       ├── _larger.scss
+│   │   │       │   │   │   │       ├── _list.scss
+│   │   │       │   │   │   │       ├── _mixins.scss
+│   │   │       │   │   │   │       ├── _path.scss
+│   │   │       │   │   │   │       ├── _rotated-flipped.scss
+│   │   │       │   │   │   │       ├── _screen-reader.scss
+│   │   │       │   │   │   │       ├── _stacked.scss
+│   │   │       │   │   │   │       ├── _variables.scss
+│   │   │       │   │   │   │       └── font-awesome.scss
+│   │   │       │   │   │   ├── images
+│   │   │       │   │   │   │   └── Sherit.png
+│   │   │       │   │   │   └── js
+│   │   │       │   │   │       ├── axios.js
+│   │   │       │   │   │       ├── axios.map
+│   │   │       │   │   │       ├── axios.min.js
+│   │   │       │   │   │       ├── axios.min.map
+│   │   │       │   │   │       ├── sugar.min.js
+│   │   │       │   │   │       ├── utils.js
+│   │   │       │   │   │       ├── vue.js
+│   │   │       │   │   │       └── vue.min.js
+│   │   │       │   │   ├── templates
+│   │   │       │   │   │   ├── auth.html
+│   │   │       │   │   │   ├── index.html
+│   │   │       │   │   │   ├── index_copy2.html
+│   │   │       │   │   │   ├── layout.html
+│   │   │       │   │   │   └── product_form.html
+│   │   │       │   │   └── translations
+│   │   │       │   │       └── it.json
+│   │   │       │   ├── hw_html_assigned
+│   │   │       │   │   ├── __init__.py
+│   │   │       │   │   ├── __pycache__
+│   │   │       │   │   │   ├── __init__.cpython-37.pyc
+│   │   │       │   │   │   └── controllers.cpython-37.pyc
+│   │   │       │   │   ├── controllers.py
+│   │   │       │   │   ├── static
+│   │   │       │   │   │   ├── README.md
+│   │   │       │   │   │   ├── css
+│   │   │       │   │   │   │   └── bulma.css
+│   │   │       │   │   │   ├── favicon.ico
+│   │   │       │   │   │   ├── font-awesome-4.7.0
+│   │   │       │   │   │   │   ├── css
+│   │   │       │   │   │   │   │   ├── font-awesome.css
+│   │   │       │   │   │   │   │   └── font-awesome.min.css
+│   │   │       │   │   │   │   ├── fonts
+│   │   │       │   │   │   │   │   ├── FontAwesome.otf
+│   │   │       │   │   │   │   │   ├── fontawesome-webfont.eot
+│   │   │       │   │   │   │   │   ├── fontawesome-webfont.svg
+│   │   │       │   │   │   │   │   ├── fontawesome-webfont.ttf
+│   │   │       │   │   │   │   │   ├── fontawesome-webfont.woff
+│   │   │       │   │   │   │   │   └── fontawesome-webfont.woff2
+│   │   │       │   │   │   │   ├── less
+│   │   │       │   │   │   │   │   ├── animated.less
+│   │   │       │   │   │   │   │   ├── bordered-pulled.less
+│   │   │       │   │   │   │   │   ├── core.less
+│   │   │       │   │   │   │   │   ├── fixed-width.less
+│   │   │       │   │   │   │   │   ├── font-awesome.less
+│   │   │       │   │   │   │   │   ├── icons.less
+│   │   │       │   │   │   │   │   ├── larger.less
+│   │   │       │   │   │   │   │   ├── list.less
+│   │   │       │   │   │   │   │   ├── mixins.less
+│   │   │       │   │   │   │   │   ├── path.less
+│   │   │       │   │   │   │   │   ├── rotated-flipped.less
+│   │   │       │   │   │   │   │   ├── screen-reader.less
+│   │   │       │   │   │   │   │   ├── stacked.less
+│   │   │       │   │   │   │   │   └── variables.less
+│   │   │       │   │   │   │   └── scss
+│   │   │       │   │   │   │       ├── _animated.scss
+│   │   │       │   │   │   │       ├── _bordered-pulled.scss
+│   │   │       │   │   │   │       ├── _core.scss
+│   │   │       │   │   │   │       ├── _fixed-width.scss
+│   │   │       │   │   │   │       ├── _icons.scss
+│   │   │       │   │   │   │       ├── _larger.scss
+│   │   │       │   │   │   │       ├── _list.scss
+│   │   │       │   │   │   │       ├── _mixins.scss
+│   │   │       │   │   │   │       ├── _path.scss
+│   │   │       │   │   │   │       ├── _rotated-flipped.scss
+│   │   │       │   │   │   │       ├── _screen-reader.scss
+│   │   │       │   │   │   │       ├── _stacked.scss
+│   │   │       │   │   │   │       ├── _variables.scss
+│   │   │       │   │   │   │       └── font-awesome.scss
+│   │   │       │   │   │   └── images
+│   │   │       │   │   │       ├── kresge.jpg
+│   │   │       │   │   │       ├── lick-domes.jpg
+│   │   │       │   │   │       ├── lion-layers-2.svg
+│   │   │       │   │   │       └── logo.png
+│   │   │       │   │   └── templates
+│   │   │       │   │       ├── index.html
+│   │   │       │   │       └── layout.html
+│   │   │       │   ├── hw_html_assigned.zip
+│   │   │       │   ├── lecture_form
+│   │   │       │   │   ├── README.md
+│   │   │       │   │   ├── __init__.py
+│   │   │       │   │   ├── __pycache__
+│   │   │       │   │   │   ├── __init__.cpython-37.pyc
+│   │   │       │   │   │   ├── common.cpython-37.pyc
+│   │   │       │   │   │   ├── controllers.cpython-37.pyc
+│   │   │       │   │   │   ├── models.cpython-37.pyc
+│   │   │       │   │   │   └── settings.cpython-37.pyc
+│   │   │       │   │   ├── common.py
+│   │   │       │   │   ├── controllers.py
+│   │   │       │   │   ├── databases
+│   │   │       │   │   │   ├── README.md
+│   │   │       │   │   │   ├── fb87181b96a99be45f5a23f4277867ce_auth_user.table
+│   │   │       │   │   │   ├── fb87181b96a99be45f5a23f4277867ce_auth_user_tag_groups.table
+│   │   │       │   │   │   ├── fb87181b96a99be45f5a23f4277867ce_product.table
+│   │   │       │   │   │   ├── fb87181b96a99be45f5a23f4277867ce_py4web_session.table
+│   │   │       │   │   │   ├── sql.log
+│   │   │       │   │   │   ├── storage.db
+│   │   │       │   │   │   └── storage.db-journal
+│   │   │       │   │   ├── layout.html
+│   │   │       │   │   ├── models.py
+│   │   │       │   │   ├── settings.py
+│   │   │       │   │   ├── static
+│   │   │       │   │   │   ├── README.md
+│   │   │       │   │   │   ├── components
+│   │   │       │   │   │   │   ├── auth.html
+│   │   │       │   │   │   │   ├── auth.js
+│   │   │       │   │   │   │   ├── fileupload
+│   │   │       │   │   │   │   │   ├── fileupload.css
+│   │   │       │   │   │   │   │   ├── fileupload.html
+│   │   │       │   │   │   │   │   └── fileupload.js
+│   │   │       │   │   │   │   ├── grid
+│   │   │       │   │   │   │   │   ├── grid.css
+│   │   │       │   │   │   │   │   ├── grid.html
+│   │   │       │   │   │   │   │   └── grid.js
+│   │   │       │   │   │   │   ├── starrater
+│   │   │       │   │   │   │   │   ├── starrater.css
+│   │   │       │   │   │   │   │   ├── starrater.html
+│   │   │       │   │   │   │   │   └── starrater.js
+│   │   │       │   │   │   │   └── vueform
+│   │   │       │   │   │   │       ├── vueform.css
+│   │   │       │   │   │   │       ├── vueform.html
+│   │   │       │   │   │   │       └── vueform.js
+│   │   │       │   │   │   ├── css
+│   │   │       │   │   │   │   ├── bulma.css
+│   │   │       │   │   │   │   └── elements.css
+│   │   │       │   │   │   ├── favicon.ico
+│   │   │       │   │   │   ├── font-awesome-4.7.0
+│   │   │       │   │   │   │   ├── css
+│   │   │       │   │   │   │   │   ├── font-awesome.css
+│   │   │       │   │   │   │   │   └── font-awesome.min.css
+│   │   │       │   │   │   │   ├── fonts
+│   │   │       │   │   │   │   │   ├── FontAwesome.otf
+│   │   │       │   │   │   │   │   ├── fontawesome-webfont.eot
+│   │   │       │   │   │   │   │   ├── fontawesome-webfont.svg
+│   │   │       │   │   │   │   │   ├── fontawesome-webfont.ttf
+│   │   │       │   │   │   │   │   ├── fontawesome-webfont.woff
+│   │   │       │   │   │   │   │   └── fontawesome-webfont.woff2
+│   │   │       │   │   │   │   ├── less
+│   │   │       │   │   │   │   │   ├── animated.less
+│   │   │       │   │   │   │   │   ├── bordered-pulled.less
+│   │   │       │   │   │   │   │   ├── core.less
+│   │   │       │   │   │   │   │   ├── fixed-width.less
+│   │   │       │   │   │   │   │   ├── font-awesome.less
+│   │   │       │   │   │   │   │   ├── icons.less
+│   │   │       │   │   │   │   │   ├── larger.less
+│   │   │       │   │   │   │   │   ├── list.less
+│   │   │       │   │   │   │   │   ├── mixins.less
+│   │   │       │   │   │   │   │   ├── path.less
+│   │   │       │   │   │   │   │   ├── rotated-flipped.less
+│   │   │       │   │   │   │   │   ├── screen-reader.less
+│   │   │       │   │   │   │   │   ├── stacked.less
+│   │   │       │   │   │   │   │   └── variables.less
+│   │   │       │   │   │   │   └── scss
+│   │   │       │   │   │   │       ├── _animated.scss
+│   │   │       │   │   │   │       ├── _bordered-pulled.scss
+│   │   │       │   │   │   │       ├── _core.scss
+│   │   │       │   │   │   │       ├── _fixed-width.scss
+│   │   │       │   │   │   │       ├── _icons.scss
+│   │   │       │   │   │   │       ├── _larger.scss
+│   │   │       │   │   │   │       ├── _list.scss
+│   │   │       │   │   │   │       ├── _mixins.scss
+│   │   │       │   │   │   │       ├── _path.scss
+│   │   │       │   │   │   │       ├── _rotated-flipped.scss
+│   │   │       │   │   │   │       ├── _screen-reader.scss
+│   │   │       │   │   │   │       ├── _stacked.scss
+│   │   │       │   │   │   │       ├── _variables.scss
+│   │   │       │   │   │   │       └── font-awesome.scss
+│   │   │       │   │   │   ├── images
+│   │   │       │   │   │   │   └── Sherit.png
+│   │   │       │   │   │   └── js
+│   │   │       │   │   │       ├── axios.js
+│   │   │       │   │   │       ├── axios.map
+│   │   │       │   │   │       ├── axios.min.js
+│   │   │       │   │   │       ├── axios.min.map
+│   │   │       │   │   │       ├── sugar.min.js
+│   │   │       │   │   │       ├── utils.js
+│   │   │       │   │   │       ├── vue.js
+│   │   │       │   │   │       └── vue.min.js
+│   │   │       │   │   ├── templates
+│   │   │       │   │   │   ├── auth.html
+│   │   │       │   │   │   ├── index.html
+│   │   │       │   │   │   ├── layout.html
+│   │   │       │   │   │   └── product_form.html
+│   │   │       │   │   └── translations
+│   │   │       │   │       └── it.json
+│   │   │       │   ├── lecture_html
+│   │   │       │   │   ├── README.md
+│   │   │       │   │   ├── __init__.py
+│   │   │       │   │   ├── __pycache__
+│   │   │       │   │   │   ├── __init__.cpython-37.pyc
+│   │   │       │   │   │   └── controllers.cpython-37.pyc
+│   │   │       │   │   ├── controllers.py
+│   │   │       │   │   ├── static
+│   │   │       │   │   │   ├── README.md
+│   │   │       │   │   │   ├── components
+│   │   │       │   │   │   │   ├── auth.html
+│   │   │       │   │   │   │   └── auth.js
+│   │   │       │   │   │   ├── css
+│   │   │       │   │   │   │   └── bulma.css
+│   │   │       │   │   │   ├── favicon.ico
+│   │   │       │   │   │   ├── font-awesome-4.7.0
+│   │   │       │   │   │   │   ├── css
+│   │   │       │   │   │   │   │   ├── font-awesome.css
+│   │   │       │   │   │   │   │   └── font-awesome.min.css
+│   │   │       │   │   │   │   ├── fonts
+│   │   │       │   │   │   │   │   ├── FontAwesome.otf
+│   │   │       │   │   │   │   │   ├── fontawesome-webfont.eot
+│   │   │       │   │   │   │   │   ├── fontawesome-webfont.svg
+│   │   │       │   │   │   │   │   ├── fontawesome-webfont.ttf
+│   │   │       │   │   │   │   │   ├── fontawesome-webfont.woff
+│   │   │       │   │   │   │   │   └── fontawesome-webfont.woff2
+│   │   │       │   │   │   │   ├── less
+│   │   │       │   │   │   │   │   ├── animated.less
+│   │   │       │   │   │   │   │   ├── bordered-pulled.less
+│   │   │       │   │   │   │   │   ├── core.less
+│   │   │       │   │   │   │   │   ├── fixed-width.less
+│   │   │       │   │   │   │   │   ├── font-awesome.less
+│   │   │       │   │   │   │   │   ├── icons.less
+│   │   │       │   │   │   │   │   ├── larger.less
+│   │   │       │   │   │   │   │   ├── list.less
+│   │   │       │   │   │   │   │   ├── mixins.less
+│   │   │       │   │   │   │   │   ├── path.less
+│   │   │       │   │   │   │   │   ├── rotated-flipped.less
+│   │   │       │   │   │   │   │   ├── screen-reader.less
+│   │   │       │   │   │   │   │   ├── stacked.less
+│   │   │       │   │   │   │   │   └── variables.less
+│   │   │       │   │   │   │   └── scss
+│   │   │       │   │   │   │       ├── _animated.scss
+│   │   │       │   │   │   │       ├── _bordered-pulled.scss
+│   │   │       │   │   │   │       ├── _core.scss
+│   │   │       │   │   │   │       ├── _fixed-width.scss
+│   │   │       │   │   │   │       ├── _icons.scss
+│   │   │       │   │   │   │       ├── _larger.scss
+│   │   │       │   │   │   │       ├── _list.scss
+│   │   │       │   │   │   │       ├── _mixins.scss
+│   │   │       │   │   │   │       ├── _path.scss
+│   │   │       │   │   │   │       ├── _rotated-flipped.scss
+│   │   │       │   │   │   │       ├── _screen-reader.scss
+│   │   │       │   │   │   │       ├── _stacked.scss
+│   │   │       │   │   │   │       ├── _variables.scss
+│   │   │       │   │   │   │       └── font-awesome.scss
+│   │   │       │   │   │   ├── images
+│   │   │       │   │   │   │   └── bird.jpg
+│   │   │       │   │   │   └── js
+│   │   │       │   │   │       ├── axios.min.js
+│   │   │       │   │   │       ├── sugar.min.js
+│   │   │       │   │   │       ├── utils.js
+│   │   │       │   │   │       └── vue.min.js
+│   │   │       │   │   └── templates
+│   │   │       │   │       ├── README.md
+│   │   │       │   │       ├── auth.html
+│   │   │       │   │       ├── bullets.html
+│   │   │       │   │       ├── columns.html
+│   │   │       │   │       ├── generic.html
+│   │   │       │   │       ├── icons.html
+│   │   │       │   │       ├── images.html
+│   │   │       │   │       ├── index.html
+│   │   │       │   │       ├── layout.html
+│   │   │       │   │       ├── many_columns.html
+│   │   │       │   │       ├── tables.html
+│   │   │       │   │       └── tiles.html
+│   │   │       │   ├── myfeed
+│   │   │       │   │   ├── README.md
+│   │   │       │   │   ├── __init__.py
+│   │   │       │   │   ├── __pycache__
+│   │   │       │   │   │   ├── __init__.cpython-37.pyc
+│   │   │       │   │   │   ├── common.cpython-37.pyc
+│   │   │       │   │   │   ├── controllers.cpython-37.pyc
+│   │   │       │   │   │   ├── make_up_data.cpython-37.pyc
+│   │   │       │   │   │   ├── models.cpython-37.pyc
+│   │   │       │   │   │   └── settings.cpython-37.pyc
+│   │   │       │   │   ├── common.py
+│   │   │       │   │   ├── controllers.py
+│   │   │       │   │   ├── databases
+│   │   │       │   │   │   ├── README.md
+│   │   │       │   │   │   ├── fb87181b96a99be45f5a23f4277867ce_auth_user.table
+│   │   │       │   │   │   ├── fb87181b96a99be45f5a23f4277867ce_auth_user_tag_groups.table
+│   │   │       │   │   │   ├── fb87181b96a99be45f5a23f4277867ce_feed_item.table
+│   │   │       │   │   │   ├── fb87181b96a99be45f5a23f4277867ce_friend_request.table
+│   │   │       │   │   │   ├── fb87181b96a99be45f5a23f4277867ce_item_like.table
+│   │   │       │   │   │   ├── sql.log
+│   │   │       │   │   │   └── storage.db
+│   │   │       │   │   ├── git.zip
+│   │   │       │   │   ├── make_up_data.py
+│   │   │       │   │   ├── models.py
+│   │   │       │   │   ├── settings.py
+│   │   │       │   │   ├── static
+│   │   │       │   │   │   ├── README.md
+│   │   │       │   │   │   ├── components
+│   │   │       │   │   │   │   ├── auth.html
+│   │   │       │   │   │   │   └── auth.js
+│   │   │       │   │   │   ├── css
+│   │   │       │   │   │   │   └── bulma.css
+│   │   │       │   │   │   ├── favicon.ico
+│   │   │       │   │   │   └── js
+│   │   │       │   │   │       ├── axios.min.js
+│   │   │       │   │   │       ├── sugar.min.js
+│   │   │       │   │   │       ├── utils.js
+│   │   │       │   │   │       └── vue.min.js
+│   │   │       │   │   ├── templates
+│   │   │       │   │   │   ├── README.md
+│   │   │       │   │   │   ├── auth.html
+│   │   │       │   │   │   ├── friends.html
+│   │   │       │   │   │   ├── generic.html
+│   │   │       │   │   │   ├── home.html
+│   │   │       │   │   │   ├── index.html
+│   │   │       │   │   │   └── layout.html
+│   │   │       │   │   └── translations
+│   │   │       │   │       └── it.json
+│   │   │       │   ├── py4web.app.hw_html_assigned(1)
+│   │   │       │   │   ├── __init__.py
+│   │   │       │   │   ├── __pycache__
+│   │   │       │   │   │   ├── __init__.cpython-37.pyc
+│   │   │       │   │   │   └── controllers.cpython-37.pyc
+│   │   │       │   │   ├── controllers.py
+│   │   │       │   │   ├── static
+│   │   │       │   │   │   ├── README.md
+│   │   │       │   │   │   ├── css
+│   │   │       │   │   │   │   └── bulma.css
+│   │   │       │   │   │   ├── favicon.ico
+│   │   │       │   │   │   ├── font-awesome-4.7.0
+│   │   │       │   │   │   │   ├── css
+│   │   │       │   │   │   │   │   ├── font-awesome.css
+│   │   │       │   │   │   │   │   └── font-awesome.min.css
+│   │   │       │   │   │   │   ├── fonts
+│   │   │       │   │   │   │   │   ├── FontAwesome.otf
+│   │   │       │   │   │   │   │   ├── fontawesome-webfont.eot
+│   │   │       │   │   │   │   │   ├── fontawesome-webfont.svg
+│   │   │       │   │   │   │   │   ├── fontawesome-webfont.ttf
+│   │   │       │   │   │   │   │   ├── fontawesome-webfont.woff
+│   │   │       │   │   │   │   │   └── fontawesome-webfont.woff2
+│   │   │       │   │   │   │   ├── less
+│   │   │       │   │   │   │   │   ├── animated.less
+│   │   │       │   │   │   │   │   ├── bordered-pulled.less
+│   │   │       │   │   │   │   │   ├── core.less
+│   │   │       │   │   │   │   │   ├── fixed-width.less
+│   │   │       │   │   │   │   │   ├── font-awesome.less
+│   │   │       │   │   │   │   │   ├── icons.less
+│   │   │       │   │   │   │   │   ├── larger.less
+│   │   │       │   │   │   │   │   ├── list.less
+│   │   │       │   │   │   │   │   ├── mixins.less
+│   │   │       │   │   │   │   │   ├── path.less
+│   │   │       │   │   │   │   │   ├── rotated-flipped.less
+│   │   │       │   │   │   │   │   ├── screen-reader.less
+│   │   │       │   │   │   │   │   ├── stacked.less
+│   │   │       │   │   │   │   │   └── variables.less
+│   │   │       │   │   │   │   └── scss
+│   │   │       │   │   │   │       ├── _animated.scss
+│   │   │       │   │   │   │       ├── _bordered-pulled.scss
+│   │   │       │   │   │   │       ├── _core.scss
+│   │   │       │   │   │   │       ├── _fixed-width.scss
+│   │   │       │   │   │   │       ├── _icons.scss
+│   │   │       │   │   │   │       ├── _larger.scss
+│   │   │       │   │   │   │       ├── _list.scss
+│   │   │       │   │   │   │       ├── _mixins.scss
+│   │   │       │   │   │   │       ├── _path.scss
+│   │   │       │   │   │   │       ├── _rotated-flipped.scss
+│   │   │       │   │   │   │       ├── _screen-reader.scss
+│   │   │       │   │   │   │       ├── _stacked.scss
+│   │   │       │   │   │   │       ├── _variables.scss
+│   │   │       │   │   │   │       └── font-awesome.scss
+│   │   │       │   │   │   └── images
+│   │   │       │   │   │       ├── kresge.jpg
+│   │   │       │   │   │       ├── lick-domes.jpg
+│   │   │       │   │   │       ├── lion-layers-2.svg
+│   │   │       │   │   │       └── logo.png
+│   │   │       │   │   └── templates
+│   │   │       │   │       ├── index.html
+│   │   │       │   │       └── layout.html
+│   │   │       │   └── todo
+│   │   │       │       ├── __init__.py
+│   │   │       │       ├── __pycache__
+│   │   │       │       │   └── __init__.cpython-37.pyc
+│   │   │       │       ├── databases
+│   │   │       │       │   ├── README
+│   │   │       │       │   ├── fb87181b96a99be45f5a23f4277867ce_todo.table
+│   │   │       │       │   ├── sql.log
+│   │   │       │       │   └── storage.db
+│   │   │       │       ├── static
+│   │   │       │       │   ├── css
+│   │   │       │       │   │   └── bulma.css
+│   │   │       │       │   ├── favicon.ico
+│   │   │       │       │   └── js
+│   │   │       │       │       ├── axios.min.js
+│   │   │       │       │       ├── sugar.min.js
+│   │   │       │       │       ├── todo.js
+│   │   │       │       │       ├── utils.js
+│   │   │       │       │       └── vue.min.js
+│   │   │       │       └── templates
+│   │   │       │           ├── index.html
+│   │   │       │           └── layout.html
+│   │   │       ├── deployment_tools
+│   │   │       │   ├── docker
+│   │   │       │   │   ├── Dockerfile
+│   │   │       │   │   ├── Makefile
+│   │   │       │   │   ├── app
+│   │   │       │   │   │   └── requirements.txt
+│   │   │       │   │   └── docker-compose.yml
+│   │   │       │   ├── gae
+│   │   │       │   │   ├── Makefile
+│   │   │       │   │   ├── README.md
+│   │   │       │   │   ├── app.yaml
+│   │   │       │   │   ├── index.yaml
+│   │   │       │   │   ├── main.py
+│   │   │       │   │   └── requirements.txt
+│   │   │       │   ├── pythonanywhere.com
+│   │   │       │   │   └── bottle_app.py
+│   │   │       │   └── ubuntu
+│   │   │       │       └── machine-setup.sh
+│   │   │       ├── password.txt
+│   │   │       ├── py4web
+│   │   │       │   ├── __init__.py
+│   │   │       │   ├── __pycache__
+│   │   │       │   │   ├── __init__.cpython-37.pyc
+│   │   │       │   │   └── core.cpython-37.pyc
+│   │   │       │   ├── core.py
+│   │   │       │   └── utils
+│   │   │       │       ├── __init__.py
+│   │   │       │       ├── __pycache__
+│   │   │       │       │   ├── __init__.cpython-37.pyc
+│   │   │       │       │   ├── auth.cpython-37.pyc
+│   │   │       │       │   ├── dbstore.cpython-37.pyc
+│   │   │       │       │   ├── factories.cpython-37.pyc
+│   │   │       │       │   ├── form.cpython-37.pyc
+│   │   │       │       │   ├── mailer.cpython-37.pyc
+│   │   │       │       │   ├── populate.cpython-37.pyc
+│   │   │       │       │   ├── publisher.cpython-37.pyc
+│   │   │       │       │   ├── tags.cpython-37.pyc
+│   │   │       │       │   └── url_signer.cpython-37.pyc
+│   │   │       │       ├── auth.py
+│   │   │       │       ├── auth_plugins
+│   │   │       │       │   ├── __init__.py
+│   │   │       │       │   ├── basic_auth_plugin.py
+│   │   │       │       │   ├── email_auth_plugin.py
+│   │   │       │       │   ├── ldap_plugin.py
+│   │   │       │       │   ├── oauth2facebook.py
+│   │   │       │       │   ├── oauth2google.py
+│   │   │       │       │   ├── oauth2server.py
+│   │   │       │       │   ├── pam.py
+│   │   │       │       │   ├── pam_plugin.py
+│   │   │       │       │   ├── saml2_plugin.py
+│   │   │       │       │   └── x509_auth_plugin.py
+│   │   │       │       ├── dbstore.py
+│   │   │       │       ├── factories.py
+│   │   │       │       ├── form.py
+│   │   │       │       ├── mailer.py
+│   │   │       │       ├── populate.py
+│   │   │       │       ├── publisher.py
+│   │   │       │       ├── tags.py
+│   │   │       │       └── url_signer.py
+│   │   │       ├── py4web-start.py
+│   │   │       ├── requirements.txt
+│   │   │       ├── setup.py
+│   │   │       ├── test-requirements.txt
+│   │   │       └── tests
+│   │   │           ├── __init__.py
+│   │   │           ├── templates
+│   │   │           │   └── index.html
+│   │   │           ├── test_action.py
+│   │   │           ├── test_auth.py
+│   │   │           ├── test_cache.py
+│   │   │           ├── test_get_error_snapshot.py
+│   │   │           ├── test_json.py
+│   │   │           ├── test_main.py
+│   │   │           ├── test_session.py
+│   │   │           ├── test_tags.py
+│   │   │           ├── test_template.py
+│   │   │           └── test_url.py
+│   │   ├── econ1
+│   │   │   ├── Documents
+│   │   │   │   ├── Economics\ 01\ Online\ Midterm\ I\ Version\ A\ \ S\ 2020.pdf
+│   │   │   │   ├── kcEcon1S\ 2020\ syllabus.docx
+│   │   │   │   ├── week4_midterm_review_notes.pdf
+│   │   │   │   └── ~$Econ1S\ 2020\ syllabus.docx
+│   │   │   └── Textbooks
+│   │   │       └── 9781464143847_economics_fbcc.pdf
+│   │   └── ling80k
+│   │       ├── Documents
+│   │       │   ├── 1\ Introductions.pdf
+│   │       │   ├── Bianco\ (2004)
+│   │       │   └── Conlang
+│   │       │       ├── Screen\ Shot\ 2020-04-06\ at\ 10.15.50\ AM.png
+│   │       │       ├── Screen\ Shot\ 2020-04-06\ at\ 10.16.12\ AM.png
+│   │       │       ├── Screen\ Shot\ 2020-04-06\ at\ 10.16.29\ AM.png
+│   │       │       ├── Screen\ Shot\ 2020-04-06\ at\ 10.16.51\ AM.png
+│   │       │       ├── Screen\ Shot\ 2020-04-06\ at\ 10.17.12\ AM.png
+│   │       │       ├── Screen\ Shot\ 2020-04-06\ at\ 10.17.32\ AM.png
+│   │       │       ├── Screen\ Shot\ 2020-04-06\ at\ 10.17.45\ AM.png
+│   │       │       ├── Screen\ Shot\ 2020-04-06\ at\ 10.17.58\ AM.png
+│   │       │       ├── Screen\ Shot\ 2020-04-06\ at\ 10.18.08\ AM.png
+│   │       │       ├── Screen\ Shot\ 2020-04-06\ at\ 10.18.20\ AM.png
+│   │       │       ├── Screen\ Shot\ 2020-04-06\ at\ 10.18.35\ AM.png
+│   │       │       ├── Screen\ Shot\ 2020-04-06\ at\ 10.18.50\ AM.png
+│   │       │       ├── Screen\ Shot\ 2020-04-06\ at\ 10.19.03\ AM.png
+│   │       │       ├── Screen\ Shot\ 2020-04-06\ at\ 10.19.16\ AM.png
+│   │       │       ├── Screen\ Shot\ 2020-04-06\ at\ 10.19.31\ AM.png
+│   │       │       └── Screen\ Shot\ 2020-04-06\ at\ 10.19.45\ AM.png
+│   │       └── Images
+│   │           └── 1\ Introductions.gif
+│   └── Future
+│       └── cse111
+│           ├── Code
+│           ├── PDFs
+│           │   ├── Assignments
+│           │   │   ├── asg1-dc-bigint.pdf
+│           │   │   ├── asg2-shell-fnptrs-oop.pdf
+│           │   │   ├── asg3-listmap-templates.pdf
+│           │   │   ├── asg4-oop-inheritance.pdf
+│           │   │   └── asg5-client-server.pdf
+│           │   └── Tests
+│           │       └── cse111-2020q1-midterm.pdf
+│           └── Textbooks
+├── Spreadsheets
+│   ├── UCSC\ 4\ Year\ Plan\ Options\ 20200116.xlsx
+│   ├── UCSC_4_Year_Plan_Options.xlsx
+│   └── ~$UCSC_4_Year_Plan_Options.xlsx
+└── Textbooks
+    ├── 2013\ Stroustrup\ -\ The\ C++\ Programming\ Language\ 4th\ Edition.pdf
+    ├── A\ Tour\ of\ C++.pdf
+    ├── Donald.E.Knuth.The.Art.of.Computer.Programming.Volume.2.pdf
+    ├── Introduction\ to\ AI\ Robotics.pdf
+    ├── Introduction\ to\ Computation\ and\ Programming\ using\ Python\ (rev.\ ed.)\ [Guttag\ 2013-08-09].pdf
+    ├── Machine\ Learning_\ A\ Probabilistic\ Perspective\ [Murphy\ 2012-08-24].pdf
+    ├── SystemsProgramming.pdf
+    ├── The\ Art\ of\ Computer\ Programming\ Vol.4A\ -\ Combinatorial\ Algor.pdf
+    ├── The_Art_of_Computer_Programming\ -\ Vol\ 1.pdf
+    ├── eisenstein-nov18.pdf
+    └── taocp-vol3-sorting-searching.pdf
+
+512 directories, 2706 files
