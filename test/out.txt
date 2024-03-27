@@ -1,9 +1,0 @@
-0000000000 1
-\n 2
-aaa 1
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa 1
-abcdefghijklmnopqrstuvwxyz 1
-bbb 1
-ccc 1
-ddd 1
-eee 1
